@@ -74,10 +74,10 @@ CREATE TABLE public.TypeLookup (
     ModifiedDateTime timestamp
 );
 
-CREATE TABLE public.CompatableUnitValue (
+CREATE TABLE public.CompatibleUnitValue (
     ID INTEGER PRIMARY KEY NOT NULL,
     FY Varchar(255) NOT NULL,
-    unitRate double,
+    unitRate numeric,
     CreatedDateTime timestamp NOT NULL,
     IsDeleted Boolean DEFAULT(false),
     ModifiedDateTime timestamp
@@ -93,8 +93,8 @@ CREATE TABLE public.CompatibleUnit (
         name Varchar(255) NOT NULL,
         description Varchar(255) NOT NULL,
         EULyears integer NOT NULL,
-        residualValue double NOT NULL,
-        size double,
+        residualValue numeric NOT NULL,
+        size numeric,
         sizeUnit Varchar(255),
         type integer NOT NULL,
         class integer,
@@ -110,3 +110,30 @@ CREATE TABLE public.AssetTypeInheritence (
     IsDeleted Boolean DEFAULT(false),
     ModifiedDateTime timestamp
 );
+
+CREATE TABLE public.Asset (
+    ID INTEGER PRIMARY KEY NOT NULL,
+    name Varchar(255) NOT NULL,
+    description Varchar(255) NOT NULL,
+    serialNo varchar(255),
+    size numeric,
+    sizeUnit Varchar(255),
+    type INTEGER NOT NULL,
+    class INTEGER NOT NULL,
+    dimension1Val numeric,
+    dimension2Val numeric,
+    dimension3Val numeric,
+    dimension4Val numeric,
+    dimension5Val numeric,
+    dimension6Val numeric,
+    extent numeric,
+    extentConfidence numeric,
+    takeOnDate timestamp,
+    manufactureDate timestamp,
+    derecognitionDate timestamp,
+    derecognitionValue numeric,
+    CreatedDateTime timestamp NOT NULL,
+    IsDeleted Boolean DEFAULT(false),
+    ModifiedDateTime timestamp
+);
+

@@ -1,0 +1,5 @@
+CREATE DATABASE wso2mb_db;
+CREATE DATABASE wso2am_db;
+CREATE DATABASE wso2metrics_db;
+CREATE DATABASE wso2carbon_db;
+CREATE DATABASE gregdb;

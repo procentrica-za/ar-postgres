@@ -220,9 +220,6 @@ CREATE OR REPLACE FUNCTION public.retrieveasset(
 	OUT ret_dimension4val integer,
 	OUT ret_dimension5val integer,
 	OUT ret_dimension6val integer,
-	OUT ret_takeondate timestamp without time zone,
-	OUT ret_manufacturedate timestamp without time zone,
-	OUT ret_derecognitiondate timestamp without time zone,
 	OUT ret_derecognitionvalue integer)
     RETURNS record
     LANGUAGE 'plpgsql'
@@ -232,8 +229,8 @@ CREATE OR REPLACE FUNCTION public.retrieveasset(
 AS $BODY$
 BEGIN
 IF EXISTS (SELECT 1 FROM public.Asset a WHERE a.id = var_assetid AND a.isdeleted = false) THEN
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.takeondate, a.manufacturedate, a.derecognitiondate, a.derecognitionvalue
-	INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_takeondate, ret_manufacturedate, ret_derecognitiondate, ret_derecognitionvalue
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.derecognitionvalue
+	INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_derecognitionvalue
     FROM public.Asset a
     WHERE a.id = var_assetid AND a.isdeleted = false;
 	ELSE

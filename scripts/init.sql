@@ -148,9 +148,9 @@ CREATE TABLE public.Asset (
 /* ---- Creating all functions needed for CRUD functions to be used by the CRUD service ---- */
 
 
+ 
 
-
-/* ---- Get user on ID Function ---- */
+/* ---- Export Asset Function ---- */
 
 CREATE OR REPLACE FUNCTION public.exportasset(
 	var_assettypeid integer,
@@ -202,4 +202,7 @@ IF EXISTS (SELECT 1 FROM public.AssetType a WHERE a.id = var_assettypeid AND a.i
     END IF;
 END;
 $BODY$;
+
+
+
 

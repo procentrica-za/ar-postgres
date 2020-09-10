@@ -137,3 +137,69 @@ CREATE TABLE public.Asset (
     ModifiedDateTime timestamp
 );
 
+/*
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------FUNCTIONS---------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+*/
+
+/* ---- Creating all functions needed for CRUD functions to be used by the CRUD service ---- */
+
+
+
+
+/* ---- Get user on ID Function ---- */
+
+CREATE OR REPLACE FUNCTION public.exportasset(
+	var_assettypeid integer,
+	OUT ret_code integer,
+	OUT ret_name character varying,
+	OUT ret_description character varying,
+	OUT ret_isutc boolean,
+	OUT ret_sizeunit character varying,
+    OUT ret_typelookup integer,
+	OUT ret_sizelookup integer,
+    OUT ret_dimension1name character varying,
+    OUT ret_dimension1description character varying,
+    OUT ret_dimension1unit character varying,
+    OUT ret_dimension2name character varying,
+    OUT ret_dimension2description character varying,
+    OUT ret_extentformula character varying,
+    OUT ret_depreciationmodel character varying,
+    OUT ret_depreciationmethod character varying,
+    OUT ret_isactive boolean)
+    RETURNS record
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+BEGIN
+IF EXISTS (SELECT 1 FROM public.AssetType a WHERE a.id = var_assettypeid AND a.isdeleted = false) THEN
+	SELECT a.code, a.name, a.description, a.isutc, a.sizeunit, a.typelookup, a.sizelookup, a.dimension1name, a.dimension1description, a.dimension1unit, a.dimension2name, a.dimension2description, a.extentformula, a.depreciationmodel, a.depreciationmethod, a.isactive
+	INTO ret_code, ret_name, ret_description, ret_isutc, ret_sizeunit, ret_typelookup, ret_sizelookup, ret_dimension1name, ret_dimension1description, ret_dimension1unit, ret_dimension2name, ret_dimension2description, ret_extentformula, ret_depreciationmodel, ret_depreciationmethod, ret_isactive
+    FROM public.AssetType a
+    WHERE a.id = var_assettypeid AND a.isdeleted = false;
+	ELSE
+        ret_code = 00000;
+		ret_name = 'none';
+		ret_description = 'none';
+		ret_isutc = false;
+        ret_sizeunit = 'none';
+        ret_typelookup = 00000;
+        ret_sizelookup = 00000;
+		ret_dimension1name = 'none';
+		ret_dimension1description = 'none';
+		ret_dimension1unit = 'none';
+        ret_dimension2name = 'none';
+        ret_dimension2description = 'none';
+        ret_extentformula = 'none';
+        ret_depreciationmodel = 'none';
+        ret_depreciationmethod = 'none';
+        ret_isactive = false;
+    END IF;
+END;
+$BODY$;
+

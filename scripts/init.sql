@@ -252,3 +252,22 @@ END;
 $BODY$;
 
 
+/* ---- Retrieve Assets Function ---- */
+CREATE OR REPLACE FUNCTION public.retrieveassets(
+    var_assettypeid integer
+)
+    RETURNS TABLE( name character varying, description character varying, serialno character varying, size integer, type integer, class integer, dimension1val integer, dimension2val integer, dimension3val integer, dimension4val integer, dimension5val integer, dimension6val integer, derecognitionvalue integer)
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE
+    ROWS 1000
+AS $BODY$
+BEGIN
+	RETURN QUERY
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.derecognitionvalue
+    FROM public.Asset a
+    WHERE a.type = var_assettypeid AND a.isdeleted = false;
+END;
+$BODY$;
+
+

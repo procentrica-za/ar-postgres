@@ -204,5 +204,54 @@ END;
 $BODY$;
 
 
+/* ---- Retrieve Asset Function ---- */
+
+CREATE OR REPLACE FUNCTION public.retrieveasset(
+	var_assetid integer,
+	OUT ret_name character varying,
+	OUT ret_description character varying,
+	OUT ret_serialno character varying,
+	OUT ret_size integer,
+	OUT ret_type integer,
+	OUT ret_class integer,
+	OUT ret_dimension1val integer,
+	OUT ret_dimension2val integer,
+	OUT ret_dimension3val integer,
+	OUT ret_dimension4val integer,
+	OUT ret_dimension5val integer,
+	OUT ret_dimension6val integer,
+	OUT ret_takeondate timestamp without time zone,
+	OUT ret_manufacturedate timestamp without time zone,
+	OUT ret_derecognitiondate timestamp without time zone,
+	OUT ret_derecognitionvalue integer)
+    RETURNS record
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+BEGIN
+IF EXISTS (SELECT 1 FROM public.Asset a WHERE a.id = var_assetid AND a.isdeleted = false) THEN
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.takeondate, a.manufacturedate, a.derecognitiondate, a.derecognitionvalue
+	INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_takeondate, ret_manufacturedate, ret_derecognitiondate, ret_derecognitionvalue
+    FROM public.Asset a
+    WHERE a.id = var_assetid AND a.isdeleted = false;
+	ELSE
+        ret_name = 'none';
+		ret_description = 'none';
+		ret_serialno = 'none';
+		ret_size = 00000;
+        ret_type = 00000;
+        ret_class = 00000;
+        ret_dimension1val = 00000;
+		ret_dimension2val = 00000;
+		ret_dimension3val = 00000;
+		ret_dimension4val = 00000;
+        ret_dimension5val = 00000;
+        ret_dimension6val = 00000;
+        ret_derecognitionvalue = 00000;
+    END IF;
+END;
+$BODY$;
 
 

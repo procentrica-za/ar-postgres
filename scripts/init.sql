@@ -32,7 +32,7 @@ CREATE TABLE public.AssetType (
     dimension3Unit Varchar(255),
     dimension4Name Varchar(255),
     dimension4Description Varchar(255),
-    dimension4Unit integer,
+    dimension4Unit Varchar(255),
     dimension5Name Varchar(255),
     dimension5Description Varchar(255),
     dimension5Unit Varchar(255),
@@ -126,8 +126,8 @@ CREATE TABLE public.Asset (
     dimension4Val numeric,
     dimension5Val numeric,
     dimension6Val numeric,
-    extent numeric,
-    extentConfidence numeric,
+    extent Varchar(255),
+    extentConfidence Varchar(255),
     takeOnDate timestamp,
     manufactureDate timestamp,
     derecognitionDate timestamp,
@@ -211,16 +211,16 @@ CREATE OR REPLACE FUNCTION public.retrieveasset(
 	OUT ret_name character varying,
 	OUT ret_description character varying,
 	OUT ret_serialno character varying,
-	OUT ret_size integer,
+	OUT ret_size numeric,
 	OUT ret_type integer,
 	OUT ret_class integer,
-	OUT ret_dimension1val integer,
-	OUT ret_dimension2val integer,
-	OUT ret_dimension3val integer,
-	OUT ret_dimension4val integer,
-	OUT ret_dimension5val integer,
-	OUT ret_dimension6val integer,
-	OUT ret_derecognitionvalue integer)
+	OUT ret_dimension1val numeric,
+	OUT ret_dimension2val numeric,
+	OUT ret_dimension3val numeric,
+	OUT ret_dimension4val numeric,
+	OUT ret_dimension5val numeric,
+	OUT ret_dimension6val numeric,
+	OUT ret_derecognitionvalue numeric)
     RETURNS record
     LANGUAGE 'plpgsql'
 
@@ -256,7 +256,7 @@ $BODY$;
 CREATE OR REPLACE FUNCTION public.retrieveassets(
     var_assettypeid integer
 )
-    RETURNS TABLE( name character varying, description character varying, serialno character varying, size integer, type integer, class integer, dimension1val integer, dimension2val integer, dimension3val integer, dimension4val integer, dimension5val integer, dimension6val integer, derecognitionvalue integer)
+    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type integer, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, derecognitionvalue numeric)
     LANGUAGE 'plpgsql'
     COST 100
     VOLATILE
@@ -270,4 +270,45 @@ BEGIN
 END;
 $BODY$;
 
+/* ---- Extract Assets Function ---- */
+CREATE OR REPLACE FUNCTION public.extractassets(
+    var_assettypeid integer
+)
+    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type integer, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, derecognitionvalue numeric)
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE
+    ROWS 1000
+AS $BODY$
+BEGIN
+	RETURN QUERY
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.derecognitionvalue
+    FROM public.Asset a
+    WHERE a.type = var_assettypeid AND a.isdeleted = false;
+END;
+$BODY$;
+
+/* ---- Insert data for asset level ---- */
+INSERT INTO public.AssetTypeLevel(ID, level, name, description, CreatedDateTime, ModifiedDateTime)
+VALUES ('1' ,'1', 'one', 'Level One',CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO public.AssetTypeLevel(ID, level, name, description, CreatedDateTime, ModifiedDateTime)
+VALUES ('2' ,'2', 'two', 'Level Two',CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO public.AssetTypeLevel(ID, level, name, description, CreatedDateTime, ModifiedDateTime)
+VALUES ('3' ,'3', 'three', 'Level Three',CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO public.AssetTypeLevel(ID, level, name, description, CreatedDateTime, ModifiedDateTime)
+VALUES ('4' ,'4', 'four', 'Level Four',CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO public.AssetTypeLevel(ID, level, name, description, CreatedDateTime, ModifiedDateTime)
+VALUES ('5' ,'5', 'five', 'Level Five',CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO public.AssetTypeLevel(ID, level, name, description, CreatedDateTime, ModifiedDateTime)
+VALUES ('6' ,'6', 'six', 'Level Six',CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+
+/* ---- Insert data for asset Type ---- */
+INSERT INTO public.AssetType(ID, AssetTypeLevelID, code, name, description, isUTC, sizeunit, typeLookup, sizeLookup, dimension1Name, dimension1Description, dimension1Unit, dimension2Name, dimension2Description, dimension2Unit, dimension3Name, dimension3Description, dimension3Unit, dimension5Name, dimension5Description, dimension5Unit, extentFormula, depreciationModel, depreciationMethod, isActive, CreatedDateTime, ModifiedDateTime)
+VALUES ('279' ,'1', '120', 'Cast iron', 'Cast iron', true, 'meters', '0001' ,'0004', 'Length', 'Length', 'Length of the asset' ,'m', 'Width', 'Width of the asset', 'm', 'Height', 'Height of the Asset', 'Straight Line', 'Yes', 'none', 'A = l', 'none', 'none', true, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+
+/* ---- Insert data for Asset ---- */
+INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1val, dimension2val, dimension3val, dimension4val, dimension5val, dimension6val, extent, extentConfidence, derecognitionValue,  CreatedDateTime, ModifiedDateTime)
+VALUES ('249' ,'Synthetic surface', 'Synthetic surface', '1234' ,'1234', 'meters', '0078', '0054', '5', '1' , '2', '2.2', '6', '2', 'Fair', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 

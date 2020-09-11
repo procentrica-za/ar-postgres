@@ -222,6 +222,8 @@ CREATE OR REPLACE FUNCTION public.retrieveasset(
 	OUT ret_dimension4val numeric,
 	OUT ret_dimension5val numeric,
 	OUT ret_dimension6val numeric,
+    OUT ret_extent character varying,
+    OUT ret_extentconfidence character varying,
 	OUT ret_derecognitionvalue numeric)
     RETURNS record
     LANGUAGE 'plpgsql'
@@ -231,8 +233,8 @@ CREATE OR REPLACE FUNCTION public.retrieveasset(
 AS $BODY$
 BEGIN
 IF EXISTS (SELECT 1 FROM public.Asset a WHERE a.id = var_assetid AND a.isdeleted = false) THEN
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.derecognitionvalue
-	INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_derecognitionvalue
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.derecognitionvalue
+	INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_extent, ret_extentconfidence, ret_derecognitionvalue
     FROM public.Asset a
     WHERE a.id = var_assetid AND a.isdeleted = false;
 	ELSE
@@ -248,6 +250,8 @@ IF EXISTS (SELECT 1 FROM public.Asset a WHERE a.id = var_assetid AND a.isdeleted
 		ret_dimension4val = 00000;
         ret_dimension5val = 00000;
         ret_dimension6val = 00000;
+        ret_extent = 'none';
+        ret_extentconfidence = 'none';
         ret_derecognitionvalue = 00000;
     END IF;
 END;
@@ -258,7 +262,7 @@ $BODY$;
 CREATE OR REPLACE FUNCTION public.retrieveassets(
     var_assettypeid integer
 )
-    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type integer, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, derecognitionvalue numeric)
+    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type integer, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
     LANGUAGE 'plpgsql'
     COST 100
     VOLATILE
@@ -266,7 +270,7 @@ CREATE OR REPLACE FUNCTION public.retrieveassets(
 AS $BODY$
 BEGIN
 	RETURN QUERY
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.derecognitionvalue
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.derecognitionvalue
     FROM public.Asset a
     WHERE a.type = var_assettypeid AND a.isdeleted = false;
 END;
@@ -276,7 +280,7 @@ $BODY$;
 CREATE OR REPLACE FUNCTION public.extractassets(
     var_assettypeid integer
 )
-    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type integer, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, derecognitionvalue numeric)
+      RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type integer, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
     LANGUAGE 'plpgsql'
     COST 100
     VOLATILE
@@ -284,7 +288,7 @@ CREATE OR REPLACE FUNCTION public.extractassets(
 AS $BODY$
 BEGIN
 	RETURN QUERY
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.derecognitionvalue
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.derecognitionvalue
     FROM public.Asset a
     WHERE a.type = var_assettypeid AND a.isdeleted = false;
 END;

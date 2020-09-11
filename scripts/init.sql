@@ -154,6 +154,7 @@ CREATE TABLE public.Asset (
 
 CREATE OR REPLACE FUNCTION public.exportasset(
 	var_assettypeid integer,
+    OUT ret_assettypelevelid integer,
 	OUT ret_code integer,
 	OUT ret_name character varying,
 	OUT ret_description character varying,
@@ -178,11 +179,12 @@ CREATE OR REPLACE FUNCTION public.exportasset(
 AS $BODY$
 BEGIN
 IF EXISTS (SELECT 1 FROM public.AssetType a WHERE a.id = var_assettypeid AND a.isdeleted = false) THEN
-	SELECT a.code, a.name, a.description, a.isutc, a.sizeunit, a.typelookup, a.sizelookup, a.dimension1name, a.dimension1description, a.dimension1unit, a.dimension2name, a.dimension2description, a.extentformula, a.depreciationmodel, a.depreciationmethod, a.isactive
-	INTO ret_code, ret_name, ret_description, ret_isutc, ret_sizeunit, ret_typelookup, ret_sizelookup, ret_dimension1name, ret_dimension1description, ret_dimension1unit, ret_dimension2name, ret_dimension2description, ret_extentformula, ret_depreciationmodel, ret_depreciationmethod, ret_isactive
+	SELECT a.assettypelevelid, a.code, a.name, a.description, a.isutc, a.sizeunit, a.typelookup, a.sizelookup, a.dimension1name, a.dimension1description, a.dimension1unit, a.dimension2name, a.dimension2description, a.extentformula, a.depreciationmodel, a.depreciationmethod, a.isactive
+	INTO ret_assettypelevelid, ret_code, ret_name, ret_description, ret_isutc, ret_sizeunit, ret_typelookup, ret_sizelookup, ret_dimension1name, ret_dimension1description, ret_dimension1unit, ret_dimension2name, ret_dimension2description, ret_extentformula, ret_depreciationmodel, ret_depreciationmethod, ret_isactive
     FROM public.AssetType a
     WHERE a.id = var_assettypeid AND a.isdeleted = false;
 	ELSE
+        ret_assettypelevelid = 0;
         ret_code = 00000;
 		ret_name = 'none';
 		ret_description = 'none';

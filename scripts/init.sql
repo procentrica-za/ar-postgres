@@ -317,4 +317,5 @@ VALUES ('279' ,'1', '120', 'Cast iron', 'Cast iron', true, 'meters', '0001' ,'00
 /* ---- Insert data for Asset ---- */
 INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1val, dimension2val, dimension3val, dimension4val, dimension5val, dimension6val, extent, extentConfidence, derecognitionValue,  CreatedDateTime, ModifiedDateTime)
 VALUES ('249' ,'Synthetic surface', 'Synthetic surface', '1234' ,'1234', 'meters', '0078', '0054', '5', '1' , '2', '2.2', '6', '2', 'Fair', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
-
+INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1val, dimension2val, dimension3val, dimension4val, dimension5val, dimension6val, extent, extentConfidence, derecognitionValue,  CreatedDateTime, ModifiedDateTime)
+VALUES ('258' ,'Real surface', 'Synthetic surface', '1263' ,'1263', 'kilometers', '0078', '0054', '5', '1' , '2', '2.2', '6', '2', 'Poor', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);

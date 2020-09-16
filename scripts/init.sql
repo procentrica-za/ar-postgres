@@ -118,7 +118,7 @@ CREATE TABLE public.Asset (
     serialNo varchar(255),
     size numeric,
     sizeUnit Varchar(255),
-    type INTEGER NOT NULL,
+    type uuid NOT NULL,
     class INTEGER NOT NULL,
     dimension1Val numeric,
     dimension2Val numeric,
@@ -335,6 +335,6 @@ VALUES ('7a20c16f-47f7-4e86-900f-d3504c46505c' ,'da832bde-d290-48e6-85a0-40e8347
 
 /* ---- Insert data for Asset ---- */
 INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1val, dimension2val, dimension3val, dimension4val, dimension5val, dimension6val, extent, extentConfidence, derecognitionValue,  CreatedDateTime, ModifiedDateTime)
-VALUES ('d417af58-150b-4c13-945c-61129927e66b' ,'Synthetic surface', 'Synthetic surface', '1234' ,'1234', 'meters', '0078', '0054', '5', '1' , '2', '2.2', '6', '2', 'Fair', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+VALUES ('d417af58-150b-4c13-945c-61129927e66b' ,'Synthetic surface', 'Synthetic surface', '1234' ,'1234', 'meters', '7cafb7b2-5a5f-4ce6-9185-3b4ba2441658', '0054', '5', '1' , '2', '2.2', '6', '2', 'Fair', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1val, dimension2val, dimension3val, dimension4val, dimension5val, dimension6val, extent, extentConfidence, derecognitionValue,  CreatedDateTime, ModifiedDateTime)
-VALUES ('b5400743-ef94-46ae-ad66-50b0eb043f65' ,'Real surface', 'Synthetic surface', '1263' ,'1263', 'kilometers', '0078', '0054', '5', '1' , '2', '2.2', '6', '2', 'Poor', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+VALUES ('b5400743-ef94-46ae-ad66-50b0eb043f65' ,'Real surface', 'Synthetic surface', '1263' ,'1263', 'kilometers', '7cafb7b2-5a5f-4ce6-9185-3b4ba2441658', '0054', '5', '1' , '2', '2.2', '6', '2', 'Poor', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);

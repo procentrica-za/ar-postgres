@@ -214,7 +214,7 @@ CREATE OR REPLACE FUNCTION public.retrieveasset(
 	OUT ret_description character varying,
 	OUT ret_serialno character varying,
 	OUT ret_size numeric,
-	OUT ret_type integer,
+	OUT ret_type uuid,
 	OUT ret_class integer,
 	OUT ret_dimension1val numeric,
 	OUT ret_dimension2val numeric,
@@ -262,7 +262,7 @@ $BODY$;
 CREATE OR REPLACE FUNCTION public.retrieveassets(
     var_assettypeid uuid
 )
-    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type integer, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
+    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
     LANGUAGE 'plpgsql'
     COST 100
     VOLATILE
@@ -280,7 +280,7 @@ $BODY$;
 CREATE OR REPLACE FUNCTION public.extractassets(
     var_assettypeid uuid
 )
-      RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type integer, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
+      RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
     LANGUAGE 'plpgsql'
     COST 100
     VOLATILE
@@ -298,7 +298,7 @@ $BODY$;
 CREATE OR REPLACE FUNCTION public.analyseassets(
     var_assettypeid uuid
 )
-      RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type integer, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
+      RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
     LANGUAGE 'plpgsql'
     COST 100
     VOLATILE

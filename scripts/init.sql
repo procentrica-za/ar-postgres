@@ -294,6 +294,25 @@ BEGIN
 END;
 $BODY$;
 
+/* ---- Analyse Assets Function ---- */
+CREATE OR REPLACE FUNCTION public.analyseassets(
+    var_assettypeid integer
+)
+      RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type integer, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
+    LANGUAGE 'plpgsql'
+    COST 100
+    VOLATILE
+    ROWS 1000
+AS $BODY$
+BEGIN
+	RETURN QUERY
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.derecognitionvalue
+    FROM public.Asset a
+    WHERE a.type = var_assettypeid AND a.isdeleted = false;
+END;
+$BODY$;
+
+
 /* ---- Insert data for asset level ---- */
 INSERT INTO public.AssetTypeLevel(ID, level, name, description, CreatedDateTime, ModifiedDateTime)
 VALUES ('1' ,'1', 'one', 'Level One',CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);

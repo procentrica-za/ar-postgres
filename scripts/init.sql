@@ -147,14 +147,14 @@ CREATE TABLE public.Asset (
 ==============================================================================================*/
 
 CREATE OR REPLACE FUNCTION public.postasset(
-    var_id integer,
+    var_id uuid,
     var_name character varying,
     var_description character varying,
     var_serialNo character varying,
     var_size numeric,
     var_sizeUnit character varying,
-    var_type integer,
-    var_class integer,
+    var_type uuid,
+    var_class uuid,
     var_dimension1Val numeric,
     var_dimension2Val numeric,
     var_dimension3Val numeric,
@@ -177,8 +177,7 @@ CREATE OR REPLACE FUNCTION public.postasset(
     VOLATILE 
 AS $BODY$
 DECLARE
-    var_generated_id double precision = array_to_string(ARRAY(SELECT chr((48 + round(random() * 9)) :: integer)
-    FROM generate_series(1,6)), '');
+   
 BEGIN
     INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1Val, dimension2Val, dimension3Val, dimension4Val, dimension5Val, dimension6Val, 
                              extent, extentConfidence, takeOnDate, manufactureDate, derecognitionDate, derecognitionValue, CreatedDateTime, IsDeleted, ModifiedDateTime)

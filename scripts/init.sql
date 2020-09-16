@@ -126,6 +126,8 @@ CREATE TABLE public.Asset (
     dimension4Val numeric,
     dimension5Val numeric,
     dimension6Val numeric,
+    extent numeric,
+    extentConfidence Varchar(255),
     extent Varchar(255),
     extentConfidence Varchar(255),
     takeOnDate timestamp,
@@ -136,14 +138,58 @@ CREATE TABLE public.Asset (
     IsDeleted Boolean DEFAULT(false),
     ModifiedDateTime timestamp
 );
+/* =============================================================================================
+================================================================================================
+================================================================================================
+======================================FUNCTIONS=================================================
+================================================================================================
+================================================================================================
+==============================================================================================*/
 
-/*
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-------------------------------------------------------FUNCTIONS---------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-*/
+CREATE OR REPLACE FUNCTION public.postasset(
+    var_id integer,
+    var_name character varying,
+    var_description character varying,
+    var_serialNo character varying,
+    var_size numeric,
+    var_sizeUnit character varying,
+    var_type integer,
+    var_class integer,
+    var_dimension1Val numeric,
+    var_dimension2Val numeric,
+    var_dimension3Val numeric,
+    var_dimension4Val numeric,
+    var_dimension5Val numeric,
+    var_dimension6Val numeric,
+    var_extent numeric,
+    var_extentConfidence character varying, 
+    var_takeOnDate timestamp,
+    var_manufactureDate timestamp,
+    var_derecognitionDate timestamp,
+    var_derecognitionValue numeric,
+    OUT res_success boolean,
+    OUT ret_error character varying
+)
+    RETURNS record
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+DECLARE
+    var_generated_id double precision = array_to_string(ARRAY(SELECT chr((48 + round(random() * 9)) :: integer)
+    FROM generate_series(1,6)), '');
+BEGIN
+    INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1Val, dimension2Val, dimension3Val, dimension4Val, dimension5Val, dimension6Val, 
+                             extent, extentConfidence, takeOnDate, manufactureDate, derecognitionDate, derecognitionValue, CreatedDateTime, IsDeleted, ModifiedDateTime)
+    VALUES(var_id, var_name, var_description, var_serialNo, var_size, var_sizeUnit, var_type, var_class, var_dimension1Val, var_dimension2Val, var_dimension3Val, 
+           var_dimension4Val, var_dimension5Val, var_dimension6Val, var_extent, var_extentConfidence, var_takeOnDate, var_manufactureDate, var_derecognitionDate,
+           var_derecognitionValue, CURRENT_TIMESTAMP , 'false', CURRENT_TIMESTAMP);
+
+           res_success := true;
+           ret_error := 'Asset Successfully created!';
+END;
+$BODY$;
 
 /* ---- Creating all functions needed for CRUD functions to be used by the CRUD service ---- */
 

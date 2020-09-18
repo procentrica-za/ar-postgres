@@ -111,8 +111,21 @@ CREATE TABLE public.AssetTypeInheritence (
     ModifiedDateTime timestamp
 );
 
+CREATE TABLE public.Funcloc (
+    ID uuid PRIMARY KEY NOT NULL,
+    name Varchar(255) NOT NULL,
+    description Varchar(255),
+    CreatedDateTime timestamp NOT NULL,
+    IsDeleted Boolean DEFAULT(false),
+    ModifiedDateTime timestamp
+);
+
 CREATE TABLE public.Asset (
     ID uuid PRIMARY KEY NOT NULL,
+    funclocID uuid NOT NULL,
+    CONSTRAINT funclocfkey FOREIGN KEY (funclocID)
+        REFERENCES public.Funcloc (ID) MATCH SIMPLE
+        ON UPDATE NO ACTION ON DELETE NO ACTION,
     name Varchar(255) NOT NULL,
     description Varchar(255) NOT NULL,
     serialNo varchar(255),
@@ -136,6 +149,18 @@ CREATE TABLE public.Asset (
     IsDeleted Boolean DEFAULT(false),
     ModifiedDateTime timestamp
 );
+
+
+
+/*create function foo_j(data JSON) returns void language plpgsql as $$
+begin
+  insert into t(x, y)
+  select (d->>'x')::int, (d->>'y')::text
+  from json_array_elements(data) as d;
+  return;
+end $$;*/
+
+
 /* =============================================================================================
 ================================================================================================
 ================================================================================================
@@ -144,30 +169,12 @@ CREATE TABLE public.Asset (
 ================================================================================================
 ==============================================================================================*/
 
-CREATE OR REPLACE FUNCTION public.postasset(
-    var_id uuid,
-    var_name character varying,
-    var_description character varying,
-    var_serialNo character varying,
-    var_size numeric,
-    var_sizeUnit character varying,
-    var_type uuid,
-    var_class uuid,
-    var_dimension1Val numeric,
-    var_dimension2Val numeric,
-    var_dimension3Val numeric,
-    var_dimension4Val numeric,
-    var_dimension5Val numeric,
-    var_dimension6Val numeric,
-    var_extent character varying,
-    var_extentConfidence character varying, 
-    var_takeOnDate timestamp,
-    var_manufactureDate timestamp,
-    var_derecognitionDate timestamp,
-    var_derecognitionValue numeric,
-    OUT res_success boolean,
-    OUT ret_error character varying
-)
+CREATE OR REPLACE FUNCTION public.postfuncloc(
+	var_id uuid,
+	var_name character varying,
+	var_description character varying,
+	OUT res_success boolean,
+	OUT ret_error character varying)
     RETURNS record
     LANGUAGE 'plpgsql'
 
@@ -175,18 +182,70 @@ CREATE OR REPLACE FUNCTION public.postasset(
     VOLATILE 
 AS $BODY$
 DECLARE
-   
+var_exists boolean := false;
 BEGIN
-    INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1Val, dimension2Val, dimension3Val, dimension4Val, dimension5Val, dimension6Val, 
-                             extent, extentConfidence, takeOnDate, manufactureDate, derecognitionDate, derecognitionValue, CreatedDateTime, IsDeleted, ModifiedDateTime)
-    VALUES(var_id, var_name, var_description, var_serialNo, var_size, var_sizeUnit, var_type, var_class, var_dimension1Val, var_dimension2Val, var_dimension3Val, 
-           var_dimension4Val, var_dimension5Val, var_dimension6Val, var_extent, var_extentConfidence, var_takeOnDate, var_manufactureDate, var_derecognitionDate,
-           var_derecognitionValue, CURRENT_TIMESTAMP , 'false', CURRENT_TIMESTAMP);
-
-           res_success := true;
-           ret_error := 'Asset Successfully created!';
+	IF EXISTS (SELECT 1 FROM public.Funcloc f WHERE f.isdeleted = false AND f.id = var_id) THEN
+		var_exists := true;
+        res_success := true;
+        ret_error := 'Funcloc already exists! continuing with posting assets... ';
+	ELSE
+		INSERT INTO public.Funcloc(ID, name, description, CreatedDateTime, IsDeleted, ModifiedDateTime)
+		VALUES(var_id, var_name, var_description, CURRENT_TIMESTAMP , 'false', CURRENT_TIMESTAMP );
+        res_success := true;
+        ret_error := 'Funcloc created! continuing with posting assets... ';
+	END IF;
 END;
 $BODY$;
+
+/*CREATE OR REPLACE FUNCTION foo_j(
+    data JSON,
+    OUT res_success boolean
+) 
+RETURNS boolean
+LANGUAGE 'plpgsql'
+AS $BODY$
+BEGIN
+    insert into t1(x1,y1)
+	select (d->>'x1')::int, (d->>'y1')::text
+    from json_array_elements(data) as d;
+	insert into t(x, y)
+    select (d->>'x')::int, (d->>'y')::text
+    from json_array_elements(data) as d;
+	
+	res_success := true;
+END;
+$BODY$;*/
+
+CREATE OR REPLACE FUNCTION public.postassets(
+	data json,
+	OUT res_success boolean,
+	OUT ret_error character varying)
+    RETURNS record
+    LANGUAGE 'plpgsql'
+
+    COST 100
+    VOLATILE 
+AS $BODY$
+DECLARE
+
+BEGIN
+    INSERT INTO public.Asset(ID, funclocID, name, description, serialno, size, sizeunit, type, class, dimension1Val, dimension2Val,
+							dimension3Val, dimension4Val, dimension5Val, dimension6Val, extent, extentConfidence, takeOnDate,
+							manufactureDate, derecognitionDate, derecognitionValue, CreatedDateTime, IsDeleted, ModifiedDateTime)
+    SELECT (d->>'id')::uuid, (d->>'funclocid')::uuid, (d->>'name')::character varying, (d->>'description')::character varying,
+		   (d->>'serialno')::character varying, (d->>'size')::numeric, (d->>'sizeunit')::character varying,
+		   (d->>'type')::uuid, (d->>'class')::uuid, (d->>'dimension1val')::numeric, (d->>'dimension2val')::numeric,
+		   (d->>'dimension3val')::numeric, (d->>'dimension4val')::numeric, (d->>'dimension5val')::numeric,
+		   (d->>'dimension6val')::numeric, (d->>'extent')::character varying, (d->>'extentconfidence')::character varying,
+		   (d->>'takeondate')::timestamp, (d->>'manufacturedate')::timestamp, (d->>'derecognitiondate')::timestamp,
+		   (d->>'derecognitionvalue')::numeric, CURRENT_TIMESTAMP, 'false', CURRENT_TIMESTAMP
+		   
+    FROM json_array_elements(data) as d;
+    res_success := true;
+    ret_error := 'Asset Successfully created!';
+END;
+$BODY$;
+
 
 /* ---- Creating all functions needed for CRUD functions to be used by the CRUD service ---- */
 
@@ -372,6 +431,10 @@ VALUES ('f1285731-abb9-46dd-9269-dc1d835d9e4b' ,'6', 'six', 'Level Six',CURRENT_
 /* ---- Insert data for asset Type ---- */
 INSERT INTO public.AssetType(ID, AssetTypeLevelID, code, name, description, isUTC, sizeunit, typeLookup, sizeLookup, dimension1Name, dimension1Description, dimension1Unit, dimension2Name, dimension2Description, dimension2Unit, dimension3Name, dimension3Description, dimension3Unit, dimension5Name, dimension5Description, dimension5Unit, extentFormula, depreciationModel, depreciationMethod, isActive, CreatedDateTime, ModifiedDateTime)
 VALUES ('7a20c16f-47f7-4e86-900f-d3504c46505c' ,'da832bde-d290-48e6-85a0-40e8347487ee', '120', 'Cast iron', 'Cast iron', true, 'meters', '0001' ,'0004', 'Length', 'Length', 'Length of the asset' ,'m', 'Width', 'Width of the asset', 'm', 'Height', 'Height of the Asset', 'Straight Line', 'Yes', 'none', 'A = l', 'none', 'none', true, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+
+/* ---- Insert data for functional location ---- */
+INSERT INTO public.Funcloc(ID, name, description, CreatedDateTime, ModifiedDateTime)
+VALUES ('29add2e4-3593-4f6a-8260-3eb3297b216c', 'Store1', 'Example store 1', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 
 
 /* ---- Insert data for Asset ---- */

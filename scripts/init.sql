@@ -119,7 +119,7 @@ CREATE TABLE public.Asset (
     size numeric,
     sizeUnit Varchar(255),
     type uuid NOT NULL,
-    class INTEGER NOT NULL,
+    class uuid NOT NULL,
     dimension1Val numeric,
     dimension2Val numeric,
     dimension3Val numeric,
@@ -196,24 +196,23 @@ $BODY$;
 /* ---- Export Asset Function ---- */
 
 CREATE OR REPLACE FUNCTION public.exportasset(
-	var_assettypeid uuid,
-    OUT ret_assettypelevelid uuid,
-	OUT ret_code integer,
+	var_assetid uuid,
 	OUT ret_name character varying,
 	OUT ret_description character varying,
-	OUT ret_isutc boolean,
-	OUT ret_sizeunit character varying,
-    OUT ret_typelookup integer,
-	OUT ret_sizelookup integer,
-    OUT ret_dimension1name character varying,
-    OUT ret_dimension1description character varying,
-    OUT ret_dimension1unit character varying,
-    OUT ret_dimension2name character varying,
-    OUT ret_dimension2description character varying,
-    OUT ret_extentformula character varying,
-    OUT ret_depreciationmodel character varying,
-    OUT ret_depreciationmethod character varying,
-    OUT ret_isactive boolean)
+	OUT ret_serialno character varying,
+	OUT ret_size character varying,
+	OUT ret_type character varying,
+	OUT ret_class character varying,
+	OUT ret_dimension1val character varying,
+	OUT ret_dimension2val character varying,
+	OUT ret_dimension3val character varying,
+	OUT ret_dimension4val character varying,
+	OUT ret_dimension5val character varying,
+	OUT ret_dimension6val character varying,
+	OUT ret_extent character varying,
+	OUT ret_extentconfidence character varying,
+	OUT ret_takeondate character varying,
+	OUT ret_derecognitionvalue character varying)
     RETURNS record
     LANGUAGE 'plpgsql'
 
@@ -221,29 +220,27 @@ CREATE OR REPLACE FUNCTION public.exportasset(
     VOLATILE 
 AS $BODY$
 BEGIN
-IF EXISTS (SELECT 1 FROM public.AssetType a WHERE a.id = var_assettypeid AND a.isdeleted = false) THEN
-	SELECT a.assettypelevelid, a.code, a.name, a.description, a.isutc, a.sizeunit, a.typelookup, a.sizelookup, a.dimension1name, a.dimension1description, a.dimension1unit, a.dimension2name, a.dimension2description, a.extentformula, a.depreciationmodel, a.depreciationmethod, a.isactive
-	INTO ret_assettypelevelid, ret_code, ret_name, ret_description, ret_isutc, ret_sizeunit, ret_typelookup, ret_sizelookup, ret_dimension1name, ret_dimension1description, ret_dimension1unit, ret_dimension2name, ret_dimension2description, ret_extentformula, ret_depreciationmodel, ret_depreciationmethod, ret_isactive
-    FROM public.AssetType a
-    WHERE a.id = var_assettypeid AND a.isdeleted = false;
+IF EXISTS (SELECT 1 FROM public.Asset a WHERE a.id = var_assetid AND a.isdeleted = false) THEN
+	SELECT CASE WHEN a.name IS NULL THEN 'n/a' ELSE a.name::text END, CASE WHEN a.description IS NULL THEN 'n/a' ELSE a.description::text END, CASE WHEN a.serialno IS NULL THEN 'n/a' ELSE a.serialno::text END, CASE WHEN a.size IS NULL THEN 'n/a' ELSE a.size::text END, CASE WHEN a.type IS NULL THEN 'n/a' ELSE a.type::text END, CASE WHEN a.class IS NULL THEN 'n/a' ELSE a.class::text END, CASE WHEN a.dimension1val IS NULL THEN 'n/a' ELSE a.dimension1val::text END, CASE WHEN a.dimension2val IS NULL THEN 'n/a' ELSE a.dimension2val::text END, CASE WHEN a.dimension3val IS NULL THEN 'n/a' ELSE a.dimension3val::text END,CASE WHEN a.dimension4val IS NULL THEN 'n/a' ELSE a.dimension4val::text END,  CASE WHEN a.dimension5val IS NULL THEN 'n/a' ELSE a.dimension5val::text END,  CASE WHEN a.dimension6val IS NULL THEN 'n/a' ELSE a.dimension6val::text END, a.extent, a.extentconfidence, CASE WHEN a.takeondate IS NULL THEN 'n/a' ELSE a.takeondate::text END, CASE WHEN a.derecognitionvalue IS NULL THEN 'n/a' ELSE a.derecognitionvalue::text END	
+    INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_extent, ret_extentconfidence, ret_takeondate, ret_derecognitionvalue
+    FROM public.Asset a
+    WHERE a.id = var_assetid AND a.isdeleted = false;
 	ELSE
-        ret_assettypelevelid = 0;
-        ret_code = 00000;
-		ret_name = 'none';
+        ret_name = 'none';
 		ret_description = 'none';
-		ret_isutc = false;
-        ret_sizeunit = 'none';
-        ret_typelookup = 00000;
-        ret_sizelookup = 00000;
-		ret_dimension1name = 'none';
-		ret_dimension1description = 'none';
-		ret_dimension1unit = 'none';
-        ret_dimension2name = 'none';
-        ret_dimension2description = 'none';
-        ret_extentformula = 'none';
-        ret_depreciationmodel = 'none';
-        ret_depreciationmethod = 'none';
-        ret_isactive = false;
+		ret_serialno = 'none';
+		ret_size = 00000;
+        ret_type = 00000;
+        ret_class = 00000;
+        ret_dimension1val = 00000;
+		ret_dimension2val = 00000;
+		ret_dimension3val = 00000;
+		ret_dimension4val = 00000;
+        ret_dimension5val = 00000;
+        ret_dimension6val = 00000;
+        ret_extent = 'none';
+        ret_extentconfidence = 'none';
+        ret_derecognitionvalue = 00000;
     END IF;
 END;
 $BODY$;
@@ -256,18 +253,19 @@ CREATE OR REPLACE FUNCTION public.retrieveasset(
 	OUT ret_name character varying,
 	OUT ret_description character varying,
 	OUT ret_serialno character varying,
-	OUT ret_size numeric,
-	OUT ret_type uuid,
-	OUT ret_class integer,
-	OUT ret_dimension1val numeric,
-	OUT ret_dimension2val numeric,
-	OUT ret_dimension3val numeric,
-	OUT ret_dimension4val numeric,
-	OUT ret_dimension5val numeric,
-	OUT ret_dimension6val numeric,
-    OUT ret_extent character varying,
-    OUT ret_extentconfidence character varying,
-	OUT ret_derecognitionvalue numeric)
+	OUT ret_size character varying,
+	OUT ret_type character varying,
+	OUT ret_class character varying,
+	OUT ret_dimension1val character varying,
+	OUT ret_dimension2val character varying,
+	OUT ret_dimension3val character varying,
+	OUT ret_dimension4val character varying,
+	OUT ret_dimension5val character varying,
+	OUT ret_dimension6val character varying,
+	OUT ret_extent character varying,
+	OUT ret_extentconfidence character varying,
+	OUT ret_takeondate character varying,
+	OUT ret_derecognitionvalue character varying)
     RETURNS record
     LANGUAGE 'plpgsql'
 
@@ -276,8 +274,8 @@ CREATE OR REPLACE FUNCTION public.retrieveasset(
 AS $BODY$
 BEGIN
 IF EXISTS (SELECT 1 FROM public.Asset a WHERE a.id = var_assetid AND a.isdeleted = false) THEN
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.derecognitionvalue
-	INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_extent, ret_extentconfidence, ret_derecognitionvalue
+	SELECT CASE WHEN a.name IS NULL THEN 'n/a' ELSE a.name::text END, CASE WHEN a.description IS NULL THEN 'n/a' ELSE a.description::text END, CASE WHEN a.serialno IS NULL THEN 'n/a' ELSE a.serialno::text END, CASE WHEN a.size IS NULL THEN 'n/a' ELSE a.size::text END, CASE WHEN a.type IS NULL THEN 'n/a' ELSE a.type::text END, CASE WHEN a.class IS NULL THEN 'n/a' ELSE a.class::text END, CASE WHEN a.dimension1val IS NULL THEN 'n/a' ELSE a.dimension1val::text END, CASE WHEN a.dimension2val IS NULL THEN 'n/a' ELSE a.dimension2val::text END, CASE WHEN a.dimension3val IS NULL THEN 'n/a' ELSE a.dimension3val::text END,CASE WHEN a.dimension4val IS NULL THEN 'n/a' ELSE a.dimension4val::text END,  CASE WHEN a.dimension5val IS NULL THEN 'n/a' ELSE a.dimension5val::text END,  CASE WHEN a.dimension6val IS NULL THEN 'n/a' ELSE a.dimension6val::text END, a.extent, a.extentconfidence, CASE WHEN a.takeondate IS NULL THEN 'n/a' ELSE a.takeondate::text END, CASE WHEN a.derecognitionvalue IS NULL THEN 'n/a' ELSE a.derecognitionvalue::text END	
+    INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_extent, ret_extentconfidence, ret_takeondate, ret_derecognitionvalue
     FROM public.Asset a
     WHERE a.id = var_assetid AND a.isdeleted = false;
 	ELSE
@@ -305,7 +303,7 @@ $BODY$;
 CREATE OR REPLACE FUNCTION public.retrieveassets(
     var_assettypeid uuid
 )
-    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
+    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric)
     LANGUAGE 'plpgsql'
     COST 100
     VOLATILE
@@ -313,7 +311,7 @@ CREATE OR REPLACE FUNCTION public.retrieveassets(
 AS $BODY$
 BEGIN
 	RETURN QUERY
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.derecognitionvalue
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue
     FROM public.Asset a
     WHERE a.type = var_assettypeid AND a.isdeleted = false;
 END;
@@ -323,7 +321,7 @@ $BODY$;
 CREATE OR REPLACE FUNCTION public.extractassets(
     var_assettypeid uuid
 )
-      RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
+    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric)
     LANGUAGE 'plpgsql'
     COST 100
     VOLATILE
@@ -331,7 +329,7 @@ CREATE OR REPLACE FUNCTION public.extractassets(
 AS $BODY$
 BEGIN
 	RETURN QUERY
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.derecognitionvalue
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue
     FROM public.Asset a
     WHERE a.type = var_assettypeid AND a.isdeleted = false;
 END;
@@ -339,9 +337,9 @@ $BODY$;
 
 /* ---- Analyse Assets Function ---- */
 CREATE OR REPLACE FUNCTION public.analyseassets(
-    var_assettypeid uuid
+     var_assettypeid uuid
 )
-      RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class integer, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, derecognitionvalue numeric)
+    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric)
     LANGUAGE 'plpgsql'
     COST 100
     VOLATILE
@@ -349,7 +347,7 @@ CREATE OR REPLACE FUNCTION public.analyseassets(
 AS $BODY$
 BEGIN
 	RETURN QUERY
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.derecognitionvalue
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue
     FROM public.Asset a
     WHERE a.type = var_assettypeid AND a.isdeleted = false;
 END;
@@ -377,7 +375,7 @@ VALUES ('7a20c16f-47f7-4e86-900f-d3504c46505c' ,'da832bde-d290-48e6-85a0-40e8347
 
 
 /* ---- Insert data for Asset ---- */
-INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1val, dimension2val, dimension3val, dimension4val, dimension5val, dimension6val, extent, extentConfidence, derecognitionValue,  CreatedDateTime, ModifiedDateTime)
-VALUES ('d417af58-150b-4c13-945c-61129927e66b' ,'Synthetic surface', 'Synthetic surface', '1234' ,'1234', 'meters', '7cafb7b2-5a5f-4ce6-9185-3b4ba2441658', '0054', '5', '1' , '2', '2.2', '6', '2', 'Fair', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
-INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1val, dimension2val, dimension3val, dimension4val, dimension5val, dimension6val, extent, extentConfidence, derecognitionValue,  CreatedDateTime, ModifiedDateTime)
-VALUES ('b5400743-ef94-46ae-ad66-50b0eb043f65' ,'Real surface', 'Synthetic surface', '1263' ,'1263', 'kilometers', '7cafb7b2-5a5f-4ce6-9185-3b4ba2441658', '0054', '5', '1' , '2', '2.2', '6', '2', 'Poor', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1val, dimension2val, dimension3val, dimension4val, dimension5val, dimension6val, extent, extentConfidence, derecognitionValue, takeondate,  CreatedDateTime, ModifiedDateTime)
+VALUES ('d417af58-150b-4c13-945c-61129927e66b' ,'Synthetic surface', 'Synthetic surface', '1234' ,'1234', 'meters', '7cafb7b2-5a5f-4ce6-9185-3b4ba2441658', '4615f9f9-e0ea-4a88-8c2e-0f35a9cce024', '5', '1' , '2', '2.2', '6', '2', 'Fair', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO public.Asset(ID, name, description, serialNo, size, sizeUnit, type, class, dimension1val, dimension2val, dimension3val, dimension4val, dimension5val, dimension6val, extent, extentConfidence, derecognitionValue, takeondate, CreatedDateTime, ModifiedDateTime)
+VALUES ('b5400743-ef94-46ae-ad66-50b0eb043f65' ,'Real surface', 'Synthetic surface', '1263' ,'1263', 'kilometers', '7cafb7b2-5a5f-4ce6-9185-3b4ba2441658', '4615f9f9-e0ea-4a88-8c2e-0f35a9cce024', '5', '1' , '2', '2.2', '6', '2', 'Poor', 'Very Good', '2000', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);

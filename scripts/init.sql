@@ -382,23 +382,27 @@ END;
 $BODY$;
 
 /* ---- Analyse Assets Function ---- */
+-- FUNCTION: public.analyseassets(uuid)
+
+-- DROP FUNCTION public.analyseassets(uuid);
+
 CREATE OR REPLACE FUNCTION public.analyseassets(
-     var_assettypeid uuid
-)
-    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric)
+	var_assettypeid uuid)
+    RETURNS TABLE(name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric, latitude character varying, longtitude character varying) 
     LANGUAGE 'plpgsql'
+
     COST 100
-    VOLATILE
+    VOLATILE 
     ROWS 1000
 AS $BODY$
 BEGIN
 	RETURN QUERY
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue, f.latitude, f.longtitude
     FROM public.Asset a
+	LEFT JOIN public.funcloc f ON f.id = a.funclocid
     WHERE a.type = var_assettypeid AND a.isdeleted = false;
 END;
 $BODY$;
-
 
 /* ---- Insert data for asset level ---- */
 INSERT INTO public.AssetTypeLevel(ID, level, name, description, CreatedDateTime, ModifiedDateTime)

@@ -115,6 +115,8 @@ CREATE TABLE public.Funcloc (
     ID uuid PRIMARY KEY NOT NULL,
     name Varchar(255) NOT NULL,
     description Varchar(255),
+    latitude Varchar(255) NOT NULL,
+    longitude Varchar(255) NOT NULl,
     CreatedDateTime timestamp NOT NULL,
     IsDeleted Boolean DEFAULT(false),
     ModifiedDateTime timestamp
@@ -173,6 +175,8 @@ CREATE OR REPLACE FUNCTION public.postfuncloc(
 	var_id uuid,
 	var_name character varying,
 	var_description character varying,
+    var_lat character varying,
+    var_long character varying,
 	OUT res_success boolean,
 	OUT ret_error character varying)
     RETURNS record
@@ -189,32 +193,15 @@ BEGIN
         res_success := true;
         ret_error := 'Funcloc already exists! continuing with posting assets... ';
 	ELSE
-		INSERT INTO public.Funcloc(ID, name, description, CreatedDateTime, IsDeleted, ModifiedDateTime)
-		VALUES(var_id, var_name, var_description, CURRENT_TIMESTAMP , 'false', CURRENT_TIMESTAMP );
+		INSERT INTO public.Funcloc(ID, name, description, latitude, longitude, CreatedDateTime, IsDeleted, ModifiedDateTime)
+		VALUES(var_id, var_name, var_description, var_lat, var_long, CURRENT_TIMESTAMP , 'false', CURRENT_TIMESTAMP );
         res_success := true;
         ret_error := 'Funcloc created! continuing with posting assets... ';
 	END IF;
 END;
 $BODY$;
 
-/*CREATE OR REPLACE FUNCTION foo_j(
-    data JSON,
-    OUT res_success boolean
-) 
-RETURNS boolean
-LANGUAGE 'plpgsql'
-AS $BODY$
-BEGIN
-    insert into t1(x1,y1)
-	select (d->>'x1')::int, (d->>'y1')::text
-    from json_array_elements(data) as d;
-	insert into t(x, y)
-    select (d->>'x')::int, (d->>'y')::text
-    from json_array_elements(data) as d;
-	
-	res_success := true;
-END;
-$BODY$;*/
+
 
 CREATE OR REPLACE FUNCTION public.postassets(
 	data json,
@@ -433,8 +420,8 @@ INSERT INTO public.AssetType(ID, AssetTypeLevelID, code, name, description, isUT
 VALUES ('7a20c16f-47f7-4e86-900f-d3504c46505c' ,'da832bde-d290-48e6-85a0-40e8347487ee', '120', 'Cast iron', 'Cast iron', true, 'meters', '0001' ,'0004', 'Length', 'Length', 'Length of the asset' ,'m', 'Width', 'Width of the asset', 'm', 'Height', 'Height of the Asset', 'Straight Line', 'Yes', 'none', 'A = l', 'none', 'none', true, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 
 /* ---- Insert data for functional location ---- */
-INSERT INTO public.Funcloc(ID, name, description, CreatedDateTime, ModifiedDateTime)
-VALUES ('29add2e4-3593-4f6a-8260-3eb3297b216c', 'Store1', 'Example store 1', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
+INSERT INTO public.Funcloc(ID, name, description, latitude, longitude, CreatedDateTime, ModifiedDateTime)
+VALUES ('29add2e4-3593-4f6a-8260-3eb3297b216c', 'Store', 'Example store 1', '-25.735095566203', '28.1766982376575', CURRENT_TIMESTAMP, CURRENT_TIMESTAMP);
 
 
 /* ---- Insert data for Asset ---- */

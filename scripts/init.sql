@@ -258,7 +258,9 @@ CREATE OR REPLACE FUNCTION public.exportasset(
 	OUT ret_extent character varying,
 	OUT ret_extentconfidence character varying,
 	OUT ret_takeondate character varying,
-	OUT ret_derecognitionvalue character varying)
+	OUT ret_derecognitionvalue character varying,
+    OUT ret_latitude character varying,
+    OUT ret_longitude character varying)
     RETURNS record
     LANGUAGE 'plpgsql'
 
@@ -267,9 +269,10 @@ CREATE OR REPLACE FUNCTION public.exportasset(
 AS $BODY$
 BEGIN
 IF EXISTS (SELECT 1 FROM public.Asset a WHERE a.id = var_assetid AND a.isdeleted = false) THEN
-	SELECT CASE WHEN a.name IS NULL THEN 'n/a' ELSE a.name::text END, CASE WHEN a.description IS NULL THEN 'n/a' ELSE a.description::text END, CASE WHEN a.serialno IS NULL THEN 'n/a' ELSE a.serialno::text END, CASE WHEN a.size IS NULL THEN 'n/a' ELSE a.size::text END, CASE WHEN a.type IS NULL THEN 'n/a' ELSE a.type::text END, CASE WHEN a.class IS NULL THEN 'n/a' ELSE a.class::text END, CASE WHEN a.dimension1val IS NULL THEN 'n/a' ELSE a.dimension1val::text END, CASE WHEN a.dimension2val IS NULL THEN 'n/a' ELSE a.dimension2val::text END, CASE WHEN a.dimension3val IS NULL THEN 'n/a' ELSE a.dimension3val::text END,CASE WHEN a.dimension4val IS NULL THEN 'n/a' ELSE a.dimension4val::text END,  CASE WHEN a.dimension5val IS NULL THEN 'n/a' ELSE a.dimension5val::text END,  CASE WHEN a.dimension6val IS NULL THEN 'n/a' ELSE a.dimension6val::text END, a.extent, a.extentconfidence, CASE WHEN a.takeondate IS NULL THEN 'n/a' ELSE a.takeondate::text END, CASE WHEN a.derecognitionvalue IS NULL THEN 'n/a' ELSE a.derecognitionvalue::text END	
-    INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_extent, ret_extentconfidence, ret_takeondate, ret_derecognitionvalue
+	SELECT CASE WHEN a.name IS NULL THEN 'n/a' ELSE a.name::text END, CASE WHEN a.description IS NULL THEN 'n/a' ELSE a.description::text END, CASE WHEN a.serialno IS NULL THEN 'n/a' ELSE a.serialno::text END, CASE WHEN a.size IS NULL THEN 'n/a' ELSE a.size::text END, CASE WHEN a.type IS NULL THEN 'n/a' ELSE a.type::text END, CASE WHEN a.class IS NULL THEN 'n/a' ELSE a.class::text END, CASE WHEN a.dimension1val IS NULL THEN 'n/a' ELSE a.dimension1val::text END, CASE WHEN a.dimension2val IS NULL THEN 'n/a' ELSE a.dimension2val::text END, CASE WHEN a.dimension3val IS NULL THEN 'n/a' ELSE a.dimension3val::text END,CASE WHEN a.dimension4val IS NULL THEN 'n/a' ELSE a.dimension4val::text END,  CASE WHEN a.dimension5val IS NULL THEN 'n/a' ELSE a.dimension5val::text END,  CASE WHEN a.dimension6val IS NULL THEN 'n/a' ELSE a.dimension6val::text END, a.extent, a.extentconfidence, CASE WHEN a.takeondate IS NULL THEN 'n/a' ELSE a.takeondate::text END, CASE WHEN a.derecognitionvalue IS NULL THEN 'n/a' ELSE a.derecognitionvalue::text END, CASE WHEN f.latitude IS NULL THEN 'n/a' ELSE f.latitude::text END, CASE WHEN f.longitude IS NULL THEN 'n/a' ELSE f.longitude::text END	
+    INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_extent, ret_extentconfidence, ret_takeondate, ret_derecognitionvalue, ret_latitude, ret_longitude
     FROM public.Asset a
+    LEFT JOIN public.funcloc f ON f.id = a.funclocid
     WHERE a.id = var_assetid AND a.isdeleted = false;
 	ELSE
         ret_name = 'none';
@@ -287,6 +290,8 @@ IF EXISTS (SELECT 1 FROM public.Asset a WHERE a.id = var_assetid AND a.isdeleted
         ret_extent = 'none';
         ret_extentconfidence = 'none';
         ret_derecognitionvalue = 00000;
+        ret_latitude = 'none';
+        ret_longitude = 'none';
     END IF;
 END;
 $BODY$;
@@ -311,7 +316,10 @@ CREATE OR REPLACE FUNCTION public.retrieveasset(
 	OUT ret_extent character varying,
 	OUT ret_extentconfidence character varying,
 	OUT ret_takeondate character varying,
-	OUT ret_derecognitionvalue character varying)
+	OUT ret_derecognitionvalue character varying, 
+    OUT ret_latitude character varying,
+    OUT ret_longitude character varying
+    )
     RETURNS record
     LANGUAGE 'plpgsql'
 
@@ -320,9 +328,10 @@ CREATE OR REPLACE FUNCTION public.retrieveasset(
 AS $BODY$
 BEGIN
 IF EXISTS (SELECT 1 FROM public.Asset a WHERE a.id = var_assetid AND a.isdeleted = false) THEN
-	SELECT CASE WHEN a.name IS NULL THEN 'n/a' ELSE a.name::text END, CASE WHEN a.description IS NULL THEN 'n/a' ELSE a.description::text END, CASE WHEN a.serialno IS NULL THEN 'n/a' ELSE a.serialno::text END, CASE WHEN a.size IS NULL THEN 'n/a' ELSE a.size::text END, CASE WHEN a.type IS NULL THEN 'n/a' ELSE a.type::text END, CASE WHEN a.class IS NULL THEN 'n/a' ELSE a.class::text END, CASE WHEN a.dimension1val IS NULL THEN 'n/a' ELSE a.dimension1val::text END, CASE WHEN a.dimension2val IS NULL THEN 'n/a' ELSE a.dimension2val::text END, CASE WHEN a.dimension3val IS NULL THEN 'n/a' ELSE a.dimension3val::text END,CASE WHEN a.dimension4val IS NULL THEN 'n/a' ELSE a.dimension4val::text END,  CASE WHEN a.dimension5val IS NULL THEN 'n/a' ELSE a.dimension5val::text END,  CASE WHEN a.dimension6val IS NULL THEN 'n/a' ELSE a.dimension6val::text END, a.extent, a.extentconfidence, CASE WHEN a.takeondate IS NULL THEN 'n/a' ELSE a.takeondate::text END, CASE WHEN a.derecognitionvalue IS NULL THEN 'n/a' ELSE a.derecognitionvalue::text END	
-    INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_extent, ret_extentconfidence, ret_takeondate, ret_derecognitionvalue
+	SELECT CASE WHEN a.name IS NULL THEN 'n/a' ELSE a.name::text END, CASE WHEN a.description IS NULL THEN 'n/a' ELSE a.description::text END, CASE WHEN a.serialno IS NULL THEN 'n/a' ELSE a.serialno::text END, CASE WHEN a.size IS NULL THEN 'n/a' ELSE a.size::text END, CASE WHEN a.type IS NULL THEN 'n/a' ELSE a.type::text END, CASE WHEN a.class IS NULL THEN 'n/a' ELSE a.class::text END, CASE WHEN a.dimension1val IS NULL THEN 'n/a' ELSE a.dimension1val::text END, CASE WHEN a.dimension2val IS NULL THEN 'n/a' ELSE a.dimension2val::text END, CASE WHEN a.dimension3val IS NULL THEN 'n/a' ELSE a.dimension3val::text END,CASE WHEN a.dimension4val IS NULL THEN 'n/a' ELSE a.dimension4val::text END,  CASE WHEN a.dimension5val IS NULL THEN 'n/a' ELSE a.dimension5val::text END,  CASE WHEN a.dimension6val IS NULL THEN 'n/a' ELSE a.dimension6val::text END, a.extent, a.extentconfidence, CASE WHEN a.takeondate IS NULL THEN 'n/a' ELSE a.takeondate::text END, CASE WHEN a.derecognitionvalue IS NULL THEN 'n/a' ELSE a.derecognitionvalue::text END, CASE WHEN f.latitude IS NULL THEN 'n/a' ELSE f.latitude::text END, CASE WHEN f.longitude IS NULL THEN 'n/a' ELSE f.longitude::text END			
+    INTO ret_name, ret_description, ret_serialno, ret_size, ret_type, ret_class, ret_dimension1val, ret_dimension2val, ret_dimension3val, ret_dimension4val, ret_dimension5val, ret_dimension6val, ret_extent, ret_extentconfidence, ret_takeondate, ret_derecognitionvalue, ret_latitude, ret_longitude
     FROM public.Asset a
+    LEFT JOIN public.funcloc f ON f.id = a.funclocid
     WHERE a.id = var_assetid AND a.isdeleted = false;
 	ELSE
         ret_name = 'none';
@@ -340,6 +349,8 @@ IF EXISTS (SELECT 1 FROM public.Asset a WHERE a.id = var_assetid AND a.isdeleted
         ret_extent = 'none';
         ret_extentconfidence = 'none';
         ret_derecognitionvalue = 00000;
+        ret_latitude = 'none';
+        ret_longitude = 'none';
     END IF;
 END;
 $BODY$;
@@ -347,36 +358,38 @@ $BODY$;
 
 /* ---- Retrieve Assets Function ---- */
 CREATE OR REPLACE FUNCTION public.retrieveassets(
-    var_assettypeid uuid
-)
-    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric)
+    var_assettypeid uuid)
+    RETURNS TABLE(name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric, latitude character varying, longitude character varying) 
     LANGUAGE 'plpgsql'
+
     COST 100
-    VOLATILE
+    VOLATILE 
     ROWS 1000
 AS $BODY$
 BEGIN
 	RETURN QUERY
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue, f.latitude, f.longitude
     FROM public.Asset a
+	LEFT JOIN public.funcloc f ON f.id = a.funclocid
     WHERE a.type = var_assettypeid AND a.isdeleted = false;
 END;
 $BODY$;
 
 /* ---- Extract Assets Function ---- */
 CREATE OR REPLACE FUNCTION public.extractassets(
-    var_assettypeid uuid
-)
-    RETURNS TABLE( name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric)
+    var_assettypeid uuid)
+    RETURNS TABLE(name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric, latitude character varying, longitude character varying) 
     LANGUAGE 'plpgsql'
+
     COST 100
-    VOLATILE
+    VOLATILE 
     ROWS 1000
 AS $BODY$
 BEGIN
 	RETURN QUERY
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue, f.latitude, f.longitude
     FROM public.Asset a
+	LEFT JOIN public.funcloc f ON f.id = a.funclocid
     WHERE a.type = var_assettypeid AND a.isdeleted = false;
 END;
 $BODY$;

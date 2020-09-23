@@ -388,7 +388,7 @@ $BODY$;
 
 CREATE OR REPLACE FUNCTION public.analyseassets(
 	var_assettypeid uuid)
-    RETURNS TABLE(name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric, latitude character varying, longtitude character varying) 
+    RETURNS TABLE(name character varying, description character varying, serialno character varying, size numeric, type uuid, class uuid, dimension1val numeric, dimension2val numeric, dimension3val numeric, dimension4val numeric, dimension5val numeric, dimension6val numeric, extent character varying, extentconfidence character varying, takeondate timestamp without time zone, derecognitionvalue numeric, latitude character varying, longitude character varying) 
     LANGUAGE 'plpgsql'
 
     COST 100
@@ -397,7 +397,7 @@ CREATE OR REPLACE FUNCTION public.analyseassets(
 AS $BODY$
 BEGIN
 	RETURN QUERY
-	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue, f.latitude, f.longtitude
+	SELECT a.name, a.description, a.serialno, a.size, a.type, a.class, a.dimension1val, a.dimension2val, a.dimension3val, a.dimension4val, a.dimension5val, a.dimension6val, a.extent, a.extentconfidence, a.takeondate, a.derecognitionvalue, f.latitude, f.longitude
     FROM public.Asset a
 	LEFT JOIN public.funcloc f ON f.id = a.funclocid
     WHERE a.type = var_assettypeid AND a.isdeleted = false;

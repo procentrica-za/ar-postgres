@@ -1,0 +1,1427 @@
+
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (451,926,'Business and retail','Business and retail');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (452,926,'Farms (commercial)','Farms (commercial)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (453,926,'Farms (vacant)','Farms (vacant)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (454,926,'Formal residential (high income)','Formal residential (high income)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (455,926,'Formal residential (low income)','Formal residential (low income)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (456,926,'Formal residential (medium income)','Formal residential (medium income)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (457,926,'Formal residential (undevelopable land)','Formal residential (undevelopable land)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (458,926,'Government institutions','Government institutions');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (459,926,'Informal residential','Informal residential');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (460,926,'Open space (developable land)','Open space (developable land)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (461,926,'Open space (un-developable land)','Open space (un-developable land)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (462,926,'PPE Land','PPE Land');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (463,927,'R1 Road Surface','R1 Road Surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (464,927,'R2 Road Surface','R2 Road Surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (465,927,'R3 Road Surface','R3 Road Surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (466,927,'R4 Road Surface','R4 Road Surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (467,927,'R5 Road Surface','R5 Road Surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (468,927,'U1 Road Surface','U1 Road Surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (469,927,'U2 Road Surface','U2 Road Surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (470,927,'U3 Road Surface','U3 Road Surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (471,927,'U4 Road Surface','U4 Road Surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (472,927,'U5 Road Surface','U5 Road Surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (473,928,'R1 Road Structure','R1 Road Structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (474,928,'R2 Road Structure','R2 Road Structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (475,928,'R3 Road Structure','R3 Road Structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (476,928,'R4 Road Structure','R4 Road Structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (477,928,'R5 Road Structure','R5 Road Structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (478,928,'U1 Road Structure','U1 Road Structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (479,928,'U2 Road Structure','U2 Road Structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (480,928,'U3 Road Structure','U3 Road Structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (481,928,'U4 Road Structure','U4 Road Structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (482,928,'U5 Road Structure','U5 Road Structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (483,929,'Flat terrain','Flat terrain');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (484,929,'Mountainous terrain','Mountainous terrain');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (485,929,'Rolling terrain','Rolling terrain');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (486,930,'Flat terrain','Flat terrain');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (487,930,'Mountainous terrain','Mountainous terrain');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (488,930,'Rolling terrain','Rolling terrain');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (489,931,'Road bridge abutment','Road bridge abutment');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (490,932,'Road bridge side barrier','Road bridge side barrier');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (491,933,'Road bridge substructure','Road bridge substructure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (492,934,'Road bridge superstructure','Road bridge superstructure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (493,935,'Pedestrian bridge substructure','Pedestrian bridge substructure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (494,936,'Pedestrian bridge superstructure','Pedestrian bridge superstructure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (495,937,'Pedestrian bridge railing','Pedestrian bridge railing');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (496,939,'Brick','Brick');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (497,939,'Concrete wall','Concrete wall');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (498,939,'Retaining blocks','Retaining blocks');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (499,939,'Stone wall','Stone wall');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (500,940,'Above ground structure','Above ground structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (501,940,'Below ground structure','Below ground structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (502,940,'Manholes','Manholes');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (503,940,'Mass concrete','Mass concrete');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (504,940,'Shuttered RC eng structure','Shuttered RC eng structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (505,940,'Shuttered RC eng structure - water retaining','Shuttered RC eng structure - water retaining');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (506,941,'Beams','Beams');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (507,941,'Cooling tower','Cooling tower');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (508,941,'Galvanised steel','Galvanised steel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (509,941,'Handrail','Handrail');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (510,941,'MECHANICAL BRIDGE','MECHANICAL BRIDGE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (511,941,'Mild steel','Mild steel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (512,941,'Stainless steel','Stainless steel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (513,941,'Stairs','Stairs');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (514,941,'Tank elevation structure','Tank elevation structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (515,941,'Walkways grid','Walkways grid');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (516,941,'Walkways including handrail','Walkways including handrail');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (517,942,'Tunnel bore structure','Tunnel bore structure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (518,944,'Concrete commuter shelter','Concrete commuter shelter');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (519,944,'Plastic commuter shelter','Plastic commuter shelter');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (520,944,'Steel commuter shelter','Steel commuter shelter');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (521,945,'Asphalt','Asphalt');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (522,945,'Block paving','Block paving');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (523,945,'Concrete surface','Concrete surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (524,945,'Gravel','Gravel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (525,946,'Armco','Armco');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (526,946,'Cable','Cable');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (527,946,'Handrail','Handrail');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (528,947,'Mini round-about','Mini round-about');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (529,948,'Asphalt speed hump','Asphalt speed hump');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (530,948,'Block Paving speed hump','Block Paving speed hump');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (531,948,'Concrete speed hump','Concrete speed hump');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (532,948,'Metal speed hump','Metal speed hump');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (533,948,'RAISED PEDESTRIAN CROSSINGS','RAISED PEDESTRIAN CROSSINGS');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (534,949,'Concrete rubbish bin','Concrete rubbish bin');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (535,949,'Metal','Metal');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (536,949,'Plastic bin','Plastic bin');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (537,950,'Traffic island','Traffic island');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (538,951,'Overhead gantry cantilever','Overhead gantry cantilever');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (539,951,'Overhead gantry portal','Overhead gantry portal');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (540,951,'Road signs (e.g. Warning, Law, information, street signs, etc)','Road signs (e.g. Warning, Law, information, street signs, etc)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (541,952,'Large sign','Large sign');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (542,952,'Standard sign','Standard sign');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (543,952,'Very large sign','Very large sign');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (544,953,'Standard sign','Standard sign');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (545,954,'Double lane-double carriageway','Double lane-double carriageway');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (546,954,'Double lane-single carriageway','Double lane-single carriageway');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (547,954,'Pelican crossing (pedestrian traffic lights)','Pelican crossing (pedestrian traffic lights)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (548,954,'Single lane-single carriageway','Single lane-single carriageway');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (549,956,'Brick wall','Brick wall');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (550,956,'Concrete wall','Concrete wall');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (551,956,'Gabions','Gabions');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (552,956,'Rip rap','Rip rap');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (553,956,'Stone Pitching','Stone Pitching');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (554,957,'General','General');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (555,957,'Masonry manholes','Masonry manholes');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (556,959,'1050 mm diameter pipe','1050 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (557,959,'1200 mm diameter pipe','1200 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (558,959,'1200x1200 box','1200x1200 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (559,959,'1350 mm diameter pipe','1350 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (560,959,'1500 mm diameter pipe','1500 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (561,959,'1500x1200 box','1500x1200 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (562,959,'1500x1500 box','1500x1500 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (563,959,'1800 mm diameter pipe','1800 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (564,959,'1800x1500 box','1800x1500 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (565,959,'1800x1800 box','1800x1800 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (566,959,'2160 mm diameter pipe','2160 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (567,959,'2400 mm diameter pipe','2400 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (568,959,'2400x2400 box','2400x2400 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (569,959,'2900x2900 box','2900x2900 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (570,959,'3000 mm diameter pipe','3000 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (571,959,'3000x3000 box','3000x3000 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (572,959,'3550x3550 box','3550x3550 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (573,959,'450 mm diameter pipe','450 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (574,959,'4500 mm diameter pipe','4500 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (575,959,'4500x4500 box','4500x4500 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (576,959,'450x450 box','450x450 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (577,959,'4700x2900 box','4700x2900 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (578,959,'525 mm diameter pipe','525 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (579,959,'600 mm diameter pipe','600 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (580,959,'600x600 box','600x600 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (581,959,'675 mm diameter pipe','675 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (582,959,'750 mm diameter pipe','750 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (583,959,'825 mm diameter pipe','825 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (584,959,'900 mm diameter pipe','900 mm diameter pipe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (585,959,'900x900 box','900x900 box');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (586,960,'Barrier kerb','Barrier kerb');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (587,960,'Mountable kerb','Mountable kerb');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (588,961,'Kerb Inlet','Kerb Inlet');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (589,962,'Grid Inlet','Grid Inlet');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (590,963,'Dewatering sub-soil drain','Dewatering sub-soil drain');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (591,964,'3 seater concrete bench','3 seater concrete bench');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (592,964,'3 SEATER GALVANISED STEEL BENCH','3 SEATER GALVANISED STEEL BENCH');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (593,964,'3 seater steel bench','3 seater steel bench');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (594,964,'Children`s play equipment (jungle gym)','Children`s play equipment (jungle gym)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (595,964,'Concrete table (rectangular)','Concrete table (rectangular)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (596,964,'Large planter pot (> 1m diameter)','Large planter pot (> 1m diameter)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (597,964,'Medium planter pot (< 1m diameter)','Medium planter pot (< 1m diameter)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (598,964,'Playground equipment','Playground equipment');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (599,964,'Water feature - park','Water feature - park');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (600,964,'Water feature (large)','Water feature (large)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (601,964,'Water feature (small)','Water feature (small)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (602,965,'Bollard-type','Bollard-type');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (603,965,'Floodlights','Floodlights');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (604,965,'High mast','High mast');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (605,965,'Solar powered High mast','Solar powered High mast');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (606,965,'Streetlight with its network','Streetlight with its network');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (607,966,'Bollard-type','Bollard-type');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (608,966,'Floodlights','Floodlights');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (609,966,'High mast','High mast');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (610,966,'Paapi lights','Paapi lights');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (611,966,'Runway approach lights','Runway approach lights');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (612,966,'Runway edge lights','Runway edge lights');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (613,966,'Solar powered High mast','Solar powered High mast');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (614,966,'Streetlight with its network','Streetlight with its network');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (615,966,'Taxiway edge lights ','Taxiway edge lights ');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (616,966,'Taxiway lights','Taxiway lights');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (617,967,'Automatic sprinkler system','Automatic sprinkler system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (618,968,'Flower beds, shrubs & trees','Flower beds, shrubs & trees');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (619,968,'Lawns','Lawns');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (620,969,'Brick wall','Brick wall');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (621,969,'Clear View fencing','Clear View fencing');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (622,969,'Concrete bollard','Concrete bollard');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (623,969,'Concrete palisade fencing','Concrete palisade fencing');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (624,969,'Diamond mesh','Diamond mesh');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (625,969,'GSM Type Fencing','GSM Type Fencing');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (626,969,'Precast concrete wall','Precast concrete wall');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (627,969,'Razor mesh fence','Razor mesh fence');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (628,969,'Steel bollard','Steel bollard');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (629,969,'Steel palisade fencing','Steel palisade fencing');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (630,969,'Vibrocrete fence','Vibrocrete fence');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (631,969,'Wooden bollard','Wooden bollard');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (632,969,'Wooden fence','Wooden fence');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (633,971,'Brick, block walls & concrete roof slab','Brick, block walls & concrete roof slab');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (634,971,'Brick, block walls & other roof','Brick, block walls & other roof');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (635,971,'Steel cage','Steel cage');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (636,971,'Steel shed','Steel shed');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (637,971,'Wood shed','Wood shed');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (638,972,'Concrete (Storm Water)','Concrete (Storm Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (639,973,'Concrete (Storm Water)','Concrete (Storm Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (640,974,'PPE Land','PPE Land');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (641,975,'Timber','Timber');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (642,976,'Aggressive materials','Aggressive materials');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (643,976,'Bridge drive','Bridge drive');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (644,976,'Fibreglass','Fibreglass');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (645,976,'Galvanised steel panel','Galvanised steel panel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (646,976,'Plastic','Plastic');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (647,976,'Scraping mechanism','Scraping mechanism');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (648,977,'Equipment control panel','Equipment control panel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (649,977,'Network control panel','Network control panel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (650,978,'Sewer','Sewer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (651,978,'Water','Water');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (652,979,'Electrical','Electrical');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (653,980,'Sewer','Sewer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (654,981,'Standard Telemetry','Standard Telemetry');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (655,982,'Controller','Controller');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (656,982,'Modem','Modem');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (657,982,'SCADA RTU','SCADA RTU');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (658,983,'Lv Al 3 core PVCSWA','Lv Al 3 core PVCSWA');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (659,983,'Lv Al 4 core PVC','Lv Al 4 core PVC');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (660,983,'Lv Al 4 core PVCSWA','Lv Al 4 core PVCSWA');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (661,983,'Lv Al 4 core PVCSWA and ECC','Lv Al 4 core PVCSWA and ECC');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (662,983,'Lv Al single core PVC','Lv Al single core PVC');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (663,983,'Lv Cu 3 core PVCSWA','Lv Cu 3 core PVCSWA');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (664,983,'Lv Cu 4 core PVC','Lv Cu 4 core PVC');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (665,983,'Lv Cu 4 core PVCSWA','Lv Cu 4 core PVCSWA');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (666,983,'Lv Cu 4 core PVCSWA and ECC','Lv Cu 4 core PVCSWA and ECC');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (667,983,'Lv Cu single core PVC','Lv Cu single core PVC');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (668,983,'LV underground service connection (per 30m service)','LV underground service connection (per 30m service)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (669,984,'Fibre Optic','Fibre Optic');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (670,984,'Pilot cable','Pilot cable');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (671,985,'Low voltage aerial bundle conductor','Low voltage aerial bundle conductor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (672,985,'LV - open wire','LV - open wire');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (673,985,'LV overhead service connection (per 30m service)','LV overhead service connection (per 30m service)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (674,986,'Low voltage aerial bundle conductor','Low voltage aerial bundle conductor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (675,986,'LV - open wire','LV - open wire');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (676,987,'Pump - water','Pump - water');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (677,988,'Pump - submersible','Pump - submersible');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (678,989,'Well & lining','Well & lining');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (679,990,'Mag-flow','Mag-flow');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (680,990,'Mechanical','Mechanical');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (681,990,'Pre-pay meters','Pre-pay meters');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (682,991,'AC (Water)','AC (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (683,991,'CI (Water)','CI (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (684,991,'DI (Water)','DI (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (685,991,'GAL (Water)','GAL (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (686,991,'GRP (Water)','GRP (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (687,991,'HDPE (Water)','HDPE (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (688,991,'m-PVC (Water)','m-PVC (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (689,991,'o-PVC (Water)','o-PVC (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (690,991,'Steel (Water)','Steel (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (691,991,'unknown (assumed HDPE) (Water)','unknown (assumed HDPE) (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (692,991,'unknown (assumed steel) (Water)','unknown (assumed steel) (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (693,991,'unknown (assumed uPVC) (Water)','unknown (assumed uPVC) (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (694,991,'uPVC (Water)','uPVC (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (695,992,'HDPE (Water)','HDPE (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (696,992,'unknown (assumed uPVC) (Water)','unknown (assumed uPVC) (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (697,992,'uPVC (Water)','uPVC (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (698,993,'Actuated Air release (Water)','Actuated Air release (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (699,993,'Actuated Butterfly (Water)','Actuated Butterfly (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (700,993,'Actuated Pressure Reducing (Water)','Actuated Pressure Reducing (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (701,993,'Actuated Resilient seal (Water)','Actuated Resilient seal (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (702,993,'Air release (Water)','Air release (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (703,993,'Air Valve (Generic)','Air Valve (Generic)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (704,993,'Butterfly (Water)','Butterfly (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (705,993,'Closed Valve (Generic)','Closed Valve (Generic)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (706,993,'Non-return (Water)','Non-return (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (707,993,'Non-Return Valve (Generic)','Non-Return Valve (Generic)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (708,993,'Pressure Reducing (Water)','Pressure Reducing (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (709,993,'Resilient seal (Water)','Resilient seal (Water)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (710,993,'Valve (Generic)','Valve (Generic)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (711,994,'Pipe bridge abutment','Pipe bridge abutment');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (712,995,'Pipe bridge substructure','Pipe bridge substructure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (713,996,'Pipe bridge superstructure','Pipe bridge superstructure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (714,997,'Pipe bridge railing','Pipe bridge railing');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (2,1000,'Gas Chiller','Gas Chiller');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (3,1001,'Electrical installation','Electrical installation');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (4,1002,'Bathroom','Bathroom');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (5,1002,'Civic centre / Community hall','Civic centre / Community hall');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (6,1002,'Clinics and day hospitals','Clinics and day hospitals');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (7,1002,'Cold room','Cold room');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (8,1002,'Council chamber','Council chamber');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (9,1002,'Executive office / Banquette hall','Executive office / Banquette hall');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (10,1002,'Kitchen','Kitchen');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (11,1002,'Laboratory','Laboratory');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (12,1002,'Library','Library');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (13,1002,'Office','Office');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (14,1002,'Store','Store');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (15,1002,'Workshop','Workshop');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (16,1003,'Bathroom','Bathroom');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (17,1003,'Kitchen','Kitchen');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (18,1003,'Office','Office');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (19,1003,'Store','Store');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (20,1003,'Workshop','Workshop');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (21,1004,'Extinguishers, hose reels only','Extinguishers, hose reels only');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (22,1004,'Extinguishers, hose reels, full sprinkler system with booster pump','Extinguishers, hose reels, full sprinkler system with booster pump');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (23,1004,'Extinguishers, hose reels, limited sprinklers','Extinguishers, hose reels, limited sprinklers');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (24,1004,'Hydrant','Hydrant');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (25,1005,'GRP (Gas)','GRP (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (26,1005,'HDPE (Gas)','HDPE (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (27,1005,'Steel (Gas)','Steel (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (28,1005,'unknown (assumed HDPE) (Gas)','unknown (assumed HDPE) (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (29,1005,'unknown (assumed steel) (Gas)','unknown (assumed steel) (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (30,1005,'unknown (assumed uPVC) (Gas)','unknown (assumed uPVC) (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (31,1005,'uPVC (Gas)','uPVC (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (32,1006,'Lifts','Lifts');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (33,1006,'Parcel Lifts','Parcel Lifts');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (34,1006,'Wheelchair Lift','Wheelchair Lift');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (35,1007,'standard installation','standard installation');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (36,1008,'RC surface bed','RC surface bed');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (37,1008,'Shuttered RC suspended floor slab','Shuttered RC suspended floor slab');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (38,1009,'Alarm & sensors','Alarm & sensors');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (39,1009,'Security and access control (burglar bars, turnstiles, barriers)','Security and access control (burglar bars, turnstiles, barriers)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (40,1009,'Security and access control (CCTV on its own pole including communication)','Security and access control (CCTV on its own pole including communication)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (41,1009,'Security and access control (CCTV)','Security and access control (CCTV)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (42,1010,'Septic Tank','Septic Tank');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (43,1011,'Face brick','Face brick');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (44,1011,'Fibre cement board, timber frame, plaster board','Fibre cement board, timber frame, plaster board');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (45,1011,'Glass panel','Glass panel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (46,1011,'Metal sheet , plaster board','Metal sheet , plaster board');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (47,1011,'Plastered brick','Plastered brick');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (48,1011,'Semi-face brick','Semi-face brick');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (49,1012,'flat concrete (170mm thick)','flat concrete (170mm thick)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (50,1012,'Sheet metal','Sheet metal');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (51,1012,'Thatch','Thatch');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (52,1012,'Tiled','Tiled');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (53,1013,'Crane','Crane');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (54,1015,'Reactor','Reactor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (55,1017,'Clay (Sewer)','Clay (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (56,1017,'Concrete (Sewer)','Concrete (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (57,1017,'HDPE (Sewer)','HDPE (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (58,1017,'Steel (Sewer)','Steel (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (59,1017,'unknown (assumed clay) (Sewer)','unknown (assumed clay) (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (60,1017,'unknown (assumed concrete) (Sewer)','unknown (assumed concrete) (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (61,1017,'unknown (assumed uPVC) (Sewer)','unknown (assumed uPVC) (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (62,1017,'uPVC (Sewer)','uPVC (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (63,1018,'Communal standpipe - Pedestal','Communal standpipe - Pedestal');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (64,1018,'Communal standpipe - Tap','Communal standpipe - Tap');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (65,1018,'Pump - hand','Pump - hand');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (66,1019,'DC/AC Inverter','DC/AC Inverter');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (67,1019,'Gas Chiller - Bio Generation','Gas Chiller - Bio Generation');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (68,1019,'Gas turbine - Bio Generation','Gas turbine - Bio Generation');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (69,1019,'Petrol or diesel','Petrol or diesel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (70,1019,'PV Panels - Solar','PV Panels - Solar');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (71,1020,'Transformer','Transformer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (72,1021,'Outdoor switch (ODSW)','Outdoor switch (ODSW)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (73,1021,'Ring main unit - 3 way','Ring main unit - 3 way');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (74,1021,'Ring main unit - 3 way metering','Ring main unit - 3 way metering');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (75,1021,'Ring main unit - 4 way','Ring main unit - 4 way');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (76,1021,'Ring main unit - 4 way metering','Ring main unit - 4 way metering');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (77,1022,'Bus-section panel - double busbar','Bus-section panel - double busbar');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (78,1022,'Bus-section/coupler panel','Bus-section/coupler panel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (79,1022,'Feeder panel','Feeder panel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (80,1022,'Feeder panel - double busbar','Feeder panel - double busbar');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (81,1022,'Incomer panel','Incomer panel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (82,1022,'Incomer panel - double busbar','Incomer panel - double busbar');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (83,1023,'Earth switches','Earth switches');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (84,1023,'Mv isolator','Mv isolator');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (85,1025,'Chlorine','Chlorine');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (86,1025,'Scale dial','Scale dial');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (87,1025,'Ultraviolet','Ultraviolet');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (88,1025,'Water softener','Water softener');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (89,1026,'Drive motor','Drive motor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (90,1027,'Pressure vessel','Pressure vessel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (91,1028,'Current Transformer','Current Transformer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (92,1029,'Current Transformer','Current Transformer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (93,1030,'HV','HV');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (94,1030,'MV','MV');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (95,1031,'MV','MV');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (96,1032,'Transformer NEC','Transformer NEC');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (97,1032,'Transformer NECR','Transformer NECR');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (98,1032,'Transformer NER','Transformer NER');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (99,1033,'Transformer NEC','Transformer NEC');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (100,1034,'Surge Arrestor','Surge Arrestor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (101,1035,'Surge Arrestor','Surge Arrestor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (102,1036,'Load control master station - injection','Load control master station - injection');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (103,1036,'Load control master station - radio','Load control master station - radio');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (104,1039,'Mv Al 3 core PILCSWA','Mv Al 3 core PILCSWA');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (105,1039,'Mv Cu 3 core PILCSWA','Mv Cu 3 core PILCSWA');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (106,1039,'Mv Cu 3 core XLPE','Mv Cu 3 core XLPE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (107,1039,'Mv Cu single core PILC','Mv Cu single core PILC');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (108,1039,'Mv Cu single core PVC','Mv Cu single core PVC');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (109,1039,'Mv Cu single core xlpe','Mv Cu single core xlpe');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (110,1039,'Mv UNK 3 core UNK','Mv UNK 3 core UNK');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (111,1040,'Bear','Bear');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (112,1040,'Fox','Fox');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (113,1040,'Goat','Goat');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (114,1040,'Hare','Hare');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (115,1040,'Medium voltage aerial bundle conductor','Medium voltage aerial bundle conductor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (116,1040,'Pelican','Pelican');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (117,1040,'Rabbit','Rabbit');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (118,1040,'Wolf','Wolf');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (119,1041,'Pump - sewer','Pump - sewer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (120,1042,'Flare stack','Flare stack');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (121,1043,'Workshop type - fixed','Workshop type - fixed');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (122,1044,'Winch','Winch');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (123,1045,'Extraction blower','Extraction blower');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (124,1046,'Gas','Gas');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (125,1048,'HDPE (Steam)','HDPE (Steam)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (126,1048,'Steel (Steam)','Steel (Steam)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (127,1048,'unknown (assumed HDPE) (Steam)','unknown (assumed HDPE) (Steam)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (128,1048,'unknown (assumed steel) (Steam)','unknown (assumed steel) (Steam)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (129,1049,'Air release (Gas)','Air release (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (130,1049,'Butterfly (Gas)','Butterfly (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (131,1049,'Non-return (Gas)','Non-return (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (132,1049,'Pressure Reducing (Gas)','Pressure Reducing (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (133,1049,'Resilient seal (Gas)','Resilient seal (Gas)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (134,1050,'Gasometer','Gasometer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (135,1052,'Double','Double');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (136,1052,'Single','Single');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (137,1053,'Busbar Indoor','Busbar Indoor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (138,1054,'Busbar Outdoor','Busbar Outdoor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (139,1055,'Lightning mast and shield wiring','Lightning mast and shield wiring');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (140,1056,'Station earthing − mat and electrodes','Station earthing − mat and electrodes');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (141,1057,'Gis bus ducting','Gis bus ducting');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (142,1058,'Indoor gis bays','Indoor gis bays');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (143,1059,'Outdoor','Outdoor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (144,1060,'Indoor','Indoor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (145,1060,'Outdoor','Outdoor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (146,1060,'Outdoor hand operated','Outdoor hand operated');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (147,1060,'Outdoor motorised','Outdoor motorised');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (148,1060,'Outdoor motorised - ais pantograph','Outdoor motorised - ais pantograph');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (149,1061,'Earth switches','Earth switches');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (150,1062,'Alarm system','Alarm system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (151,1062,'Control rooms','Control rooms');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (152,1062,'Functional group control','Functional group control');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (153,1062,'Measurement, registration, recording','Measurement, registration, recording');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (154,1062,'Process computer systems','Process computer systems');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (155,1062,'Protection interlocking','Protection interlocking');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (156,1062,'Tele-communication equipment','Tele-communication equipment');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (157,1062,'Unit co-ordinator level','Unit co-ordinator level');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (158,1063,'Credit lpu (large power users) meter','Credit lpu (large power users) meter');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (159,1063,'Credit lpu 3 - 0 hv including metering unit','Credit lpu 3 - 0 hv including metering unit');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (160,1064,'Radio infrastructure','Radio infrastructure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (161,1065,'Co-axial cable','Co-axial cable');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (162,1066,'Multi mode','Multi mode');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (163,1066,'Single mode','Single mode');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (164,1070,'DISTRIBUTION','DISTRIBUTION');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (165,1070,'EDGE','EDGE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (166,1070,'Network switch (data & poe)','Network switch (data & poe)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (167,1070,'Network switch (data & poe+)','Network switch (data & poe+)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (168,1070,'Network switch (data only)','Network switch (data only)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (169,1070,'Optical line terminal Fixed port','Optical line terminal Fixed port');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (170,1070,'Optical line terminal Modular port','Optical line terminal Modular port');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (171,1071,'Fibre channel switch','Fibre channel switch');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (172,1071,'Isci disk array','Isci disk array');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (173,1071,'Network attached storage bay','Network attached storage bay');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (174,1071,'Storage controller','Storage controller');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (175,1072,'Traditional PABX','Traditional PABX');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (176,1073,'Analogue Multiplexer','Analogue Multiplexer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (177,1073,'DIGITAL MODULE/CARD','DIGITAL MODULE/CARD');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (178,1073,'Digital Multiplexer','Digital Multiplexer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (179,1073,'PROTOCOL MODULE','PROTOCOL MODULE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (180,1074,'Core Router','Core Router');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (181,1074,'Wireless core router','Wireless core router');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (182,1075,'Server','Server');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (183,1076,'Transformer','Transformer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (184,1077,'Hv Al oil cooled cable','Hv Al oil cooled cable');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (185,1077,'HV Al pilc three core','HV Al pilc three core');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (186,1077,'Hv Al single core xlpe cable','Hv Al single core xlpe cable');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (187,1077,'HV Al xlpe single core','HV Al xlpe single core');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (188,1077,'Hv Cu oil cooled single core cable','Hv Cu oil cooled single core cable');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (189,1077,'HV Cu pilc three core','HV Cu pilc three core');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (190,1077,'Hv Cu single core xlpe cable','Hv Cu single core xlpe cable');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (191,1077,'HV Cu xlpe single core','HV Cu xlpe single core');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (192,1077,'HV Cu xlpe three core','HV Cu xlpe three core');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (193,1078,'Concrete pole','Concrete pole');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (194,1078,'Monopole pole','Monopole pole');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (195,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT 60 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT 60 BEND');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (196,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER','SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (197,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (198,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (199,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (200,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (201,1078,'Steel lattice tower','Steel lattice tower');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (202,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT 60 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT 60 BEND');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (203,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER','TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (204,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (205,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT TOWER','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (206,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (207,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (208,1078,'Wooden pole','Wooden pole');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (209,1079,'Bear','Bear');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (210,1079,'Bull','Bull');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (211,1079,'Fox','Fox');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (212,1079,'Hare','Hare');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (213,1079,'Pelican','Pelican');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (214,1079,'Quad Bear','Quad Bear');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (215,1079,'Rabbit','Rabbit');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (216,1079,'Twin Bear','Twin Bear');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (217,1079,'Twin Bull','Twin Bull');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (218,1079,'Twin Fox','Twin Fox');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (219,1079,'Twin Hare','Twin Hare');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (220,1079,'Twin Pelican','Twin Pelican');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (221,1079,'Twin Rabbit','Twin Rabbit');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (222,1079,'Twin Wolf','Twin Wolf');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (223,1079,'Wolf','Wolf');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (224,1080,'Sectionaliser','Sectionaliser');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (225,1081,'Streetlight shared with LV network','Streetlight shared with LV network');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (226,1081,'Streetlight with its own network','Streetlight with its own network');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (227,1082,'High mast','High mast');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (228,1082,'Solar powered High mast','Solar powered High mast');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (229,1083,'Vending Station','Vending Station');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (230,1084,'Credit meter','Credit meter');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (231,1086,'Prepayment meters','Prepayment meters');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (232,1087,'Ash and slag handling','Ash and slag handling');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (233,1087,'Boiler drum system (evaporator)','Boiler drum system (evaporator)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (234,1087,'Bunker, feeder and mill system','Bunker, feeder and mill system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (235,1087,'Cleaning equipment (sootblowing)','Cleaning equipment (sootblowing)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (236,1087,'Combustion air system','Combustion air system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (237,1087,'Economiser system','Economiser system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (238,1087,'Flue gas exhaust','Flue gas exhaust');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (239,1087,'Main firing system','Main firing system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (240,1087,'Structure for conventional heat generation','Structure for conventional heat generation');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (241,1087,'Superheater system','Superheater system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (242,1087,'Supporting structure, skin casing, combustion chamber','Supporting structure, skin casing, combustion chamber');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (243,1088,'Economiser','Economiser');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (244,1089,'Oil Burner','Oil Burner');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (245,1090,'Reheater','Reheater');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (246,1091,'Super Heater','Super Heater');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (247,1093,'Condenser Pump','Condenser Pump');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (248,1094,'Air evacuation system','Air evacuation system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (249,1094,'Auxiliary steam supply','Auxiliary steam supply');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (250,1094,'Boiler feedpumps','Boiler feedpumps');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (251,1094,'Condensing system','Condensing system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (252,1094,'Cooling towers ­','Cooling towers ­');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (253,1094,'Cooling water piping system ­','Cooling water piping system ­');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (254,1094,'Cooling water pumping system ­','Cooling water pumping system ­');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (255,1094,'Extraction pumps','Extraction pumps');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (256,1094,'Feedwater piping and deaerator tank','Feedwater piping and deaerator tank');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (257,1094,'High pressure heater','High pressure heater');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (258,1094,'High pressure turbine','High pressure turbine');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (259,1094,'Low pressure heaters','Low pressure heaters');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (260,1094,'Low pressure turbine','Low pressure turbine');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (261,1094,'Main condensate piping system','Main condensate piping system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (262,1094,'Main cooling water treatment','Main cooling water treatment');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (263,1094,'Main steam piping system','Main steam piping system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (264,1094,'Structure for main machine set','Structure for main machine set');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (265,1095,'Exciter','Exciter');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (266,1096,'Copper bar','Copper bar');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (267,1096,'Strung conductor (m)','Strung conductor (m)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (268,1096,'Tubular conductor','Tubular conductor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (269,1097,'Precipitator','Precipitator');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (270,1098,'UNINTERRUPTED POWER SUPPLY - UPS GENERAL','UNINTERRUPTED POWER SUPPLY - UPS GENERAL');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (271,1098,'UPS 40 - 80 kVA','UPS 40 - 80 kVA');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (272,1099,'Steel (Fuel)','Steel (Fuel)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (273,1100,'Air release (Steam)','Air release (Steam)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (274,1100,'Butterfly (Steam)','Butterfly (Steam)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (275,1100,'Non-return (Steam)','Non-return (Steam)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (276,1100,'Pressure Reducing (Steam)','Pressure Reducing (Steam)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (277,1100,'Resilient seal (Steam)','Resilient seal (Steam)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (278,1101,'Air release (Fuel)','Air release (Fuel)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (279,1101,'Butterfly (Fuel)','Butterfly (Fuel)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (280,1101,'Non-return (Fuel)','Non-return (Fuel)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (281,1101,'Pressure Reducing (Fuel)','Pressure Reducing (Fuel)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (282,1101,'Resilient seal (Fuel)','Resilient seal (Fuel)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (283,1102,'Fan','Fan');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (284,1103,'Conveyor belt','Conveyor belt');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (285,1104,'Pulveriser','Pulveriser');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (286,1105,'Lv overhead','Lv overhead');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (287,1105,'Lv underground','Lv underground');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (288,1106,'Rail lines','Rail lines');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (289,1108,'Rail bridge abutments','Rail bridge abutments');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (290,1109,'Rail bridge side barrier','Rail bridge side barrier');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (291,1110,'Rail bridge substructure','Rail bridge substructure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (292,1111,'Rail bridge superstructure','Rail bridge superstructure');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (293,1112,'Rail signal','Rail signal');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (294,1113,'Indoor WAP','Indoor WAP');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (295,1113,'Outdoor WAP','Outdoor WAP');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (296,1114,'Lining - landfill','Lining - landfill');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (297,1116,'Compactor - C5','Compactor - C5');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (298,1116,'Compactor - C9','Compactor - C9');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (299,1117,'Weighbridge','Weighbridge');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (300,1118,'Heat Exchanger','Heat Exchanger');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (301,1119,'Landfill restored area','Landfill restored area');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (302,1120,'Floodlit','Floodlit');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (303,1120,'Standard','Standard');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (304,1123,'Jukskei court','Jukskei court');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (305,1124,'Cricket','Cricket');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (306,1124,'Rugby / soccer','Rugby / soccer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (307,1125,'10m x 5m','10m x 5m');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (308,1125,'25m x 20m','25m x 20m');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (309,1125,'Olympic','Olympic');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (310,1126,'Regulation size - indoor','Regulation size - indoor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (311,1127,'Mache','Mache');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (312,1127,'Municipal','Municipal');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (313,1128,'Brick structure with roof and terraces','Brick structure with roof and terraces');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (314,1128,'Open structure with stepped terraces','Open structure with stepped terraces');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (315,1128,'Structure with roof and stepped terraces','Structure with roof and stepped terraces');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (316,1129,'Quarry restored area','Quarry restored area');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (317,1133,'Firewall','Firewall');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (318,1134,'Gps devices','Gps devices');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (319,1135,'Mast','Mast');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (320,1136,'Horn antennas','Horn antennas');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (321,1136,'Mimo antennas','Mimo antennas');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (322,1136,'Parabolic antennas','Parabolic antennas');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (323,1136,'Patch antennas','Patch antennas');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (324,1136,'Plasma antennas','Plasma antennas');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (325,1137,'Multi band combiners','Multi band combiners');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (326,1138,'NETWORK CONTROL KIOSK','NETWORK CONTROL KIOSK');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (327,1139,'Controller (HMI)','Controller (HMI)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (328,1140,'Power distribution unit AC voltage','Power distribution unit AC voltage');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (329,1140,'Power distribution unit DC voltage','Power distribution unit DC voltage');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (330,1140,'UNINTERRUPTED POWER SUPPLY - UPS GENERAL','UNINTERRUPTED POWER SUPPLY - UPS GENERAL');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (331,1141,'Analogue','Analogue');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (332,1141,'Optic','Optic');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (333,1141,'Radio','Radio');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (334,1142,'Same band combiner','Same band combiner');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (335,1143,'Signal amplifiers','Signal amplifiers');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (336,1144,'Signal demodulator','Signal demodulator');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (337,1145,'Signal filters','Signal filters');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (338,1146,'Signal modulator','Signal modulator');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (339,1147,'Conventional','Conventional');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (340,1147,'Micro duct','Micro duct');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (341,1148,'Transducers','Transducers');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (342,1149,'WIRELESS CONTROLLER','WIRELESS CONTROLLER');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (343,1150,'Mini-sub','Mini-sub');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (344,1151,'HDPE Manholes','HDPE Manholes');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (345,1152,'Grid Classifier','Grid Classifier');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (346,1152,'Screen Course','Screen Course');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (347,1152,'Screen fine drum','Screen fine drum');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (348,1152,'Screen/Wash Press','Screen/Wash Press');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (349,1153,'Actuated Air release (Sewer)','Actuated Air release (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (350,1153,'Actuated Butterfly (Sewer)','Actuated Butterfly (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (351,1153,'Actuated Pressure Reducing (Sewer)','Actuated Pressure Reducing (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (352,1153,'Actuated Resilient seal (Sewer)','Actuated Resilient seal (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (353,1153,'Air release (Sewer)','Air release (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (354,1153,'Butterfly (Sewer)','Butterfly (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (355,1153,'Non-return (Sewer)','Non-return (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (356,1153,'Pressure Reducing (Sewer)','Pressure Reducing (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (357,1153,'Resilient seal (Sewer)','Resilient seal (Sewer)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (358,1154,'Muncher','Muncher');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (359,1155,'Odour Removal System','Odour Removal System');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (360,1156,'FEEDER POLYELECTROLYTE','FEEDER POLYELECTROLYTE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (361,1157,'CENTRIFUGE','CENTRIFUGE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (362,1157,'SLUDGE BELT PRESS','SLUDGE BELT PRESS');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (363,1159,'ATTENA','ATTENA');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (364,1159,'BACKUP BATTERY','BACKUP BATTERY');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (365,1159,'Bts','Bts');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (366,1159,'COMMUNICATION SWITCH','COMMUNICATION SWITCH');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (367,1159,'EQUIPMENT BOX','EQUIPMENT BOX');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (368,1159,'NETWORK ROUTER','NETWORK ROUTER');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (369,1159,'PDU','PDU');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (370,1159,'POWERBOX','POWERBOX');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (371,1159,'SURGE ARRESTOR','SURGE ARRESTOR');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (372,1159,'UPS','UPS');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (373,1160,'RADIO UNIT','RADIO UNIT');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (374,1161,'CHASSIS SWITCH','CHASSIS SWITCH');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (375,1161,'COPPER SWITCH','COPPER SWITCH');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (376,1161,'FIBER SWITCH','FIBER SWITCH');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (377,1161,'MPLS SWITCH','MPLS SWITCH');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (378,1162,'BX','BX');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (379,1162,'ER','ER');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (380,1162,'LH','LH');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (381,1162,'LR','LR');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (382,1162,'LX','LX');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (383,1162,'SFP General','SFP General');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (384,1162,'SFP-T','SFP-T');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (385,1162,'SR','SR');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (386,1162,'SX','SX');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (387,1162,'ZR','ZR');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (388,1162,'ZX','ZX');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (389,1163,'NETWORK SECURITY APPLIANCE','NETWORK SECURITY APPLIANCE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (390,1164,'VPN CONCENTRATOR','VPN CONCENTRATOR');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (391,1165,'Glass','Glass');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (392,1165,'Plastic','Plastic');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (393,1165,'Shade netting','Shade netting');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (394,1166,'Synthetic surface','Synthetic surface');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (395,1168,'Refrigerating plant','Refrigerating plant');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (396,1169,'DOUBLE','DOUBLE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (397,1169,'SINGLE','SINGLE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (398,1170,'Rural (120 km/h)','Rural (120 km/h)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (399,1170,'Urban (60km/h)','Urban (60km/h)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (400,1171,'Solar Agitator','Solar Agitator');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (401,1173,'Condenser','Condenser');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (402,1174,'Exciter','Exciter');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (403,1174,'Generator','Generator');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (404,1174,'Generator power export system','Generator power export system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (405,1175,'DREDGER','DREDGER');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (406,1176,'VIRTUAL REALITY HARDWARE','VIRTUAL REALITY HARDWARE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (407,1178,'MIXED REALITY HARDWARE','MIXED REALITY HARDWARE');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (408,1179,'Motor control centre','Motor control centre');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (409,1180,'Incinerator','Incinerator');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (410,1182,'Data Concentrator unit','Data Concentrator unit');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (411,1183,'Ticket Booth','Ticket Booth');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (412,1184,'Pump as turbine','Pump as turbine');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (413,1185,'Submersible','Submersible');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (414,1186,'Crank operated (bigger than 15sqm)','Crank operated (bigger than 15sqm)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (415,1186,'Motor operated (bigger than 15sqm)','Motor operated (bigger than 15sqm)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (416,1187,'Busbar Indoor','Busbar Indoor');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (417,1188,'Petrol Pump','Petrol Pump');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (418,1190,'Large','Large');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (419,1190,'Small','Small');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (420,1191,'Heated Bitumen Storage','Heated Bitumen Storage');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (421,1192,'Hopper','Hopper');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (422,1193,'Jaw crusher','Jaw crusher');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (423,1193,'Stone crusher','Stone crusher');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (424,1194,'Conveyor belt system','Conveyor belt system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (425,1195,'Dust removal','Dust removal');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (426,1196,'Asphault Stone Mixer','Asphault Stone Mixer');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (427,1197,'Stone Screen','Stone Screen');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (428,1198,'Wet Scrubber','Wet Scrubber');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (429,1199,'Steel (Bitumen)','Steel (Bitumen)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (430,1200,'Bus Bay Asphalt','Bus Bay Asphalt');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (431,1200,'Bus Bay Block','Bus Bay Block');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (432,1200,'Bus Bay Concrete','Bus Bay Concrete');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (433,1200,'Bus Bay Gravel','Bus Bay Gravel');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (434,1201,'Sidewalk asphalt','Sidewalk asphalt');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (435,1201,'Sidewalk Block','Sidewalk Block');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (436,1201,'Sidewalk Concrete','Sidewalk Concrete');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (437,1201,'Sidewalk Gravel/Shingle','Sidewalk Gravel/Shingle');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (438,1203,'Drinking water supply','Drinking water supply');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (439,1203,'Fire fighting water system','Fire fighting water system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (440,1204,'Coal distribution & intermediate storage','Coal distribution & intermediate storage');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (441,1204,'Coal stockyard conveyor system','Coal stockyard conveyor system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (442,1204,'Storage area (coal stockpile)','Storage area (coal stockpile)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (443,1205,'Compressed air supply','Compressed air supply');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (444,1205,'General control air supply','General control air supply');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (445,1206,'Fuel oil pumping system','Fuel oil pumping system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (446,1206,'Fuel oil tanks','Fuel oil tanks');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (447,1207,'Raw water supply system','Raw water supply system');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (448,1207,'Treatment (demineralisation)','Treatment (demineralisation)');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (449,1208,'Pole mounted ganglink','Pole mounted ganglink');
+INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
+VALUES (450,3198,'Inductive Loop Detector','Inductive Loop Detector');

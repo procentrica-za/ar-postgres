@@ -1,0 +1,11 @@
+
+INSERT INTO public.CriticalityTypeLookup(ID,Code,name,description, consequenceOfFailure) 
+VALUES (5417,1,'Cursory','Is readily absorbed under normal operating conditions','Insignificant');
+INSERT INTO public.CriticalityTypeLookup(ID,Code,name,description, consequenceOfFailure) 
+VALUES (5418,2,'Non-Critical','Can be managed under normal operating conditions','Minor');
+INSERT INTO public.CriticalityTypeLookup(ID,Code,name,description, consequenceOfFailure) 
+VALUES (5419,3,'Important','Can be managed but requires additional resources and management effort','Moderate');
+INSERT INTO public.CriticalityTypeLookup(ID,Code,name,description, consequenceOfFailure) 
+VALUES (5420,4,'Critical','Will have a prolonged impact and extensive consequences','Major');
+INSERT INTO public.CriticalityTypeLookup(ID,Code,name,description, consequenceOfFailure) 
+VALUES (5421,5,'Most Critical','Irreversible and extensive impacts, or significantly undermining key business objectives','Catastrophic');

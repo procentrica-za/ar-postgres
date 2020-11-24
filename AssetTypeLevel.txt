@@ -1,13 +1,13 @@
 
-INSERT INTO public.AssetTypeLevel(ID,level) 
-VALUES (1,1);
-INSERT INTO public.AssetTypeLevel(ID,level) 
-VALUES (2,2);
-INSERT INTO public.AssetTypeLevel(ID,level) 
-VALUES (3,3);
-INSERT INTO public.AssetTypeLevel(ID,level) 
-VALUES (4,4);
-INSERT INTO public.AssetTypeLevel(ID,level) 
-VALUES (5,5);
-INSERT INTO public.AssetTypeLevel(ID,level) 
-VALUES (6,6);
+INSERT INTO public.AssetTypeLevel(ID,level,name) 
+VALUES (1,1,'Accounting Group');
+INSERT INTO public.AssetTypeLevel(ID,level,name) 
+VALUES (2,2,'Accounting Category');
+INSERT INTO public.AssetTypeLevel(ID,level,name) 
+VALUES (3,3,'Asset Sub Category');
+INSERT INTO public.AssetTypeLevel(ID,level,name) 
+VALUES (4,4,'Asset Group Type');
+INSERT INTO public.AssetTypeLevel(ID,level,name) 
+VALUES (5,5,'Asset Type');
+INSERT INTO public.AssetTypeLevel(ID,level,name) 
+VALUES (6,6,'Component Type');

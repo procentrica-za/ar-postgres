@@ -1,0 +1,11 @@
+
+INSERT INTO public.NodeType(ID,name,description) 
+VALUES (1,'Accounting Group','Accounting Group');
+INSERT INTO public.NodeType(ID,name,description) 
+VALUES (2,'Accounting Category','Accounting Category');
+INSERT INTO public.NodeType(ID,name,description) 
+VALUES (3,'Asset Sub Category','Asset Sub Category');
+INSERT INTO public.NodeType(ID,name,description) 
+VALUES (4,'Asset Group Type','Asset Group Type');
+INSERT INTO public.NodeType(ID,name,description) 
+VALUES (999,'Facility','Facility');

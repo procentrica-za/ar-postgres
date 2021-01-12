@@ -1,13 +1,13 @@
 
-INSERT INTO public.AssetTypeLevel(ID,level,name) 
-VALUES (1,1,'Accounting Group');
-INSERT INTO public.AssetTypeLevel(ID,level,name) 
-VALUES (2,2,'Accounting Category');
-INSERT INTO public.AssetTypeLevel(ID,level,name) 
-VALUES (3,3,'Asset Sub Category');
-INSERT INTO public.AssetTypeLevel(ID,level,name) 
-VALUES (4,4,'Asset Group Type');
-INSERT INTO public.AssetTypeLevel(ID,level,name) 
-VALUES (5,5,'Asset Type');
-INSERT INTO public.AssetTypeLevel(ID,level,name) 
-VALUES (6,6,'Component Type');
+INSERT INTO public.AssetTypeLevel(ID,Level,Name) 
+VALUES ('C9F9E6DD-2590-463A-84F8-56962946F632',1,'Accounting Group');
+INSERT INTO public.AssetTypeLevel(ID,Level,Name) 
+VALUES ('BA941D01-3793-4387-A23E-4285A0C29A2D',2,'Accounting Category');
+INSERT INTO public.AssetTypeLevel(ID,Level,Name) 
+VALUES ('49F6F076-C33F-49DC-864B-15D6288C5216',3,'Asset Sub Category');
+INSERT INTO public.AssetTypeLevel(ID,Level,Name) 
+VALUES ('B7D47429-4FE6-4469-859A-4A9B47F7E737',4,'Asset Group Type');
+INSERT INTO public.AssetTypeLevel(ID,Level,Name) 
+VALUES ('D1EEE32E-F380-42E2-AFAA-99A4FD59735A',5,'Asset Type');
+INSERT INTO public.AssetTypeLevel(ID,Level,Name) 
+VALUES ('F7312DED-FEB0-4575-8290-3870B806EB10',6,'Component Type');

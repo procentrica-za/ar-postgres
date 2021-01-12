@@ -1,1427 +1,1427 @@
 
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (451,926,'Business and retail','Business and retail');
+VALUES ('9306B6F1-560F-4C7F-80BD-F1A2FB8F7A32','1070F124-BA0F-4C3C-BA6E-B54A8928C82E','Gas Chiller','Gas Chiller');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (452,926,'Farms (commercial)','Farms (commercial)');
+VALUES ('CC415028-940B-44A2-BBA7-F06904A4AB6F','0809A415-E4B3-4C31-81E1-6B2238A0EF7B','Electrical installation','Electrical installation');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (453,926,'Farms (vacant)','Farms (vacant)');
+VALUES ('98162707-9E34-46D2-8E46-433A4AB7433E','AE06B45E-A719-4483-A2D7-8A369F79DC63','Bathroom','Bathroom');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (454,926,'Formal residential (high income)','Formal residential (high income)');
+VALUES ('04659F8C-847F-4868-A669-696799FCA28F','AE06B45E-A719-4483-A2D7-8A369F79DC63','Civic centre / Community hall','Civic centre / Community hall');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (455,926,'Formal residential (low income)','Formal residential (low income)');
+VALUES ('CBB43FA3-8DFB-4CCD-AB1D-AE74A0FAFB17','AE06B45E-A719-4483-A2D7-8A369F79DC63','Clinics and day hospitals','Clinics and day hospitals');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (456,926,'Formal residential (medium income)','Formal residential (medium income)');
+VALUES ('75D191AB-913B-4F85-82DC-AC8304A8EC15','AE06B45E-A719-4483-A2D7-8A369F79DC63','Cold room','Cold room');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (457,926,'Formal residential (undevelopable land)','Formal residential (undevelopable land)');
+VALUES ('4968087E-C93F-4FDE-9877-A30E6EA9764C','AE06B45E-A719-4483-A2D7-8A369F79DC63','Council chamber','Council chamber');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (458,926,'Government institutions','Government institutions');
+VALUES ('B00A1B02-CBB1-4F2A-B478-D405A1773319','AE06B45E-A719-4483-A2D7-8A369F79DC63','Executive office / Banquette hall','Executive office / Banquette hall');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (459,926,'Informal residential','Informal residential');
+VALUES ('52150E24-44ED-4038-AB4D-5F5C22C499DA','AE06B45E-A719-4483-A2D7-8A369F79DC63','Kitchen','Kitchen');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (460,926,'Open space (developable land)','Open space (developable land)');
+VALUES ('08830350-28F0-48C1-8CE6-9B97F9B02738','AE06B45E-A719-4483-A2D7-8A369F79DC63','Laboratory','Laboratory');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (461,926,'Open space (un-developable land)','Open space (un-developable land)');
+VALUES ('B27B2E5E-A0DE-458B-991C-16B495B5A233','AE06B45E-A719-4483-A2D7-8A369F79DC63','Library','Library');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (462,926,'PPE Land','PPE Land');
+VALUES ('A2A538F7-C627-4F75-8CF9-95ACBECA29EE','AE06B45E-A719-4483-A2D7-8A369F79DC63','Office','Office');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (463,927,'R1 Road Surface','R1 Road Surface');
+VALUES ('F3BDDF62-F089-4D11-A06E-68E0A8321E06','AE06B45E-A719-4483-A2D7-8A369F79DC63','Store','Store');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (464,927,'R2 Road Surface','R2 Road Surface');
+VALUES ('98704FBD-8BD6-472B-B8BC-CD215FCC6609','AE06B45E-A719-4483-A2D7-8A369F79DC63','Workshop','Workshop');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (465,927,'R3 Road Surface','R3 Road Surface');
+VALUES ('40FC8B91-ACBD-4253-B7DE-B940EFF9A26E','359AB3C6-F3F4-4890-BE6E-7C1803FD7AAB','Bathroom','Bathroom');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (466,927,'R4 Road Surface','R4 Road Surface');
+VALUES ('F0BB84DC-8B66-439C-AB77-EF790C2D299A','359AB3C6-F3F4-4890-BE6E-7C1803FD7AAB','Kitchen','Kitchen');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (467,927,'R5 Road Surface','R5 Road Surface');
+VALUES ('34A8D688-E91D-4FBB-B2CD-252A7FA948F3','359AB3C6-F3F4-4890-BE6E-7C1803FD7AAB','Office','Office');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (468,927,'U1 Road Surface','U1 Road Surface');
+VALUES ('4DA58A37-09D9-4893-BA98-8D602914F65D','359AB3C6-F3F4-4890-BE6E-7C1803FD7AAB','Store','Store');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (469,927,'U2 Road Surface','U2 Road Surface');
+VALUES ('5D00FAA8-1558-4200-BEDB-4A3D2CD306C9','359AB3C6-F3F4-4890-BE6E-7C1803FD7AAB','Workshop','Workshop');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (470,927,'U3 Road Surface','U3 Road Surface');
+VALUES ('9AC7B392-62FC-49E1-A9B7-B329CC2F6866','383D057A-EF3C-4D70-A5E9-8E3BDCF33E52','Extinguishers, hose reels only','Extinguishers, hose reels only');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (471,927,'U4 Road Surface','U4 Road Surface');
+VALUES ('A6CB4479-90D5-476A-8C5C-78357B2F5BC3','383D057A-EF3C-4D70-A5E9-8E3BDCF33E52','Extinguishers, hose reels, full sprinkler system with booster pump','Extinguishers, hose reels, full sprinkler system with booster pump');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (472,927,'U5 Road Surface','U5 Road Surface');
+VALUES ('F3FB2E6D-3047-43D8-AC4C-3981DAE08DC0','383D057A-EF3C-4D70-A5E9-8E3BDCF33E52','Extinguishers, hose reels, limited sprinklers','Extinguishers, hose reels, limited sprinklers');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (473,928,'R1 Road Structure','R1 Road Structure');
+VALUES ('EDB2DD55-2D60-45E7-A999-CA61E36ECF85','383D057A-EF3C-4D70-A5E9-8E3BDCF33E52','Hydrant','Hydrant');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (474,928,'R2 Road Structure','R2 Road Structure');
+VALUES ('7D594390-342F-4F64-9E47-8E9C8B228C9B','EAF6E653-FC86-4136-A1C5-F71B18A15E0D','GRP (Gas)','GRP (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (475,928,'R3 Road Structure','R3 Road Structure');
+VALUES ('0E8DF3B9-DC9D-4586-B930-F672AAD69DC2','EAF6E653-FC86-4136-A1C5-F71B18A15E0D','HDPE (Gas)','HDPE (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (476,928,'R4 Road Structure','R4 Road Structure');
+VALUES ('4BCECFE7-A65C-4EBA-A2CE-342A177563B7','EAF6E653-FC86-4136-A1C5-F71B18A15E0D','Steel (Gas)','Steel (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (477,928,'R5 Road Structure','R5 Road Structure');
+VALUES ('B6057C75-1620-4785-8393-15C1E3812762','EAF6E653-FC86-4136-A1C5-F71B18A15E0D','unknown (assumed HDPE) (Gas)','unknown (assumed HDPE) (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (478,928,'U1 Road Structure','U1 Road Structure');
+VALUES ('0E70D7A9-3C1D-49BA-B05B-2558668FF8C7','EAF6E653-FC86-4136-A1C5-F71B18A15E0D','unknown (assumed steel) (Gas)','unknown (assumed steel) (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (479,928,'U2 Road Structure','U2 Road Structure');
+VALUES ('E1FF3AD0-427A-43E4-A67E-D536934ED805','EAF6E653-FC86-4136-A1C5-F71B18A15E0D','unknown (assumed uPVC) (Gas)','unknown (assumed uPVC) (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (480,928,'U3 Road Structure','U3 Road Structure');
+VALUES ('1C0A6237-600D-4AF9-BA92-A913E6C5F78D','EAF6E653-FC86-4136-A1C5-F71B18A15E0D','uPVC (Gas)','uPVC (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (481,928,'U4 Road Structure','U4 Road Structure');
+VALUES ('59A7ACE0-BA91-423A-A587-C800538A3072','E5F44D6D-682A-49D7-BE0D-59F9538D8E0B','Lifts','Lifts');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (482,928,'U5 Road Structure','U5 Road Structure');
+VALUES ('02509161-626E-4E3F-A1DE-BD2441D78060','E5F44D6D-682A-49D7-BE0D-59F9538D8E0B','Parcel Lifts','Parcel Lifts');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (483,929,'Flat terrain','Flat terrain');
+VALUES ('413FC35B-5592-410F-811A-C6FA6FCFE1BC','E5F44D6D-682A-49D7-BE0D-59F9538D8E0B','Wheelchair Lift','Wheelchair Lift');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (484,929,'Mountainous terrain','Mountainous terrain');
+VALUES ('3605B683-9073-4A4D-93AC-016E90C2E016','358E75EB-EF35-494C-98CA-74FB222241F1','standard installation','standard installation');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (485,929,'Rolling terrain','Rolling terrain');
+VALUES ('80D684DF-DF93-4156-AB45-DC579DFE96DF','CE229838-E6DD-4798-8C3F-54BEE74269F6','RC surface bed','RC surface bed');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (486,930,'Flat terrain','Flat terrain');
+VALUES ('0796A265-F352-4D49-A4E0-62662C6AB3DB','CE229838-E6DD-4798-8C3F-54BEE74269F6','Shuttered RC suspended floor slab','Shuttered RC suspended floor slab');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (487,930,'Mountainous terrain','Mountainous terrain');
+VALUES ('B644B875-E760-4088-B465-9D3DC7265791','C9A4CDC2-7508-4CEC-95B0-2280BC65D246','Alarm & sensors','Alarm & sensors');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (488,930,'Rolling terrain','Rolling terrain');
+VALUES ('6ACE4DE6-751D-4DFF-8285-1BB8964365FA','C9A4CDC2-7508-4CEC-95B0-2280BC65D246','Security and access control (burglar bars, turnstiles, barriers)','Security and access control (burglar bars, turnstiles, barriers)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (489,931,'Road bridge abutment','Road bridge abutment');
+VALUES ('33EA20C0-8E8D-4E4F-A28F-2EBF9D0785E0','C9A4CDC2-7508-4CEC-95B0-2280BC65D246','Security and access control (CCTV on its own pole including communication)','Security and access control (CCTV on its own pole including communication)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (490,932,'Road bridge side barrier','Road bridge side barrier');
+VALUES ('E3C9C051-983C-4BFD-8141-778133B01AA7','C9A4CDC2-7508-4CEC-95B0-2280BC65D246','Security and access control (CCTV)','Security and access control (CCTV)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (491,933,'Road bridge substructure','Road bridge substructure');
+VALUES ('4ADF3A1E-6190-4288-BC7D-D30ED1F171AA','32ABFEE3-579F-4ED7-ADA4-746C0C3D930C','Septic Tank','Septic Tank');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (492,934,'Road bridge superstructure','Road bridge superstructure');
+VALUES ('243C2432-7E8D-4103-82C0-1D4CE48DCE45','DCEA8049-BA40-43FB-A958-F2786DADE2BE','Face brick','Face brick');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (493,935,'Pedestrian bridge substructure','Pedestrian bridge substructure');
+VALUES ('F3ADEB4D-EB4A-4B24-9EA1-154CC1357AB6','DCEA8049-BA40-43FB-A958-F2786DADE2BE','Fibre cement board, timber frame, plaster board','Fibre cement board, timber frame, plaster board');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (494,936,'Pedestrian bridge superstructure','Pedestrian bridge superstructure');
+VALUES ('0B3856C9-9030-4CA8-A6D6-2F1487097D46','DCEA8049-BA40-43FB-A958-F2786DADE2BE','Glass panel','Glass panel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (495,937,'Pedestrian bridge railing','Pedestrian bridge railing');
+VALUES ('680D5042-F4FA-4CEF-B67F-8CE145C3C9F5','DCEA8049-BA40-43FB-A958-F2786DADE2BE','Metal sheet , plaster board','Metal sheet , plaster board');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (496,939,'Brick','Brick');
+VALUES ('8C4BE131-7780-404E-A6C7-7CDF600C9DE1','DCEA8049-BA40-43FB-A958-F2786DADE2BE','Plastered brick','Plastered brick');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (497,939,'Concrete wall','Concrete wall');
+VALUES ('AD52887F-88E1-4F70-8A85-04B680169495','DCEA8049-BA40-43FB-A958-F2786DADE2BE','Semi-face brick','Semi-face brick');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (498,939,'Retaining blocks','Retaining blocks');
+VALUES ('D95B383E-C775-4DAB-9D01-F566F6A8E33E','F8426C1E-D765-4126-9831-8648A202790D','flat concrete (170mm thick)','flat concrete (170mm thick)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (499,939,'Stone wall','Stone wall');
+VALUES ('2889AE12-8CD5-4766-AA30-E3FAB8ED5F9B','F8426C1E-D765-4126-9831-8648A202790D','Sheet metal','Sheet metal');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (500,940,'Above ground structure','Above ground structure');
+VALUES ('AE8AE79A-D2BA-4430-80C1-AD4FCE219028','F8426C1E-D765-4126-9831-8648A202790D','Thatch','Thatch');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (501,940,'Below ground structure','Below ground structure');
+VALUES ('5F1BEB82-CFEA-430C-AC1F-4C6AD9F926FC','F8426C1E-D765-4126-9831-8648A202790D','Tiled','Tiled');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (502,940,'Manholes','Manholes');
+VALUES ('25643746-C657-4E48-9DD6-2E0B367DF4F9','609593BF-8064-4AA7-B3DF-3698DD82F3C1','Crane','Crane');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (503,940,'Mass concrete','Mass concrete');
+VALUES ('33A648E5-30F2-48C6-B31A-2891F964C383','00F88678-7EE6-4395-A92F-4BD0D5C5FF54','Reactor','Reactor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (504,940,'Shuttered RC eng structure','Shuttered RC eng structure');
+VALUES ('0953F7C6-9BC4-42F3-BA91-435960C85D9B','385DBD09-47E6-48B0-BED5-A3ABA088903C','Clay (Sewer)','Clay (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (505,940,'Shuttered RC eng structure - water retaining','Shuttered RC eng structure - water retaining');
+VALUES ('59ADFFF8-93FF-4253-AC10-0D5B2C01E742','385DBD09-47E6-48B0-BED5-A3ABA088903C','Concrete (Sewer)','Concrete (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (506,941,'Beams','Beams');
+VALUES ('38410C70-23E8-40AB-8EAD-CED085B5A48C','385DBD09-47E6-48B0-BED5-A3ABA088903C','HDPE (Sewer)','HDPE (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (507,941,'Cooling tower','Cooling tower');
+VALUES ('593E6525-9DFC-4EFD-87FE-B188BD367284','385DBD09-47E6-48B0-BED5-A3ABA088903C','Steel (Sewer)','Steel (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (508,941,'Galvanised steel','Galvanised steel');
+VALUES ('D4E2EC21-E92E-4D26-AF7B-13B1A65843F7','385DBD09-47E6-48B0-BED5-A3ABA088903C','unknown (assumed clay) (Sewer)','unknown (assumed clay) (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (509,941,'Handrail','Handrail');
+VALUES ('67BE02FC-6801-4018-9857-63114A4710A2','385DBD09-47E6-48B0-BED5-A3ABA088903C','unknown (assumed concrete) (Sewer)','unknown (assumed concrete) (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (510,941,'MECHANICAL BRIDGE','MECHANICAL BRIDGE');
+VALUES ('80A78689-6061-4D65-98FA-1B74C7BE4147','385DBD09-47E6-48B0-BED5-A3ABA088903C','unknown (assumed uPVC) (Sewer)','unknown (assumed uPVC) (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (511,941,'Mild steel','Mild steel');
+VALUES ('96A89ED6-F2DF-4DC1-AD0E-EED8C53FE778','385DBD09-47E6-48B0-BED5-A3ABA088903C','uPVC (Sewer)','uPVC (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (512,941,'Stainless steel','Stainless steel');
+VALUES ('DAA7FD80-067D-4D4B-89F4-A25CA73EC16B','E0A9CDEB-FFB0-4E80-A5FC-95BBBECE691D','Communal standpipe - Pedestal','Communal standpipe - Pedestal');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (513,941,'Stairs','Stairs');
+VALUES ('1BB6BEDA-6B5C-4E88-B886-30AE6CA15498','E0A9CDEB-FFB0-4E80-A5FC-95BBBECE691D','Communal standpipe - Tap','Communal standpipe - Tap');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (514,941,'Tank elevation structure','Tank elevation structure');
+VALUES ('F875CE2C-FCA6-4F38-87A0-E9C30E8DAD85','E0A9CDEB-FFB0-4E80-A5FC-95BBBECE691D','Pump - hand','Pump - hand');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (515,941,'Walkways grid','Walkways grid');
+VALUES ('F299965F-E8E6-4603-B0A2-23298CCA229D','09A148D0-B014-4B39-A99E-CA189BD9DAA4','DC/AC Inverter','DC/AC Inverter');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (516,941,'Walkways including handrail','Walkways including handrail');
+VALUES ('0257BB3D-A7FF-4700-ABFE-A68618DAC6F4','09A148D0-B014-4B39-A99E-CA189BD9DAA4','Gas Chiller - Bio Generation','Gas Chiller - Bio Generation');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (517,942,'Tunnel bore structure','Tunnel bore structure');
+VALUES ('F27640C8-FC0B-4BDD-9230-1A8A8FA35CCD','09A148D0-B014-4B39-A99E-CA189BD9DAA4','Gas turbine - Bio Generation','Gas turbine - Bio Generation');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (518,944,'Concrete commuter shelter','Concrete commuter shelter');
+VALUES ('623FC2F5-4EBC-4E83-9DC5-2B7D8ACFB393','09A148D0-B014-4B39-A99E-CA189BD9DAA4','Petrol or diesel','Petrol or diesel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (519,944,'Plastic commuter shelter','Plastic commuter shelter');
+VALUES ('265AD5EF-F833-483C-B85D-A7A13FA88A34','09A148D0-B014-4B39-A99E-CA189BD9DAA4','PV Panels - Solar','PV Panels - Solar');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (520,944,'Steel commuter shelter','Steel commuter shelter');
+VALUES ('89D3C537-2C02-432D-88EF-A5501DDB3236','B2802320-3A2A-4F76-B03D-2F2849A1EF72','Transformer','Transformer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (521,945,'Asphalt','Asphalt');
+VALUES ('7965C4CE-A991-47C5-9875-02CA7784401D','78110E7E-0A8F-473F-8158-7D78B25BB9F5','Outdoor switch (ODSW)','Outdoor switch (ODSW)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (522,945,'Block paving','Block paving');
+VALUES ('7431B89E-271E-4778-9B71-CC88B35F715B','78110E7E-0A8F-473F-8158-7D78B25BB9F5','Ring main unit - 3 way','Ring main unit - 3 way');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (523,945,'Concrete surface','Concrete surface');
+VALUES ('14AC79F3-5959-4974-8523-F4DA166C8B40','78110E7E-0A8F-473F-8158-7D78B25BB9F5','Ring main unit - 3 way metering','Ring main unit - 3 way metering');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (524,945,'Gravel','Gravel');
+VALUES ('69FE31D4-B32C-4086-A13E-0C13DAB1C023','78110E7E-0A8F-473F-8158-7D78B25BB9F5','Ring main unit - 4 way','Ring main unit - 4 way');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (525,946,'Armco','Armco');
+VALUES ('21CE63C6-D685-43FF-94CF-2DA167CB11CA','78110E7E-0A8F-473F-8158-7D78B25BB9F5','Ring main unit - 4 way metering','Ring main unit - 4 way metering');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (526,946,'Cable','Cable');
+VALUES ('5DB83598-52B8-4785-A37F-07DD15FD4D5D','8643E3E9-92BE-41A5-9D98-30A7B65BE905','Bus-section panel - double busbar','Bus-section panel - double busbar');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (527,946,'Handrail','Handrail');
+VALUES ('212BF0ED-9FEC-4414-AC35-C51990F3E2D3','8643E3E9-92BE-41A5-9D98-30A7B65BE905','Bus-section/coupler panel','Bus-section/coupler panel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (528,947,'Mini round-about','Mini round-about');
+VALUES ('1AA52CA6-65A0-4A28-9B7B-9EDDF4012F00','8643E3E9-92BE-41A5-9D98-30A7B65BE905','Feeder panel','Feeder panel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (529,948,'Asphalt speed hump','Asphalt speed hump');
+VALUES ('2620C508-DF08-4BFF-B8D7-898243F15B42','8643E3E9-92BE-41A5-9D98-30A7B65BE905','Feeder panel - double busbar','Feeder panel - double busbar');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (530,948,'Block Paving speed hump','Block Paving speed hump');
+VALUES ('032D8900-BF38-47ED-983A-DF4367D9565C','8643E3E9-92BE-41A5-9D98-30A7B65BE905','Incomer panel','Incomer panel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (531,948,'Concrete speed hump','Concrete speed hump');
+VALUES ('B9D019DD-55E1-4269-A923-E4BAA4B124A4','8643E3E9-92BE-41A5-9D98-30A7B65BE905','Incomer panel - double busbar','Incomer panel - double busbar');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (532,948,'Metal speed hump','Metal speed hump');
+VALUES ('00A13A85-7138-4794-B50A-FE5B2A24B903','0C2F5C2D-0191-402E-A927-336C3FD42B6C','Earth switches','Earth switches');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (533,948,'RAISED PEDESTRIAN CROSSINGS','RAISED PEDESTRIAN CROSSINGS');
+VALUES ('DEDC8D7F-00BB-4403-8E74-7FC7463831A2','0C2F5C2D-0191-402E-A927-336C3FD42B6C','Mv isolator','Mv isolator');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (534,949,'Concrete rubbish bin','Concrete rubbish bin');
+VALUES ('D11DBECB-DAB5-495F-A223-DE976FF7967A','2F150917-6BAF-48BE-8E6B-D7528DF5777A','Chlorine','Chlorine');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (535,949,'Metal','Metal');
+VALUES ('350A134D-A802-4A4D-B61C-166041A194ED','2F150917-6BAF-48BE-8E6B-D7528DF5777A','Scale dial','Scale dial');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (536,949,'Plastic bin','Plastic bin');
+VALUES ('B3E7926B-335B-4BF5-821D-42FB2EC7171F','2F150917-6BAF-48BE-8E6B-D7528DF5777A','Ultraviolet','Ultraviolet');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (537,950,'Traffic island','Traffic island');
+VALUES ('7D2C0213-7334-4132-AA99-761CA3DBD1F5','2F150917-6BAF-48BE-8E6B-D7528DF5777A','Water softener','Water softener');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (538,951,'Overhead gantry cantilever','Overhead gantry cantilever');
+VALUES ('CE92A7E8-4EC0-4A64-874B-B31A7F2353BF','B72D7643-F5A5-42B0-A42C-40F9B1026267','Drive motor','Drive motor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (539,951,'Overhead gantry portal','Overhead gantry portal');
+VALUES ('505D5C89-71C6-4909-86E2-BE9B465749D0','B3E6F20D-B08A-44B7-BA0D-C126205CE459','Pressure vessel','Pressure vessel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (540,951,'Road signs (e.g. Warning, Law, information, street signs, etc)','Road signs (e.g. Warning, Law, information, street signs, etc)');
+VALUES ('3B46C95E-D975-4521-BE65-F1B6C8C98440','DE127640-9013-45B8-BB07-049C3C8EDBB1','Current Transformer','Current Transformer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (541,952,'Large sign','Large sign');
+VALUES ('C831A31B-A5B5-44F1-A1F8-19792CAC7235','2D015A80-B7EB-4DB9-97F8-B5CDF461FA00','Current Transformer','Current Transformer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (542,952,'Standard sign','Standard sign');
+VALUES ('B9766B0F-48AB-4640-9EFF-065ACD567D4D','93097337-A571-4700-8DA7-75C0132A7EDC','HV','HV');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (543,952,'Very large sign','Very large sign');
+VALUES ('D786E1AB-3793-46F4-AC10-1FC3CF3F5635','93097337-A571-4700-8DA7-75C0132A7EDC','MV','MV');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (544,953,'Standard sign','Standard sign');
+VALUES ('1E05D865-1A8A-4266-9237-27CA3201ACB0','79AF0EC9-F45E-4F3D-A693-010DEFF4EF5D','MV','MV');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (545,954,'Double lane-double carriageway','Double lane-double carriageway');
+VALUES ('733E5485-E5E9-48B3-97BA-CEABE810A326','987A7D43-8431-4300-A6AA-A6DC83DF671B','Transformer NEC','Transformer NEC');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (546,954,'Double lane-single carriageway','Double lane-single carriageway');
+VALUES ('1EBDB7D5-29CD-4D42-BCE1-DEEA600445BD','987A7D43-8431-4300-A6AA-A6DC83DF671B','Transformer NECR','Transformer NECR');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (547,954,'Pelican crossing (pedestrian traffic lights)','Pelican crossing (pedestrian traffic lights)');
+VALUES ('F0BED63F-1B69-420D-8D50-B9CC3747AB8D','987A7D43-8431-4300-A6AA-A6DC83DF671B','Transformer NER','Transformer NER');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (548,954,'Single lane-single carriageway','Single lane-single carriageway');
+VALUES ('AC62DF53-C9F4-4DCC-A0DF-4F557641A41A','CFF809CB-DFA3-4643-8552-078C9C9687C0','Transformer NEC','Transformer NEC');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (549,956,'Brick wall','Brick wall');
+VALUES ('5E1F265E-FC67-4A6B-B155-39363205F9C9','F6B9C824-579E-4E22-8E0A-33CCCC2AD252','Surge Arrestor','Surge Arrestor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (550,956,'Concrete wall','Concrete wall');
+VALUES ('83067BA1-6913-4CE8-92EE-089D10999651','5261A8A7-1DFD-481D-BDDB-97998595B3F6','Surge Arrestor','Surge Arrestor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (551,956,'Gabions','Gabions');
+VALUES ('48F2C9A4-52C0-4B62-82D2-474CECE14BFD','5877BD0A-DD5D-4305-B86A-94B06FCAB972','Load control master station - injection','Load control master station - injection');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (552,956,'Rip rap','Rip rap');
+VALUES ('CCDDA2E1-6F8E-49BA-8A38-3F6A0E5DE0D6','5877BD0A-DD5D-4305-B86A-94B06FCAB972','Load control master station - radio','Load control master station - radio');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (553,956,'Stone Pitching','Stone Pitching');
+VALUES ('4C27E49C-F123-4C01-9BCA-1BF34D607D4F','DBA4CC3C-30B1-46C2-BC34-4D49BD4E27F7','Mv Al 3 core PILCSWA','Mv Al 3 core PILCSWA');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (554,957,'General','General');
+VALUES ('DE783CDB-DF05-4F91-9FDA-51F6C7F10296','DBA4CC3C-30B1-46C2-BC34-4D49BD4E27F7','Mv Cu 3 core PILCSWA','Mv Cu 3 core PILCSWA');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (555,957,'Masonry manholes','Masonry manholes');
+VALUES ('C7BC60E0-66E1-4C42-A3E0-362990DEB405','DBA4CC3C-30B1-46C2-BC34-4D49BD4E27F7','Mv Cu 3 core XLPE','Mv Cu 3 core XLPE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (556,959,'1050 mm diameter pipe','1050 mm diameter pipe');
+VALUES ('40439130-1D5E-4B9A-8FA8-ACA900D5C38B','DBA4CC3C-30B1-46C2-BC34-4D49BD4E27F7','Mv Cu single core PILC','Mv Cu single core PILC');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (557,959,'1200 mm diameter pipe','1200 mm diameter pipe');
+VALUES ('3CD9DA8D-42AF-42B6-945C-C47A4452B17E','DBA4CC3C-30B1-46C2-BC34-4D49BD4E27F7','Mv Cu single core PVC','Mv Cu single core PVC');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (558,959,'1200x1200 box','1200x1200 box');
+VALUES ('2F89300A-B3B1-4B0A-BDAC-4CA608FA8C9B','DBA4CC3C-30B1-46C2-BC34-4D49BD4E27F7','Mv Cu single core xlpe','Mv Cu single core xlpe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (559,959,'1350 mm diameter pipe','1350 mm diameter pipe');
+VALUES ('9D5A5A4D-72C0-4B9C-A843-B1397D7C17E2','DBA4CC3C-30B1-46C2-BC34-4D49BD4E27F7','Mv UNK 3 core UNK','Mv UNK 3 core UNK');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (560,959,'1500 mm diameter pipe','1500 mm diameter pipe');
+VALUES ('2E25791F-84D0-4F71-9515-16BD12C9910F','D4331918-A6E4-459B-A5CA-FD8AE8066FBB','Bear','Bear');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (561,959,'1500x1200 box','1500x1200 box');
+VALUES ('11917F91-691A-43DC-95F0-BB7156427B3B','D4331918-A6E4-459B-A5CA-FD8AE8066FBB','Fox','Fox');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (562,959,'1500x1500 box','1500x1500 box');
+VALUES ('3A8DA601-1337-49F2-8871-C1AF6EE5F803','D4331918-A6E4-459B-A5CA-FD8AE8066FBB','Goat','Goat');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (563,959,'1800 mm diameter pipe','1800 mm diameter pipe');
+VALUES ('FC489107-62A1-4696-ACCF-136122DEDDA9','D4331918-A6E4-459B-A5CA-FD8AE8066FBB','Hare','Hare');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (564,959,'1800x1500 box','1800x1500 box');
+VALUES ('7149E043-1B01-4C58-B50C-70F7B991C534','D4331918-A6E4-459B-A5CA-FD8AE8066FBB','Medium voltage aerial bundle conductor','Medium voltage aerial bundle conductor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (565,959,'1800x1800 box','1800x1800 box');
+VALUES ('E6E3485E-6E92-4699-A6CF-36F5E80B4E47','D4331918-A6E4-459B-A5CA-FD8AE8066FBB','Pelican','Pelican');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (566,959,'2160 mm diameter pipe','2160 mm diameter pipe');
+VALUES ('A8DD7971-1F41-47EF-8CFE-634D133A96DD','D4331918-A6E4-459B-A5CA-FD8AE8066FBB','Rabbit','Rabbit');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (567,959,'2400 mm diameter pipe','2400 mm diameter pipe');
+VALUES ('9282B09B-48BE-4567-9E0A-A16D46E3AC38','D4331918-A6E4-459B-A5CA-FD8AE8066FBB','Wolf','Wolf');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (568,959,'2400x2400 box','2400x2400 box');
+VALUES ('956FCA8E-6982-4748-9799-D7A2B2AA8451','26B8E6A5-F204-4FD1-8B1D-754320CB65D1','Pump - sewer','Pump - sewer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (569,959,'2900x2900 box','2900x2900 box');
+VALUES ('541A1B40-D0D7-4C7A-92A8-BE21F2A18D08','C99DB24A-3BB6-4B62-B2A4-6C99B43D09F3','Flare stack','Flare stack');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (570,959,'3000 mm diameter pipe','3000 mm diameter pipe');
+VALUES ('50DF363C-5658-4875-B207-68ABDD3130BF','A9E081EA-456E-46B7-AF81-1A56DAE7273C','Workshop type - fixed','Workshop type - fixed');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (571,959,'3000x3000 box','3000x3000 box');
+VALUES ('1EEA2567-03F3-445B-9435-C5A50FF9C9AE','CBAAD23D-3869-46E6-9319-16C3DCD64207','Winch','Winch');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (572,959,'3550x3550 box','3550x3550 box');
+VALUES ('CE673523-1D5A-4577-83A9-7383AE04DFB3','8E68E1EA-A43E-4CF2-B3B3-AB6216E1773E','Extraction blower','Extraction blower');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (573,959,'450 mm diameter pipe','450 mm diameter pipe');
+VALUES ('4F84C5DB-F87E-4450-918B-CE89EDFD7657','71B7B46F-DE6A-41B1-A341-C3209CFAA05A','Gas','Gas');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (574,959,'4500 mm diameter pipe','4500 mm diameter pipe');
+VALUES ('21CAC409-EBD0-4ED1-9C6D-9F0AD42B888B','33860C43-0D1F-42DC-A23E-B897B88F325E','HDPE (Steam)','HDPE (Steam)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (575,959,'4500x4500 box','4500x4500 box');
+VALUES ('938B64FF-EB95-4EE1-971B-247D4802C712','33860C43-0D1F-42DC-A23E-B897B88F325E','Steel (Steam)','Steel (Steam)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (576,959,'450x450 box','450x450 box');
+VALUES ('C9DBAA14-0CD0-46E2-91E1-00A5B54F2AAA','33860C43-0D1F-42DC-A23E-B897B88F325E','unknown (assumed HDPE) (Steam)','unknown (assumed HDPE) (Steam)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (577,959,'4700x2900 box','4700x2900 box');
+VALUES ('BBF2E79D-73C0-4062-976B-CB5442084661','33860C43-0D1F-42DC-A23E-B897B88F325E','unknown (assumed steel) (Steam)','unknown (assumed steel) (Steam)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (578,959,'525 mm diameter pipe','525 mm diameter pipe');
+VALUES ('76F5BF80-8DD1-4D51-8368-7C34409D618F','C11030A0-363F-41E0-8E68-A5714EEF0A6B','Air release (Gas)','Air release (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (579,959,'600 mm diameter pipe','600 mm diameter pipe');
+VALUES ('0BB43AB6-77FE-49CD-A8AB-9D894AF410AD','C11030A0-363F-41E0-8E68-A5714EEF0A6B','Butterfly (Gas)','Butterfly (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (580,959,'600x600 box','600x600 box');
+VALUES ('80CE05FE-25BA-4E9C-B95D-479E32108527','C11030A0-363F-41E0-8E68-A5714EEF0A6B','Non-return (Gas)','Non-return (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (581,959,'675 mm diameter pipe','675 mm diameter pipe');
+VALUES ('6A56EE33-660D-4B89-ABE9-517444A6ECC8','C11030A0-363F-41E0-8E68-A5714EEF0A6B','Pressure Reducing (Gas)','Pressure Reducing (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (582,959,'750 mm diameter pipe','750 mm diameter pipe');
+VALUES ('DA68F50E-F4DC-4ED2-8E5C-3DA62944B946','C11030A0-363F-41E0-8E68-A5714EEF0A6B','Resilient seal (Gas)','Resilient seal (Gas)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (583,959,'825 mm diameter pipe','825 mm diameter pipe');
+VALUES ('F578C19A-E7F3-4601-8444-F6D7EC951226','64E16FD0-1CE6-4C14-8C0E-A1797EDC90E8','Gasometer','Gasometer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (584,959,'900 mm diameter pipe','900 mm diameter pipe');
+VALUES ('CF2F6455-4E0D-4338-B5EE-6A27BF5ECBB2','D103C562-5EBA-4BF0-82C8-93060C70E449','Double','Double');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (585,959,'900x900 box','900x900 box');
+VALUES ('5DB66393-640A-4644-9605-A1D76357E987','D103C562-5EBA-4BF0-82C8-93060C70E449','Single','Single');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (586,960,'Barrier kerb','Barrier kerb');
+VALUES ('EF55871C-219C-47CC-8D50-21D339936BE9','C78DFC4C-C6EB-4AC2-A5F6-F8E6FD488C38','Busbar Indoor','Busbar Indoor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (587,960,'Mountable kerb','Mountable kerb');
+VALUES ('5E97222E-D101-42C4-BCCA-F666C4C7D2DD','A7FB443B-5531-4C37-AACE-AE5BB0DE540E','Busbar Outdoor','Busbar Outdoor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (588,961,'Kerb Inlet','Kerb Inlet');
+VALUES ('BA33980B-E82C-4340-9EDF-EB02E99080B2','619DFF62-EF66-42AF-9A62-D3FA89A6F2E0','Lightning mast and shield wiring','Lightning mast and shield wiring');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (589,962,'Grid Inlet','Grid Inlet');
+VALUES ('B3774F68-80E9-4CC6-84B4-DCBB9DF8F04C','C9DED2AF-1F8B-418A-AC7D-0E240B725261','Station earthing − mat and electrodes','Station earthing − mat and electrodes');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (590,963,'Dewatering sub-soil drain','Dewatering sub-soil drain');
+VALUES ('53AF6E9D-01D1-41B4-B2A0-7C1AFA7567FC','F8F507FA-C0DA-4140-BEFD-B4F8752B4BD5','Gis bus ducting','Gis bus ducting');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (591,964,'3 seater concrete bench','3 seater concrete bench');
+VALUES ('A67C9291-FE07-45B3-9501-74D6E4576705','210A9C5F-2EDE-4892-AA90-572ABF3966CD','Indoor gis bays','Indoor gis bays');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (592,964,'3 SEATER GALVANISED STEEL BENCH','3 SEATER GALVANISED STEEL BENCH');
+VALUES ('35EEC420-4E88-40BB-9AAA-A044060F76F8','E529BA12-8098-4E49-A5E4-B848DBFF0C63','Outdoor','Outdoor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (593,964,'3 seater steel bench','3 seater steel bench');
+VALUES ('D403BD98-6C72-493D-A889-E3ECD5867280','FF3F21ED-3764-4223-92CE-BDDA2B0852F6','Indoor','Indoor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (594,964,'Children`s play equipment (jungle gym)','Children`s play equipment (jungle gym)');
+VALUES ('EF8D0586-6002-4FD4-8AF5-BE98E749895E','FF3F21ED-3764-4223-92CE-BDDA2B0852F6','Outdoor','Outdoor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (595,964,'Concrete table (rectangular)','Concrete table (rectangular)');
+VALUES ('9AB29BAF-B212-43D4-90D7-2D1296F64902','FF3F21ED-3764-4223-92CE-BDDA2B0852F6','Outdoor hand operated','Outdoor hand operated');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (596,964,'Large planter pot (> 1m diameter)','Large planter pot (> 1m diameter)');
+VALUES ('CF304333-769A-4BCB-9421-625350BC3B7E','FF3F21ED-3764-4223-92CE-BDDA2B0852F6','Outdoor motorised','Outdoor motorised');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (597,964,'Medium planter pot (< 1m diameter)','Medium planter pot (< 1m diameter)');
+VALUES ('7404BF2D-43DB-4502-AF20-BD4D7BC01AAD','FF3F21ED-3764-4223-92CE-BDDA2B0852F6','Outdoor motorised - ais pantograph','Outdoor motorised - ais pantograph');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (598,964,'Playground equipment','Playground equipment');
+VALUES ('8BBFF5E4-FD29-47A2-8C22-4BF24EF7AF85','6E1C46E9-07C6-4031-94C9-F0D88CB5CF4C','Earth switches','Earth switches');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (599,964,'Water feature - park','Water feature - park');
+VALUES ('EA3BFB4E-7EEA-4D51-BFA1-30EC9D76B928','04533F30-8CBE-4B64-B4A5-F496112FA09E','Alarm system','Alarm system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (600,964,'Water feature (large)','Water feature (large)');
+VALUES ('0CDAB61F-F26D-47F8-B8EC-F02126A8DC73','04533F30-8CBE-4B64-B4A5-F496112FA09E','Control rooms','Control rooms');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (601,964,'Water feature (small)','Water feature (small)');
+VALUES ('788A30B1-A464-47D6-B382-2A5D767D41F0','04533F30-8CBE-4B64-B4A5-F496112FA09E','Functional group control','Functional group control');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (602,965,'Bollard-type','Bollard-type');
+VALUES ('0BD1E8C5-4849-480D-8519-A3C6E97423EE','04533F30-8CBE-4B64-B4A5-F496112FA09E','Measurement, registration, recording','Measurement, registration, recording');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (603,965,'Floodlights','Floodlights');
+VALUES ('2ECF04B0-E654-4628-8457-5E4A38CC9100','04533F30-8CBE-4B64-B4A5-F496112FA09E','Process computer systems','Process computer systems');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (604,965,'High mast','High mast');
+VALUES ('AEDE7389-4572-4E1F-A016-D26ADF87B9F4','04533F30-8CBE-4B64-B4A5-F496112FA09E','Protection interlocking','Protection interlocking');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (605,965,'Solar powered High mast','Solar powered High mast');
+VALUES ('A588BD2E-7A1A-4CDD-8746-C37547470224','04533F30-8CBE-4B64-B4A5-F496112FA09E','Tele-communication equipment','Tele-communication equipment');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (606,965,'Streetlight with its network','Streetlight with its network');
+VALUES ('5B938E98-95CF-4DE0-BCB4-E25C510A123D','04533F30-8CBE-4B64-B4A5-F496112FA09E','Unit co-ordinator level','Unit co-ordinator level');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (607,966,'Bollard-type','Bollard-type');
+VALUES ('E0A9DA17-0E3F-4A35-B104-7DCA7A621821','1810278E-E9CC-4C04-864B-8942475A6BB8','Credit lpu (large power users) meter','Credit lpu (large power users) meter');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (608,966,'Floodlights','Floodlights');
+VALUES ('D04D5293-B11A-449F-9611-47024C03D1E3','1810278E-E9CC-4C04-864B-8942475A6BB8','Credit lpu 3 - 0 hv including metering unit','Credit lpu 3 - 0 hv including metering unit');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (609,966,'High mast','High mast');
+VALUES ('F264DE06-E9BF-47C9-BE5E-4ED06EFE47D0','C260E2A9-4948-4A22-82D4-1ACC780DAEA1','Radio infrastructure','Radio infrastructure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (610,966,'Paapi lights','Paapi lights');
+VALUES ('8D2FA56D-4AC4-4B4E-AB0F-AEC51953A9A7','130FD860-5386-4796-8D76-1EB847EB1705','Co-axial cable','Co-axial cable');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (611,966,'Runway approach lights','Runway approach lights');
+VALUES ('ED16F3C2-0B07-4B47-B9D7-FE23076EBEE5','65BB910A-84E2-449C-B06F-A25780E2367C','Multi mode','Multi mode');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (612,966,'Runway edge lights','Runway edge lights');
+VALUES ('599B0E10-C77F-4640-A58C-15317B5A51D5','65BB910A-84E2-449C-B06F-A25780E2367C','Single mode','Single mode');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (613,966,'Solar powered High mast','Solar powered High mast');
+VALUES ('F7F96901-69B0-4581-8D1F-A1CBDD12F909','4BD1A88F-9400-4745-8A3F-7A0BBCED9C93','DISTRIBUTION','DISTRIBUTION');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (614,966,'Streetlight with its network','Streetlight with its network');
+VALUES ('03D58077-9B03-4AF2-B31C-A61BCCB606DF','4BD1A88F-9400-4745-8A3F-7A0BBCED9C93','EDGE','EDGE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (615,966,'Taxiway edge lights ','Taxiway edge lights ');
+VALUES ('C7DF9362-4F9C-46DA-9759-62EEE1C19487','4BD1A88F-9400-4745-8A3F-7A0BBCED9C93','Network switch (data & poe)','Network switch (data & poe)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (616,966,'Taxiway lights','Taxiway lights');
+VALUES ('F24B5007-C0EA-46A6-AE6D-95F653B66AF0','4BD1A88F-9400-4745-8A3F-7A0BBCED9C93','Network switch (data & poe+)','Network switch (data & poe+)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (617,967,'Automatic sprinkler system','Automatic sprinkler system');
+VALUES ('276CD565-41A3-40EB-A48B-5EB784770970','4BD1A88F-9400-4745-8A3F-7A0BBCED9C93','Network switch (data only)','Network switch (data only)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (618,968,'Flower beds, shrubs & trees','Flower beds, shrubs & trees');
+VALUES ('2249DCC8-1898-430B-8F32-6FC6E4AE6EB5','4BD1A88F-9400-4745-8A3F-7A0BBCED9C93','Optical line terminal Fixed port','Optical line terminal Fixed port');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (619,968,'Lawns','Lawns');
+VALUES ('32FCE189-2EB0-484E-98AC-19ED2D2CED0B','4BD1A88F-9400-4745-8A3F-7A0BBCED9C93','Optical line terminal Modular port','Optical line terminal Modular port');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (620,969,'Brick wall','Brick wall');
+VALUES ('83592E16-482D-4B7A-9E55-516212176E18','BCC7AB5D-3620-4FEA-9EA6-135F5259986B','Fibre channel switch','Fibre channel switch');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (621,969,'Clear View fencing','Clear View fencing');
+VALUES ('D5BC55C2-9039-4F85-8B27-153F558468B8','BCC7AB5D-3620-4FEA-9EA6-135F5259986B','Isci disk array','Isci disk array');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (622,969,'Concrete bollard','Concrete bollard');
+VALUES ('C36B20FD-F7DC-4387-95D9-E8A220C55FA2','BCC7AB5D-3620-4FEA-9EA6-135F5259986B','Network attached storage bay','Network attached storage bay');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (623,969,'Concrete palisade fencing','Concrete palisade fencing');
+VALUES ('874C8FEC-D554-4DC6-BFA5-185C0FCF2513','BCC7AB5D-3620-4FEA-9EA6-135F5259986B','Storage controller','Storage controller');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (624,969,'Diamond mesh','Diamond mesh');
+VALUES ('D33ED4E1-2AED-4C8E-BCBD-5BE9DDF4D5F5','06F3FC1E-D742-4FB7-80FE-5BBECB970052','Traditional PABX','Traditional PABX');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (625,969,'GSM Type Fencing','GSM Type Fencing');
+VALUES ('46CC4F52-9C46-4235-8DC6-92BB3CD05DC8','CAFCD1B4-C118-48F8-94CA-0A9432F2F29A','Analogue Multiplexer','Analogue Multiplexer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (626,969,'Precast concrete wall','Precast concrete wall');
+VALUES ('CCFB50CB-0610-4058-B1CB-8FFE10DCBC30','CAFCD1B4-C118-48F8-94CA-0A9432F2F29A','DIGITAL MODULE/CARD','DIGITAL MODULE/CARD');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (627,969,'Razor mesh fence','Razor mesh fence');
+VALUES ('6697D962-ED65-4050-AD7B-8E5FC55FF532','CAFCD1B4-C118-48F8-94CA-0A9432F2F29A','Digital Multiplexer','Digital Multiplexer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (628,969,'Steel bollard','Steel bollard');
+VALUES ('6C29366B-6DAB-459A-A009-4C7137BFD847','CAFCD1B4-C118-48F8-94CA-0A9432F2F29A','PROTOCOL MODULE','PROTOCOL MODULE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (629,969,'Steel palisade fencing','Steel palisade fencing');
+VALUES ('C0678AA9-41A1-4B08-AD47-CCDF0752F39A','1B8F0533-9E8F-4535-9A2C-26402243E310','Core Router','Core Router');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (630,969,'Vibrocrete fence','Vibrocrete fence');
+VALUES ('7702D296-AE85-45BF-820C-FFBAA69FEA19','1B8F0533-9E8F-4535-9A2C-26402243E310','Wireless core router','Wireless core router');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (631,969,'Wooden bollard','Wooden bollard');
+VALUES ('645B399A-DC66-4221-828B-4271DAA86204','A26CF105-CFD4-4E88-AA63-76821BF4321B','Server','Server');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (632,969,'Wooden fence','Wooden fence');
+VALUES ('53141729-C0B1-40F4-928B-02399389CEF8','02773A87-366F-4C2D-BBB7-BFD140C3755A','Transformer','Transformer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (633,971,'Brick, block walls & concrete roof slab','Brick, block walls & concrete roof slab');
+VALUES ('8078219F-8328-4A61-A562-6A91CCE2777E','520EFBB2-115C-458E-9DD4-A914FB8557A7','Hv Al oil cooled cable','Hv Al oil cooled cable');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (634,971,'Brick, block walls & other roof','Brick, block walls & other roof');
+VALUES ('35FE7787-5822-4E64-971F-26C9B38682E9','520EFBB2-115C-458E-9DD4-A914FB8557A7','HV Al pilc three core','HV Al pilc three core');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (635,971,'Steel cage','Steel cage');
+VALUES ('B3225D04-B0BF-4147-9088-C56BB2AFD0C0','520EFBB2-115C-458E-9DD4-A914FB8557A7','Hv Al single core xlpe cable','Hv Al single core xlpe cable');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (636,971,'Steel shed','Steel shed');
+VALUES ('E3F16E72-D4ED-4042-B9F0-855A345CAAE4','520EFBB2-115C-458E-9DD4-A914FB8557A7','HV Al xlpe single core','HV Al xlpe single core');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (637,971,'Wood shed','Wood shed');
+VALUES ('C44D8A3B-0F89-4F61-BEA7-560B6F4992D3','520EFBB2-115C-458E-9DD4-A914FB8557A7','Hv Cu oil cooled single core cable','Hv Cu oil cooled single core cable');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (638,972,'Concrete (Storm Water)','Concrete (Storm Water)');
+VALUES ('9C2D948C-D046-443A-AAC0-ADFE562E9683','520EFBB2-115C-458E-9DD4-A914FB8557A7','HV Cu pilc three core','HV Cu pilc three core');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (639,973,'Concrete (Storm Water)','Concrete (Storm Water)');
+VALUES ('E9746E9E-A557-4150-B7A0-10D65EB7A817','520EFBB2-115C-458E-9DD4-A914FB8557A7','Hv Cu single core xlpe cable','Hv Cu single core xlpe cable');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (640,974,'PPE Land','PPE Land');
+VALUES ('EF1B2D80-B282-4394-9A12-609F70623C88','520EFBB2-115C-458E-9DD4-A914FB8557A7','HV Cu xlpe single core','HV Cu xlpe single core');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (641,975,'Timber','Timber');
+VALUES ('909D4826-433C-46AF-8616-C6C528110F32','520EFBB2-115C-458E-9DD4-A914FB8557A7','HV Cu xlpe three core','HV Cu xlpe three core');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (642,976,'Aggressive materials','Aggressive materials');
+VALUES ('AA2D3561-B3E0-47E3-A948-B04F1251933F','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','Concrete pole','Concrete pole');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (643,976,'Bridge drive','Bridge drive');
+VALUES ('2760636A-313D-40E7-8D95-7F38BB246A89','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','Monopole pole','Monopole pole');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (644,976,'Fibreglass','Fibreglass');
+VALUES ('F8862119-5A3D-4907-B6EC-8E8A2334C6C9','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','SINGLE CONDUCTOR DOUBLE CIRCUIT 60 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT 60 BEND');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (645,976,'Galvanised steel panel','Galvanised steel panel');
+VALUES ('E9127494-3E44-46A7-BA6D-832E26395064','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER','SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (646,976,'Plastic','Plastic');
+VALUES ('832FDE36-A88A-4CD9-8265-3BE2ADEB63B0','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (647,976,'Scraping mechanism','Scraping mechanism');
+VALUES ('A19FDFF0-54EC-4BB4-97AE-FAE9D3996699','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (648,977,'Equipment control panel','Equipment control panel');
+VALUES ('29A2B8D3-4FD5-4046-BF10-01E91A752674','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (649,977,'Network control panel','Network control panel');
+VALUES ('B66FFEDB-7B31-4901-A48D-F978F6C23BA6','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (650,978,'Sewer','Sewer');
+VALUES ('93C635F3-F716-42A6-8B42-42A6F0BDF1B1','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','Steel lattice tower','Steel lattice tower');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (651,978,'Water','Water');
+VALUES ('41841C37-76E4-45A6-82AB-8B157D5E8292','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','TWIN CONDUCTOR DOUBLE CIRCUIT 60 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT 60 BEND');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (652,979,'Electrical','Electrical');
+VALUES ('43BECEEF-CB26-4E9E-81BE-B9F521FA07E9','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER','TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (653,980,'Sewer','Sewer');
+VALUES ('FD05D4C5-8580-4747-87B2-FF7CEFBA67AC','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (654,981,'Standard Telemetry','Standard Telemetry');
+VALUES ('A9909033-2004-4E54-BA2A-204C9C1429D5','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (655,982,'Controller','Controller');
+VALUES ('6E968246-7C92-486C-AC3A-0F2D3FE975ED','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (656,982,'Modem','Modem');
+VALUES ('D99170DB-7F43-4FA2-BD50-FCA9E9871D03','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (657,982,'SCADA RTU','SCADA RTU');
+VALUES ('C549E95B-3633-4C02-A03C-5BF56F55F57B','6AC5B299-7189-43BF-ACF0-2AD2DED9B822','Wooden pole','Wooden pole');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (658,983,'Lv Al 3 core PVCSWA','Lv Al 3 core PVCSWA');
+VALUES ('1E503691-00D9-4DBB-A664-2EFB58B4F933','B4539DF3-1883-46B6-B633-36477A056B63','Bear','Bear');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (659,983,'Lv Al 4 core PVC','Lv Al 4 core PVC');
+VALUES ('7076E31C-6FFB-44A0-920A-3F2ACFA8935C','B4539DF3-1883-46B6-B633-36477A056B63','Bull','Bull');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (660,983,'Lv Al 4 core PVCSWA','Lv Al 4 core PVCSWA');
+VALUES ('32250419-94FE-4A8E-AB31-A8342EEFAE64','B4539DF3-1883-46B6-B633-36477A056B63','Fox','Fox');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (661,983,'Lv Al 4 core PVCSWA and ECC','Lv Al 4 core PVCSWA and ECC');
+VALUES ('B9A88C39-06D1-49B4-8BBF-62FC916B12FE','B4539DF3-1883-46B6-B633-36477A056B63','Hare','Hare');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (662,983,'Lv Al single core PVC','Lv Al single core PVC');
+VALUES ('0BED3479-EE85-4A5E-90C4-7D1719F9D4AC','B4539DF3-1883-46B6-B633-36477A056B63','Pelican','Pelican');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (663,983,'Lv Cu 3 core PVCSWA','Lv Cu 3 core PVCSWA');
+VALUES ('DDAEAB91-814B-49CA-A5CE-C241E22C62FF','B4539DF3-1883-46B6-B633-36477A056B63','Quad Bear','Quad Bear');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (664,983,'Lv Cu 4 core PVC','Lv Cu 4 core PVC');
+VALUES ('BAD15DD3-B31C-491B-98C8-CF3AED8FA07C','B4539DF3-1883-46B6-B633-36477A056B63','Rabbit','Rabbit');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (665,983,'Lv Cu 4 core PVCSWA','Lv Cu 4 core PVCSWA');
+VALUES ('41A5F7C7-7358-4382-9E1F-619370199D4D','B4539DF3-1883-46B6-B633-36477A056B63','Twin Bear','Twin Bear');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (666,983,'Lv Cu 4 core PVCSWA and ECC','Lv Cu 4 core PVCSWA and ECC');
+VALUES ('DD7723BD-1913-4998-A1B9-C39848BB9DDA','B4539DF3-1883-46B6-B633-36477A056B63','Twin Bull','Twin Bull');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (667,983,'Lv Cu single core PVC','Lv Cu single core PVC');
+VALUES ('7B8DC711-28DB-4FE3-876A-6930F024D717','B4539DF3-1883-46B6-B633-36477A056B63','Twin Fox','Twin Fox');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (668,983,'LV underground service connection (per 30m service)','LV underground service connection (per 30m service)');
+VALUES ('FBCD3CA7-E193-4195-87F2-C0224697BD75','B4539DF3-1883-46B6-B633-36477A056B63','Twin Hare','Twin Hare');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (669,984,'Fibre Optic','Fibre Optic');
+VALUES ('07BF6A41-35F9-43DD-959E-59870680BBE2','B4539DF3-1883-46B6-B633-36477A056B63','Twin Pelican','Twin Pelican');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (670,984,'Pilot cable','Pilot cable');
+VALUES ('D5B223D3-D490-44E5-900B-06FAA47E2C44','B4539DF3-1883-46B6-B633-36477A056B63','Twin Rabbit','Twin Rabbit');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (671,985,'Low voltage aerial bundle conductor','Low voltage aerial bundle conductor');
+VALUES ('294D6391-5BDC-4A7A-AAFE-1252D792D3AB','B4539DF3-1883-46B6-B633-36477A056B63','Twin Wolf','Twin Wolf');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (672,985,'LV - open wire','LV - open wire');
+VALUES ('64DE97FD-F776-4BA7-A72D-0AA17BA955F3','B4539DF3-1883-46B6-B633-36477A056B63','Wolf','Wolf');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (673,985,'LV overhead service connection (per 30m service)','LV overhead service connection (per 30m service)');
+VALUES ('1ABD7A35-AE90-40A3-8450-B5B84E80B2EC','94E7692A-2AC3-4318-A4D7-9B80D31AAA12','Sectionaliser','Sectionaliser');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (674,986,'Low voltage aerial bundle conductor','Low voltage aerial bundle conductor');
+VALUES ('C5EB86B7-1E5A-4BCE-8429-97FA37D5116D','45E715CC-22C5-4E77-95EF-7E932C9A29C5','Streetlight shared with LV network','Streetlight shared with LV network');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (675,986,'LV - open wire','LV - open wire');
+VALUES ('65F55BEA-1511-4D1B-912C-77F4B7F794A0','45E715CC-22C5-4E77-95EF-7E932C9A29C5','Streetlight with its own network','Streetlight with its own network');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (676,987,'Pump - water','Pump - water');
+VALUES ('2C6C1EFD-3055-4161-A985-989798CA5F7C','87D7D4D4-A44C-4FA4-B36E-F315BA45E8C8','High mast','High mast');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (677,988,'Pump - submersible','Pump - submersible');
+VALUES ('4C430DD0-202B-4984-B167-77900DB8BD7D','87D7D4D4-A44C-4FA4-B36E-F315BA45E8C8','Solar powered High mast','Solar powered High mast');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (678,989,'Well & lining','Well & lining');
+VALUES ('3227573F-4D32-46C4-8EC1-F9351EC6570C','07F3DE5D-B8FF-492F-A4AE-079688CA6834','Vending Station','Vending Station');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (679,990,'Mag-flow','Mag-flow');
+VALUES ('0C532A02-F9E8-47FC-835E-628ADBF3FEB2','DEA3C9BF-3F3C-4178-9EFA-20F8278111D6','Credit meter','Credit meter');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (680,990,'Mechanical','Mechanical');
+VALUES ('DA33F3FA-B58D-422E-B95E-E5D040749D34','96F347B5-A062-4AE8-8FB1-6280D844C979','Prepayment meters','Prepayment meters');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (681,990,'Pre-pay meters','Pre-pay meters');
+VALUES ('F334B7C9-9804-4FD7-8722-E3E9C21895F2','F4837238-F30C-4228-882D-A2F70727A13F','Ash and slag handling','Ash and slag handling');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (682,991,'AC (Water)','AC (Water)');
+VALUES ('DD2F9B8B-C87A-496A-837F-6B00A49BFC9E','F4837238-F30C-4228-882D-A2F70727A13F','Boiler drum system (evaporator)','Boiler drum system (evaporator)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (683,991,'CI (Water)','CI (Water)');
+VALUES ('DC3A131E-FB31-40F3-BD8D-33E4835FC673','F4837238-F30C-4228-882D-A2F70727A13F','Bunker, feeder and mill system','Bunker, feeder and mill system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (684,991,'DI (Water)','DI (Water)');
+VALUES ('CDC34C0D-CBEB-44AA-8116-2C6F9CEB4393','F4837238-F30C-4228-882D-A2F70727A13F','Cleaning equipment (sootblowing)','Cleaning equipment (sootblowing)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (685,991,'GAL (Water)','GAL (Water)');
+VALUES ('25233167-C432-4AAA-94AB-FBC036B5CD5C','F4837238-F30C-4228-882D-A2F70727A13F','Combustion air system','Combustion air system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (686,991,'GRP (Water)','GRP (Water)');
+VALUES ('043342DB-A3F5-45CF-9257-1E2D330E4162','F4837238-F30C-4228-882D-A2F70727A13F','Economiser system','Economiser system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (687,991,'HDPE (Water)','HDPE (Water)');
+VALUES ('F195E409-DEF0-43D0-A7EE-189AF010CE1B','F4837238-F30C-4228-882D-A2F70727A13F','Flue gas exhaust','Flue gas exhaust');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (688,991,'m-PVC (Water)','m-PVC (Water)');
+VALUES ('A9C7F894-AE48-485B-84CF-46E8659ABC64','F4837238-F30C-4228-882D-A2F70727A13F','Main firing system','Main firing system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (689,991,'o-PVC (Water)','o-PVC (Water)');
+VALUES ('CE1A0174-FB6C-4D1F-9826-3B1AA6A2CB7D','F4837238-F30C-4228-882D-A2F70727A13F','Structure for conventional heat generation','Structure for conventional heat generation');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (690,991,'Steel (Water)','Steel (Water)');
+VALUES ('6017571D-6E7E-41B9-93F6-E6EDECC22A88','F4837238-F30C-4228-882D-A2F70727A13F','Superheater system','Superheater system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (691,991,'unknown (assumed HDPE) (Water)','unknown (assumed HDPE) (Water)');
+VALUES ('B0433D62-F58A-466C-B31A-D4770AD35A28','F4837238-F30C-4228-882D-A2F70727A13F','Supporting structure, skin casing, combustion chamber','Supporting structure, skin casing, combustion chamber');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (692,991,'unknown (assumed steel) (Water)','unknown (assumed steel) (Water)');
+VALUES ('4D851256-D4F1-4AD0-A1D8-9CDCEE1D07E6','A6B17337-7A0D-48D3-8431-87246B467105','Economiser','Economiser');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (693,991,'unknown (assumed uPVC) (Water)','unknown (assumed uPVC) (Water)');
+VALUES ('AAA2F625-9E8D-43F8-8BE0-42172884F6F7','D67E2B48-EC2D-4427-AF4A-1ACC763E8763','Oil Burner','Oil Burner');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (694,991,'uPVC (Water)','uPVC (Water)');
+VALUES ('B0FB40A7-1054-4A45-A278-A4074EBC2087','C59B917A-66EE-4F75-AD86-0FA0A9EEF304','Reheater','Reheater');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (695,992,'HDPE (Water)','HDPE (Water)');
+VALUES ('92B9905E-B0F2-4B59-A0EA-962058F06012','FD01EFCF-86B9-4D27-B346-6CC4C57A300F','Super Heater','Super Heater');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (696,992,'unknown (assumed uPVC) (Water)','unknown (assumed uPVC) (Water)');
+VALUES ('EFEBB186-014D-4AC2-AFF7-E81BBC0AC2D4','07820883-0C36-470B-9DB9-8FE44AE42490','Condenser Pump','Condenser Pump');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (697,992,'uPVC (Water)','uPVC (Water)');
+VALUES ('F12D51AA-55B3-4E73-8035-E3D6A58910B2','453DBC3B-5952-4433-8C2D-22150788C225','Air evacuation system','Air evacuation system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (698,993,'Actuated Air release (Water)','Actuated Air release (Water)');
+VALUES ('D5C154A7-B2EA-49A1-B0A0-9A2DA56EEC2F','453DBC3B-5952-4433-8C2D-22150788C225','Auxiliary steam supply','Auxiliary steam supply');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (699,993,'Actuated Butterfly (Water)','Actuated Butterfly (Water)');
+VALUES ('689D630D-A29D-438F-A6A5-0746B600753F','453DBC3B-5952-4433-8C2D-22150788C225','Boiler feedpumps','Boiler feedpumps');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (700,993,'Actuated Pressure Reducing (Water)','Actuated Pressure Reducing (Water)');
+VALUES ('EB46DEB3-854A-4C2F-B81B-5BE189AAF414','453DBC3B-5952-4433-8C2D-22150788C225','Condensing system','Condensing system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (701,993,'Actuated Resilient seal (Water)','Actuated Resilient seal (Water)');
+VALUES ('8AE744E3-506F-4B04-B27C-174E4284CE2E','453DBC3B-5952-4433-8C2D-22150788C225','Cooling towers ­','Cooling towers ­');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (702,993,'Air release (Water)','Air release (Water)');
+VALUES ('4C1851D6-36B8-4215-8003-A7A72F4A3147','453DBC3B-5952-4433-8C2D-22150788C225','Cooling water piping system ­','Cooling water piping system ­');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (703,993,'Air Valve (Generic)','Air Valve (Generic)');
+VALUES ('58DAC55A-8EC9-4A49-8D7A-A2A49022A129','453DBC3B-5952-4433-8C2D-22150788C225','Cooling water pumping system ­','Cooling water pumping system ­');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (704,993,'Butterfly (Water)','Butterfly (Water)');
+VALUES ('FE346EA4-A7EE-4343-99DD-38038F9424A9','453DBC3B-5952-4433-8C2D-22150788C225','Extraction pumps','Extraction pumps');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (705,993,'Closed Valve (Generic)','Closed Valve (Generic)');
+VALUES ('54BFED2A-6E8E-458E-821F-5C93BEF9338D','453DBC3B-5952-4433-8C2D-22150788C225','Feedwater piping and deaerator tank','Feedwater piping and deaerator tank');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (706,993,'Non-return (Water)','Non-return (Water)');
+VALUES ('969430D9-31AA-4D48-B9AB-131BA503C109','453DBC3B-5952-4433-8C2D-22150788C225','High pressure heater','High pressure heater');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (707,993,'Non-Return Valve (Generic)','Non-Return Valve (Generic)');
+VALUES ('B113E437-3562-4D33-BE38-B452BF0C2CF0','453DBC3B-5952-4433-8C2D-22150788C225','High pressure turbine','High pressure turbine');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (708,993,'Pressure Reducing (Water)','Pressure Reducing (Water)');
+VALUES ('96941568-BED7-49FA-B6CD-2F675AD4B0B5','453DBC3B-5952-4433-8C2D-22150788C225','Low pressure heaters','Low pressure heaters');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (709,993,'Resilient seal (Water)','Resilient seal (Water)');
+VALUES ('2F2B5ED3-A31D-4FDC-B060-DDA52EE51730','453DBC3B-5952-4433-8C2D-22150788C225','Low pressure turbine','Low pressure turbine');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (710,993,'Valve (Generic)','Valve (Generic)');
+VALUES ('F628DC1A-8DC8-4269-A138-116AAFF36387','453DBC3B-5952-4433-8C2D-22150788C225','Main condensate piping system','Main condensate piping system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (711,994,'Pipe bridge abutment','Pipe bridge abutment');
+VALUES ('9E712F60-739A-401E-A2F4-73FD1B126660','453DBC3B-5952-4433-8C2D-22150788C225','Main cooling water treatment','Main cooling water treatment');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (712,995,'Pipe bridge substructure','Pipe bridge substructure');
+VALUES ('4A5D441B-AD4D-4171-967B-760DAE2CC382','453DBC3B-5952-4433-8C2D-22150788C225','Main steam piping system','Main steam piping system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (713,996,'Pipe bridge superstructure','Pipe bridge superstructure');
+VALUES ('7763CF18-E74E-43B1-BBB8-78F621E08B58','453DBC3B-5952-4433-8C2D-22150788C225','Structure for main machine set','Structure for main machine set');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (714,997,'Pipe bridge railing','Pipe bridge railing');
+VALUES ('0C8B0FB2-1714-49D1-A91F-83E45D964298','A5C2C951-23FC-40AA-AF4F-728690B433C1','Exciter','Exciter');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (2,1000,'Gas Chiller','Gas Chiller');
+VALUES ('9C4C744A-A574-4DF7-9CD3-0DF54AAE4168','556ECDEC-6713-4E7A-9B22-564B5FCFBFD9','Copper bar','Copper bar');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (3,1001,'Electrical installation','Electrical installation');
+VALUES ('0D0866DE-F16A-4F01-87CC-7392560930BB','556ECDEC-6713-4E7A-9B22-564B5FCFBFD9','Strung conductor (m)','Strung conductor (m)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (4,1002,'Bathroom','Bathroom');
+VALUES ('1865DBCF-FEDB-41B7-A590-F17C75FBE96E','556ECDEC-6713-4E7A-9B22-564B5FCFBFD9','Tubular conductor','Tubular conductor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (5,1002,'Civic centre / Community hall','Civic centre / Community hall');
+VALUES ('08F58255-B090-4F1C-9FEE-E0AF101A5255','5838A4CE-C678-4E1C-9ABD-30DD1CF362F2','Precipitator','Precipitator');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (6,1002,'Clinics and day hospitals','Clinics and day hospitals');
+VALUES ('CBE718FE-F3E0-44F1-A763-3B1369C3DAD4','4094B1C6-A4EB-40D3-8CFD-D90EE8C1847B','UNINTERRUPTED POWER SUPPLY - UPS GENERAL','UNINTERRUPTED POWER SUPPLY - UPS GENERAL');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (7,1002,'Cold room','Cold room');
+VALUES ('FDFA4BD9-7D20-4EAD-BDA8-B203F69C520E','4094B1C6-A4EB-40D3-8CFD-D90EE8C1847B','UPS 40 - 80 kVA','UPS 40 - 80 kVA');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (8,1002,'Council chamber','Council chamber');
+VALUES ('C1C8BA2A-DFE7-46FC-8D30-C651845B1E8A','4AFC18AF-B08E-4063-B967-9999CA7236DF','Steel (Fuel)','Steel (Fuel)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (9,1002,'Executive office / Banquette hall','Executive office / Banquette hall');
+VALUES ('C9CAE39B-E9DD-4AD1-8458-D4C8CC8EFB7D','D9FDCC39-2D89-4D54-9BE7-AF63CB3BEC36','Air release (Steam)','Air release (Steam)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (10,1002,'Kitchen','Kitchen');
+VALUES ('BE83E003-20D2-496A-B308-884FEF2D168A','D9FDCC39-2D89-4D54-9BE7-AF63CB3BEC36','Butterfly (Steam)','Butterfly (Steam)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (11,1002,'Laboratory','Laboratory');
+VALUES ('DF6153CE-113D-4FCA-A175-8FB795C49F78','D9FDCC39-2D89-4D54-9BE7-AF63CB3BEC36','Non-return (Steam)','Non-return (Steam)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (12,1002,'Library','Library');
+VALUES ('A214C849-3ED8-44F8-8C54-0D1C509C3245','D9FDCC39-2D89-4D54-9BE7-AF63CB3BEC36','Pressure Reducing (Steam)','Pressure Reducing (Steam)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (13,1002,'Office','Office');
+VALUES ('C07906D0-25E4-41A7-876A-95B70073F308','D9FDCC39-2D89-4D54-9BE7-AF63CB3BEC36','Resilient seal (Steam)','Resilient seal (Steam)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (14,1002,'Store','Store');
+VALUES ('DD6F3C9C-2491-4E97-8B42-89CB2A0B645D','B8AB7B23-67A7-4791-956A-0DC0F5C43DBF','Air release (Fuel)','Air release (Fuel)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (15,1002,'Workshop','Workshop');
+VALUES ('EB8EA9EA-6EEC-496A-AEDE-540439C65EBF','B8AB7B23-67A7-4791-956A-0DC0F5C43DBF','Butterfly (Fuel)','Butterfly (Fuel)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (16,1003,'Bathroom','Bathroom');
+VALUES ('A37B9424-B90E-474C-A332-6663DC43CEEB','B8AB7B23-67A7-4791-956A-0DC0F5C43DBF','Non-return (Fuel)','Non-return (Fuel)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (17,1003,'Kitchen','Kitchen');
+VALUES ('B48A0C0C-6D8C-4EB5-8882-2B058FA6A0F2','B8AB7B23-67A7-4791-956A-0DC0F5C43DBF','Pressure Reducing (Fuel)','Pressure Reducing (Fuel)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (18,1003,'Office','Office');
+VALUES ('5660C75D-DFA9-4568-BCC1-D0F7BC9C1838','B8AB7B23-67A7-4791-956A-0DC0F5C43DBF','Resilient seal (Fuel)','Resilient seal (Fuel)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (19,1003,'Store','Store');
+VALUES ('7B0C0F78-865F-469C-B248-7482192B0C7B','85532800-36FE-4591-B734-D660D8ECAAE7','Fan','Fan');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (20,1003,'Workshop','Workshop');
+VALUES ('59067D38-9667-4DFF-90A9-771B074015A4','B2762434-7A0F-4C02-9A80-553B4D55D9D2','Conveyor belt','Conveyor belt');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (21,1004,'Extinguishers, hose reels only','Extinguishers, hose reels only');
+VALUES ('0600CE7D-1A2A-485C-A9DA-433F0178D3DD','6E248CAA-6C84-4C23-859F-BA78DE9424D2','Pulveriser','Pulveriser');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (22,1004,'Extinguishers, hose reels, full sprinkler system with booster pump','Extinguishers, hose reels, full sprinkler system with booster pump');
+VALUES ('C5F2109D-409C-4A1A-A7F6-1C3CAA0D3D72','1BE2542B-71EF-4ABB-90AE-D934C21260A1','Lv overhead','Lv overhead');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (23,1004,'Extinguishers, hose reels, limited sprinklers','Extinguishers, hose reels, limited sprinklers');
+VALUES ('69624127-14DC-4FEF-80B3-CC4A8FCBCC65','1BE2542B-71EF-4ABB-90AE-D934C21260A1','Lv underground','Lv underground');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (24,1004,'Hydrant','Hydrant');
+VALUES ('FF43FF29-CB8B-4DE2-8A76-E32766C24321','7D2EEF1B-A838-47E4-BE7B-CF8FE71FEDB8','Rail lines','Rail lines');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (25,1005,'GRP (Gas)','GRP (Gas)');
+VALUES ('F9B5F8CD-45E8-457F-846C-3DA0D6C259B3','2194EEC7-0F62-44F7-81B5-FD3C9B87ED70','Rail bridge abutments','Rail bridge abutments');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (26,1005,'HDPE (Gas)','HDPE (Gas)');
+VALUES ('7595714E-55FD-4412-9A9D-69DB29690F5A','554D33AE-45D8-4B25-B262-DEDEED3D2898','Rail bridge side barrier','Rail bridge side barrier');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (27,1005,'Steel (Gas)','Steel (Gas)');
+VALUES ('2F48CA40-3CB9-4EE1-AC31-36B6711B7108','ADE59DA2-3A59-40FF-82F8-33F8675E7798','Rail bridge substructure','Rail bridge substructure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (28,1005,'unknown (assumed HDPE) (Gas)','unknown (assumed HDPE) (Gas)');
+VALUES ('02E5106B-CF82-4FB3-92A1-19C6476D48E6','03E6E5E4-46CA-48B3-9802-E3853CA86724','Rail bridge superstructure','Rail bridge superstructure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (29,1005,'unknown (assumed steel) (Gas)','unknown (assumed steel) (Gas)');
+VALUES ('E9F25FDF-F325-487D-A4E2-7A354A0AFBD3','9077055B-361E-414C-9D5C-0B0E898F5495','Rail signal','Rail signal');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (30,1005,'unknown (assumed uPVC) (Gas)','unknown (assumed uPVC) (Gas)');
+VALUES ('1E99BD65-B1B8-42A4-9C44-4B59EF053290','F7107645-089B-420F-B8E9-F8C515053354','Indoor WAP','Indoor WAP');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (31,1005,'uPVC (Gas)','uPVC (Gas)');
+VALUES ('4E712D62-051B-4234-8499-99C69FDE34A2','F7107645-089B-420F-B8E9-F8C515053354','Outdoor WAP','Outdoor WAP');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (32,1006,'Lifts','Lifts');
+VALUES ('589DC816-E62E-4713-B08F-D6F05D080E62','C749A094-0B45-48A1-B007-589D10096890','Lining - landfill','Lining - landfill');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (33,1006,'Parcel Lifts','Parcel Lifts');
+VALUES ('E99C55FD-91E1-417C-8825-6C09DC9F41E2','D4F0B46E-1DE2-4915-9CF2-71B0351DD365','Compactor - C5','Compactor - C5');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (34,1006,'Wheelchair Lift','Wheelchair Lift');
+VALUES ('DEDFDB9D-E9B4-460D-8567-828E44FB559A','D4F0B46E-1DE2-4915-9CF2-71B0351DD365','Compactor - C9','Compactor - C9');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (35,1007,'standard installation','standard installation');
+VALUES ('B2BB839F-582C-481A-B7E8-15012561F1F6','D6213B4F-E136-405B-AED2-3E99F368D6B4','Weighbridge','Weighbridge');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (36,1008,'RC surface bed','RC surface bed');
+VALUES ('B59EBEAA-B1E2-4476-982F-CB666AFD479E','45948DA5-31BE-4063-B565-6CECEF832683','Heat Exchanger','Heat Exchanger');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (37,1008,'Shuttered RC suspended floor slab','Shuttered RC suspended floor slab');
+VALUES ('88CEC929-5065-424A-9CC5-87C6D89763E4','7752A099-E607-4052-86DD-AB49306D40E2','Landfill restored area','Landfill restored area');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (38,1009,'Alarm & sensors','Alarm & sensors');
+VALUES ('09307D7C-88E0-4375-AC5C-425DE0C2FF48','92D4C8FA-A5B7-425F-A651-DA926764127B','Floodlit','Floodlit');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (39,1009,'Security and access control (burglar bars, turnstiles, barriers)','Security and access control (burglar bars, turnstiles, barriers)');
+VALUES ('8C4C6F88-5522-4996-AB30-BE8902312C3F','92D4C8FA-A5B7-425F-A651-DA926764127B','Standard','Standard');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (40,1009,'Security and access control (CCTV on its own pole including communication)','Security and access control (CCTV on its own pole including communication)');
+VALUES ('28406043-AAE5-49D0-83EA-D8CD9DB98649','C436E508-55EC-4750-BDA8-6BAAF843D597','Jukskei court','Jukskei court');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (41,1009,'Security and access control (CCTV)','Security and access control (CCTV)');
+VALUES ('C5C493DF-5610-4F21-B697-8C0D8627269C','24EBCF76-F3D7-4887-8D7A-B884FDFD701E','Cricket','Cricket');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (42,1010,'Septic Tank','Septic Tank');
+VALUES ('2EFF492D-640A-4B53-B18E-3165A1BF232F','24EBCF76-F3D7-4887-8D7A-B884FDFD701E','Rugby / soccer','Rugby / soccer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (43,1011,'Face brick','Face brick');
+VALUES ('73799114-6917-462B-B4A1-DF788E1E2147','0256B0C5-51FE-4FD4-B113-E96E1687ABC8','10m x 5m','10m x 5m');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (44,1011,'Fibre cement board, timber frame, plaster board','Fibre cement board, timber frame, plaster board');
+VALUES ('46F5DAE1-2812-4578-918F-E312FF8D93B1','0256B0C5-51FE-4FD4-B113-E96E1687ABC8','25m x 20m','25m x 20m');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (45,1011,'Glass panel','Glass panel');
+VALUES ('0F7721A0-862C-42E3-A013-302F9D790335','0256B0C5-51FE-4FD4-B113-E96E1687ABC8','Olympic','Olympic');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (46,1011,'Metal sheet , plaster board','Metal sheet , plaster board');
+VALUES ('9C7D1D3A-7E1B-49CF-9711-0E5428B66773','C714410C-A0A1-4A22-A594-519F241504DD','Regulation size - indoor','Regulation size - indoor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (47,1011,'Plastered brick','Plastered brick');
+VALUES ('E2A4D894-E8B7-4B75-AD89-B1B4AC203930','52C846B9-C5B8-4DBE-BF9D-99B289585786','Mache','Mache');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (48,1011,'Semi-face brick','Semi-face brick');
+VALUES ('4E882C8D-7F1E-4322-8D91-915482D452F4','52C846B9-C5B8-4DBE-BF9D-99B289585786','Municipal','Municipal');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (49,1012,'flat concrete (170mm thick)','flat concrete (170mm thick)');
+VALUES ('CC8D2EEE-8F7A-4A8B-B1FF-2F27C5BC6178','59E24BBA-D817-48D3-8137-2711683EDD96','Brick structure with roof and terraces','Brick structure with roof and terraces');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (50,1012,'Sheet metal','Sheet metal');
+VALUES ('7648C3CC-FDF3-4A06-9DC6-BA1D22D97487','59E24BBA-D817-48D3-8137-2711683EDD96','Open structure with stepped terraces','Open structure with stepped terraces');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (51,1012,'Thatch','Thatch');
+VALUES ('268C6B2A-BB5E-4E61-8A5D-78AA98DB135C','59E24BBA-D817-48D3-8137-2711683EDD96','Structure with roof and stepped terraces','Structure with roof and stepped terraces');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (52,1012,'Tiled','Tiled');
+VALUES ('E3CF80DA-E4D4-4432-85B4-9D28209CDEE5','EAA86E25-C488-4C2D-90F1-98F757534A93','Quarry restored area','Quarry restored area');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (53,1013,'Crane','Crane');
+VALUES ('8649AFAB-2482-4BCF-9A1C-E30778DCA0D8','8AAFC38D-49B7-443A-8FF9-E0CD2127E21F','Firewall','Firewall');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (54,1015,'Reactor','Reactor');
+VALUES ('4EAED05B-46C3-42AE-80BD-A36B1EC0487D','3C99627D-6CE0-40F6-8378-D95C5C94DF9B','Gps devices','Gps devices');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (55,1017,'Clay (Sewer)','Clay (Sewer)');
+VALUES ('AF74AE0A-877A-428F-A88E-4FA990E0B3EC','1E116223-E605-4922-A6FC-C89B0C3D30AA','Mast','Mast');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (56,1017,'Concrete (Sewer)','Concrete (Sewer)');
+VALUES ('EE401A40-650D-4866-95BA-A0736C4FF6AB','AC43CDA9-FF0A-4951-8E7B-5B0192E130D5','Horn antennas','Horn antennas');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (57,1017,'HDPE (Sewer)','HDPE (Sewer)');
+VALUES ('FA77C2BE-A691-4CC9-B157-C558C9AD0AE7','AC43CDA9-FF0A-4951-8E7B-5B0192E130D5','Mimo antennas','Mimo antennas');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (58,1017,'Steel (Sewer)','Steel (Sewer)');
+VALUES ('E3F91D95-FE94-493F-805D-DC090D70565D','AC43CDA9-FF0A-4951-8E7B-5B0192E130D5','Parabolic antennas','Parabolic antennas');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (59,1017,'unknown (assumed clay) (Sewer)','unknown (assumed clay) (Sewer)');
+VALUES ('A6A22A87-7910-4A02-AF4B-538760CA5613','AC43CDA9-FF0A-4951-8E7B-5B0192E130D5','Patch antennas','Patch antennas');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (60,1017,'unknown (assumed concrete) (Sewer)','unknown (assumed concrete) (Sewer)');
+VALUES ('BE41E55A-9962-4F32-B44F-ED2D65B692CE','AC43CDA9-FF0A-4951-8E7B-5B0192E130D5','Plasma antennas','Plasma antennas');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (61,1017,'unknown (assumed uPVC) (Sewer)','unknown (assumed uPVC) (Sewer)');
+VALUES ('CBF8BEB3-1C2F-4E73-9720-A402069C0712','0D4876BD-CD5A-4615-B7AC-6BF82C9EE856','Multi band combiners','Multi band combiners');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (62,1017,'uPVC (Sewer)','uPVC (Sewer)');
+VALUES ('A4933232-DB28-48D9-A997-0D4151DB903F','B54936D9-472C-46BF-9562-26E6638B4778','NETWORK CONTROL KIOSK','NETWORK CONTROL KIOSK');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (63,1018,'Communal standpipe - Pedestal','Communal standpipe - Pedestal');
+VALUES ('537CC6E8-5A9A-411F-B535-175C0F60BA79','2E33B4A3-BEBD-452D-B410-2CD90A060BCA','Controller (HMI)','Controller (HMI)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (64,1018,'Communal standpipe - Tap','Communal standpipe - Tap');
+VALUES ('BB59B634-BB5A-49DE-AFD0-3A6974F0B0B8','94E0CC28-225A-4F38-AC34-70E2D8028251','Power distribution unit AC voltage','Power distribution unit AC voltage');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (65,1018,'Pump - hand','Pump - hand');
+VALUES ('F5F94FE4-F89C-4766-938F-BEF6F1000F12','94E0CC28-225A-4F38-AC34-70E2D8028251','Power distribution unit DC voltage','Power distribution unit DC voltage');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (66,1019,'DC/AC Inverter','DC/AC Inverter');
+VALUES ('F4DAAC64-56F9-4334-A2C7-74AD1524B4FE','94E0CC28-225A-4F38-AC34-70E2D8028251','UNINTERRUPTED POWER SUPPLY - UPS GENERAL','UNINTERRUPTED POWER SUPPLY - UPS GENERAL');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (67,1019,'Gas Chiller - Bio Generation','Gas Chiller - Bio Generation');
+VALUES ('BC96C459-0346-42DA-8549-B644E2816222','E7A2A8BE-8A2F-4056-B7DB-C34FDA54882D','Analogue','Analogue');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (68,1019,'Gas turbine - Bio Generation','Gas turbine - Bio Generation');
+VALUES ('ABB909E9-7760-4FE8-8064-C6FEEE259C71','E7A2A8BE-8A2F-4056-B7DB-C34FDA54882D','Optic','Optic');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (69,1019,'Petrol or diesel','Petrol or diesel');
+VALUES ('1EF2157B-D55E-449C-A052-64E3165A68F5','E7A2A8BE-8A2F-4056-B7DB-C34FDA54882D','Radio','Radio');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (70,1019,'PV Panels - Solar','PV Panels - Solar');
+VALUES ('8A9540BD-FF4B-471E-8975-D87FB21823A3','90CBC11C-3181-41FE-8175-DBAAA8855424','Same band combiner','Same band combiner');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (71,1020,'Transformer','Transformer');
+VALUES ('C371BECA-C3D0-4FEB-9E06-2EEF3F75797C','9A9313C0-5C38-480D-A0E9-3364D6296E51','Signal amplifiers','Signal amplifiers');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (72,1021,'Outdoor switch (ODSW)','Outdoor switch (ODSW)');
+VALUES ('B605BF7E-1AB9-41B1-9A37-C9A9890F686F','5003DC99-9025-42A4-9811-8A9CC162DE98','Signal demodulator','Signal demodulator');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (73,1021,'Ring main unit - 3 way','Ring main unit - 3 way');
+VALUES ('DD071A92-EE82-4BC5-A521-B9D8100B8891','943C73F8-DBD3-4766-9A52-CAC19F30FAC0','Signal filters','Signal filters');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (74,1021,'Ring main unit - 3 way metering','Ring main unit - 3 way metering');
+VALUES ('74154C19-09C9-4D74-A6D9-76DC6AD76DB2','E047E2D9-60B6-4096-AE75-C120DADF16B1','Signal modulator','Signal modulator');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (75,1021,'Ring main unit - 4 way','Ring main unit - 4 way');
+VALUES ('18254BCF-7391-4E6A-B259-6DF461854D82','65BC2EC5-0354-4023-90F7-CC9CBC208D8A','Conventional','Conventional');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (76,1021,'Ring main unit - 4 way metering','Ring main unit - 4 way metering');
+VALUES ('E7A46FFD-B4FD-4F02-ADEF-6F2F17C54F75','65BC2EC5-0354-4023-90F7-CC9CBC208D8A','Micro duct','Micro duct');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (77,1022,'Bus-section panel - double busbar','Bus-section panel - double busbar');
+VALUES ('267EB4B7-BD3C-4EB6-A8CB-781E0984CB25','27940914-6A85-4606-BC99-F7F6E50CA12D','Transducers','Transducers');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (78,1022,'Bus-section/coupler panel','Bus-section/coupler panel');
+VALUES ('09BD001A-682B-4530-8B41-7E39F5539747','B96EED0C-3BB2-4019-9F97-2ACFF681C659','WIRELESS CONTROLLER','WIRELESS CONTROLLER');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (79,1022,'Feeder panel','Feeder panel');
+VALUES ('C96CE757-5BD2-49C7-A52D-266BC9200530','97C4026C-1AAC-4F43-9DA7-E61E77F6D752','Mini-sub','Mini-sub');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (80,1022,'Feeder panel - double busbar','Feeder panel - double busbar');
+VALUES ('9639925D-8914-433E-ADA5-A5D3D2900681','17F60C7F-F076-4F28-A65B-569D14CA23AC','HDPE Manholes','HDPE Manholes');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (81,1022,'Incomer panel','Incomer panel');
+VALUES ('9FBCBE04-C287-43FC-A28C-400960FC5513','CA885401-9629-4F93-949C-4FCFE10C3C00','Grid Classifier','Grid Classifier');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (82,1022,'Incomer panel - double busbar','Incomer panel - double busbar');
+VALUES ('47685F82-BFB4-4A11-A671-696AEB78E213','CA885401-9629-4F93-949C-4FCFE10C3C00','Screen Course','Screen Course');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (83,1023,'Earth switches','Earth switches');
+VALUES ('3C1D7CB5-B471-4098-8A80-528788BE8A37','CA885401-9629-4F93-949C-4FCFE10C3C00','Screen fine drum','Screen fine drum');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (84,1023,'Mv isolator','Mv isolator');
+VALUES ('B2419E87-8CDF-4470-8EB9-B5B487E1DC54','CA885401-9629-4F93-949C-4FCFE10C3C00','Screen/Wash Press','Screen/Wash Press');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (85,1025,'Chlorine','Chlorine');
+VALUES ('D6EF1E93-3366-47DB-AEC5-7CC39EEAE467','E9980670-2FD9-4418-8C0E-29187E8D585A','Actuated Air release (Sewer)','Actuated Air release (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (86,1025,'Scale dial','Scale dial');
+VALUES ('AEAF2B74-6685-4C44-B40C-BECFED63734E','E9980670-2FD9-4418-8C0E-29187E8D585A','Actuated Butterfly (Sewer)','Actuated Butterfly (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (87,1025,'Ultraviolet','Ultraviolet');
+VALUES ('6C8AD015-FC06-4F85-9CFA-7DCB59FEA9E3','E9980670-2FD9-4418-8C0E-29187E8D585A','Actuated Pressure Reducing (Sewer)','Actuated Pressure Reducing (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (88,1025,'Water softener','Water softener');
+VALUES ('1343873F-D98A-49F1-BD79-0B673BBC6ACB','E9980670-2FD9-4418-8C0E-29187E8D585A','Actuated Resilient seal (Sewer)','Actuated Resilient seal (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (89,1026,'Drive motor','Drive motor');
+VALUES ('37401E26-3A7B-423C-AEB0-5315ECCB4224','E9980670-2FD9-4418-8C0E-29187E8D585A','Air release (Sewer)','Air release (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (90,1027,'Pressure vessel','Pressure vessel');
+VALUES ('120FCA3F-332C-4C8E-BCAA-6961EE68A7D8','E9980670-2FD9-4418-8C0E-29187E8D585A','Butterfly (Sewer)','Butterfly (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (91,1028,'Current Transformer','Current Transformer');
+VALUES ('B9F0897E-2C4D-414B-AC27-140E444A1D0A','E9980670-2FD9-4418-8C0E-29187E8D585A','Non-return (Sewer)','Non-return (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (92,1029,'Current Transformer','Current Transformer');
+VALUES ('67A88DF5-7BC2-4D94-8636-3132CB2F09C3','E9980670-2FD9-4418-8C0E-29187E8D585A','Pressure Reducing (Sewer)','Pressure Reducing (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (93,1030,'HV','HV');
+VALUES ('4A249934-CD54-48FA-AB21-B483674F4C96','E9980670-2FD9-4418-8C0E-29187E8D585A','Resilient seal (Sewer)','Resilient seal (Sewer)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (94,1030,'MV','MV');
+VALUES ('62F149FD-B986-4A7E-B67F-C3EED0B3EFDC','864D4ACC-FF0C-46BC-9777-5C1D9AE9A004','Muncher','Muncher');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (95,1031,'MV','MV');
+VALUES ('FBC6B504-5A6F-486D-8537-D0B0D0504DD4','BE314A13-3E07-4662-93BB-53B50ABFC181','Odour Removal System','Odour Removal System');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (96,1032,'Transformer NEC','Transformer NEC');
+VALUES ('68C26AA3-CAC4-47B1-9307-34FDA63F9DB4','344C1B7A-A866-429C-BD49-9D951BC83197','FEEDER POLYELECTROLYTE','FEEDER POLYELECTROLYTE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (97,1032,'Transformer NECR','Transformer NECR');
+VALUES ('4BFB6C74-3DC4-4C77-9FC9-096409B45088','834D3639-ABB2-4B94-9CD1-17A5EEBB536E','CENTRIFUGE','CENTRIFUGE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (98,1032,'Transformer NER','Transformer NER');
+VALUES ('E1DE6552-102C-4E85-B339-19938AA6775E','834D3639-ABB2-4B94-9CD1-17A5EEBB536E','SLUDGE BELT PRESS','SLUDGE BELT PRESS');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (99,1033,'Transformer NEC','Transformer NEC');
+VALUES ('7CDE94A1-0E4B-4E1E-9E04-B031687E525E','D96BE9F0-13AB-4990-AB67-99E3BBBB4913','ATTENA','ATTENA');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (100,1034,'Surge Arrestor','Surge Arrestor');
+VALUES ('B543EE37-E401-478F-A9FD-60A9179518D2','D96BE9F0-13AB-4990-AB67-99E3BBBB4913','BACKUP BATTERY','BACKUP BATTERY');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (101,1035,'Surge Arrestor','Surge Arrestor');
+VALUES ('B9836298-FE5D-424F-B8D7-25313DCF1F58','D96BE9F0-13AB-4990-AB67-99E3BBBB4913','Bts','Bts');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (102,1036,'Load control master station - injection','Load control master station - injection');
+VALUES ('B695E19F-BACC-4908-AC66-B657E7F603C4','D96BE9F0-13AB-4990-AB67-99E3BBBB4913','COMMUNICATION SWITCH','COMMUNICATION SWITCH');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (103,1036,'Load control master station - radio','Load control master station - radio');
+VALUES ('61C02AAF-B61F-4133-8354-AA2C0D33F93A','D96BE9F0-13AB-4990-AB67-99E3BBBB4913','EQUIPMENT BOX','EQUIPMENT BOX');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (104,1039,'Mv Al 3 core PILCSWA','Mv Al 3 core PILCSWA');
+VALUES ('7F4E2DC7-C4B4-4EF9-8A29-330CF34CE140','D96BE9F0-13AB-4990-AB67-99E3BBBB4913','NETWORK ROUTER','NETWORK ROUTER');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (105,1039,'Mv Cu 3 core PILCSWA','Mv Cu 3 core PILCSWA');
+VALUES ('7E29EE7F-B9ED-473D-BE1B-CEB27E14F69B','D96BE9F0-13AB-4990-AB67-99E3BBBB4913','PDU','PDU');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (106,1039,'Mv Cu 3 core XLPE','Mv Cu 3 core XLPE');
+VALUES ('BE4163F3-5862-4CC5-98B3-E9FB14DD0C03','D96BE9F0-13AB-4990-AB67-99E3BBBB4913','POWERBOX','POWERBOX');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (107,1039,'Mv Cu single core PILC','Mv Cu single core PILC');
+VALUES ('4B7B830F-B832-4783-807C-00A508924C0C','D96BE9F0-13AB-4990-AB67-99E3BBBB4913','SURGE ARRESTOR','SURGE ARRESTOR');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (108,1039,'Mv Cu single core PVC','Mv Cu single core PVC');
+VALUES ('DDE1D496-B288-4764-97E0-CBD3F9EB0503','D96BE9F0-13AB-4990-AB67-99E3BBBB4913','UPS','UPS');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (109,1039,'Mv Cu single core xlpe','Mv Cu single core xlpe');
+VALUES ('63CE64ED-4916-4A28-B4A8-ED6DC8D98434','6560B4EC-ECBA-45C2-A50D-75F8AE292D31','RADIO UNIT','RADIO UNIT');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (110,1039,'Mv UNK 3 core UNK','Mv UNK 3 core UNK');
+VALUES ('EED8FB3C-A69B-47DC-AF9C-A0892748ACFD','B51C6FC0-A738-4357-BEA3-CE56ED574533','CHASSIS SWITCH','CHASSIS SWITCH');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (111,1040,'Bear','Bear');
+VALUES ('3584A822-CBC0-4D86-B55B-0212A882D969','B51C6FC0-A738-4357-BEA3-CE56ED574533','COPPER SWITCH','COPPER SWITCH');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (112,1040,'Fox','Fox');
+VALUES ('C54B581B-1B50-4E48-A35E-A0B9ABE0BBE8','B51C6FC0-A738-4357-BEA3-CE56ED574533','FIBER SWITCH','FIBER SWITCH');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (113,1040,'Goat','Goat');
+VALUES ('CB9C1DFD-B906-450D-A54E-17F04B459EEF','B51C6FC0-A738-4357-BEA3-CE56ED574533','MPLS SWITCH','MPLS SWITCH');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (114,1040,'Hare','Hare');
+VALUES ('34352643-925F-4F35-B697-30AF750E2461','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','BX','BX');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (115,1040,'Medium voltage aerial bundle conductor','Medium voltage aerial bundle conductor');
+VALUES ('9F4725DF-D703-4A2F-A362-E59B2C0A737E','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','ER','ER');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (116,1040,'Pelican','Pelican');
+VALUES ('305EB1ED-42AB-4086-BDF5-BAE2C2B4A3B9','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','LH','LH');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (117,1040,'Rabbit','Rabbit');
+VALUES ('0EF28690-B495-4A6F-8284-3A14AC0C3CF9','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','LR','LR');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (118,1040,'Wolf','Wolf');
+VALUES ('BBDEE984-5544-4B08-BCC9-D23573DBC365','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','LX','LX');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (119,1041,'Pump - sewer','Pump - sewer');
+VALUES ('223AB555-64CD-47BA-84C8-EE784270C091','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','SFP General','SFP General');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (120,1042,'Flare stack','Flare stack');
+VALUES ('0C11D1B8-E1EF-461D-8884-482F92BA0587','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','SFP-T','SFP-T');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (121,1043,'Workshop type - fixed','Workshop type - fixed');
+VALUES ('D36EE2B0-2355-4F4E-BE8F-FA78D9CAC7CC','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','SR','SR');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (122,1044,'Winch','Winch');
+VALUES ('810CAF0A-4567-46C1-82F1-DB7FDF644952','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','SX','SX');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (123,1045,'Extraction blower','Extraction blower');
+VALUES ('E91A0869-601B-4BCA-8CDB-90F9280C6A79','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','ZR','ZR');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (124,1046,'Gas','Gas');
+VALUES ('3EC523C0-F266-46ED-861D-98CC140536F7','DAC6FA7D-ABC8-41A3-A6A7-AAB004654537','ZX','ZX');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (125,1048,'HDPE (Steam)','HDPE (Steam)');
+VALUES ('845E1111-E932-4536-8CDD-D08D3D034B24','662D5755-9804-4FC3-BC98-2912A3CBF0A5','NETWORK SECURITY APPLIANCE','NETWORK SECURITY APPLIANCE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (126,1048,'Steel (Steam)','Steel (Steam)');
+VALUES ('03585E68-979C-43D7-A4B7-82B8A2CB40E6','C8916694-014B-48F3-9CD5-3338DF8D89E3','VPN CONCENTRATOR','VPN CONCENTRATOR');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (127,1048,'unknown (assumed HDPE) (Steam)','unknown (assumed HDPE) (Steam)');
+VALUES ('B5B4FF21-D590-4B66-AA6F-558590865D6E','00CD35E6-FEE5-4D1C-9E27-5FEB18A51CBB','Glass','Glass');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (128,1048,'unknown (assumed steel) (Steam)','unknown (assumed steel) (Steam)');
+VALUES ('D4DF3E22-1408-4709-BCB4-95EF4F12514B','00CD35E6-FEE5-4D1C-9E27-5FEB18A51CBB','Plastic','Plastic');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (129,1049,'Air release (Gas)','Air release (Gas)');
+VALUES ('FB050215-7F07-46BB-B5E9-6ED181712B0C','00CD35E6-FEE5-4D1C-9E27-5FEB18A51CBB','Shade netting','Shade netting');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (130,1049,'Butterfly (Gas)','Butterfly (Gas)');
+VALUES ('8D64F05A-5E6E-442F-9570-785E7568C69A','822845A8-3365-4A5D-B258-F77D4911A076','Synthetic surface','Synthetic surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (131,1049,'Non-return (Gas)','Non-return (Gas)');
+VALUES ('0F7D0E00-7ACF-4501-963C-AC14EE8DF0D5','319BE643-C675-4FD1-9EAB-DE8F44568F45','Refrigerating plant','Refrigerating plant');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (132,1049,'Pressure Reducing (Gas)','Pressure Reducing (Gas)');
+VALUES ('573A7B7C-3982-448B-9659-BF521E2EEA08','BBEAC096-914B-4FC7-ADDF-064538B1F832','DOUBLE','DOUBLE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (133,1049,'Resilient seal (Gas)','Resilient seal (Gas)');
+VALUES ('2A2D9BEB-3F35-4915-AFC7-9C0DF5A51508','BBEAC096-914B-4FC7-ADDF-064538B1F832','SINGLE','SINGLE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (134,1050,'Gasometer','Gasometer');
+VALUES ('C2E775B4-8D62-4AAE-994D-703588AA110D','59DF93E1-95BC-434C-BE91-58E6CFB30446','Rural (120 km/h)','Rural (120 km/h)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (135,1052,'Double','Double');
+VALUES ('D4E7A378-82EF-4563-B07C-5B8B50CB2A91','59DF93E1-95BC-434C-BE91-58E6CFB30446','Urban (60km/h)','Urban (60km/h)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (136,1052,'Single','Single');
+VALUES ('0B7E7E7E-E362-4374-8293-93D56BFC3E99','D0F08F1A-9BE0-4400-B06C-8158137F8EDA','Solar Agitator','Solar Agitator');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (137,1053,'Busbar Indoor','Busbar Indoor');
+VALUES ('A8915222-06AD-49DA-B228-CCD9A4368029','4D7E66DE-63B7-41BF-B18F-2F064A3CB885','Condenser','Condenser');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (138,1054,'Busbar Outdoor','Busbar Outdoor');
+VALUES ('A7C66CC3-CCD1-4E8F-85EC-B6B2CF3071CC','C7CC86FC-2B34-4F8D-8051-C42D9AD7B36E','Exciter','Exciter');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (139,1055,'Lightning mast and shield wiring','Lightning mast and shield wiring');
+VALUES ('0BDE43C1-CC44-442F-9636-694864214543','C7CC86FC-2B34-4F8D-8051-C42D9AD7B36E','Generator','Generator');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (140,1056,'Station earthing − mat and electrodes','Station earthing − mat and electrodes');
+VALUES ('CDF27566-F801-4374-8874-F8C19C62D380','C7CC86FC-2B34-4F8D-8051-C42D9AD7B36E','Generator power export system','Generator power export system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (141,1057,'Gis bus ducting','Gis bus ducting');
+VALUES ('10BFC77A-0588-41F6-9863-5CAE6144EEA6','AD1B763C-72DC-4972-9B57-6CCDB09F9F00','DREDGER','DREDGER');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (142,1058,'Indoor gis bays','Indoor gis bays');
+VALUES ('A789D5E1-DF90-43D2-8429-2D65B7F893F4','CA86FFCF-8941-4EEB-BD6B-B8E027A6E3BF','VIRTUAL REALITY HARDWARE','VIRTUAL REALITY HARDWARE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (143,1059,'Outdoor','Outdoor');
+VALUES ('13AC78C0-A50D-4D03-82A2-181A7242C248','4CBEB88D-C4DD-4F6E-BF06-D5E9DA860D93','MIXED REALITY HARDWARE','MIXED REALITY HARDWARE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (144,1060,'Indoor','Indoor');
+VALUES ('B7FF619D-2B8E-4AAF-8C25-D8FFB6C88B1D','3EEDF07F-2EA8-4212-AE6A-4D849EC0BE05','Motor control centre','Motor control centre');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (145,1060,'Outdoor','Outdoor');
+VALUES ('71C0B31E-213D-4E66-B316-A47DE12CC547','23B1B454-F751-4DA4-B661-DC8154C2BF7E','Incinerator','Incinerator');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (146,1060,'Outdoor hand operated','Outdoor hand operated');
+VALUES ('52527272-EBB9-45C4-885E-408A0FD830BF','86C113E9-953F-494D-968F-0025E6AC1D5A','Data Concentrator unit','Data Concentrator unit');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (147,1060,'Outdoor motorised','Outdoor motorised');
+VALUES ('EF75C29F-9BE9-42F0-B659-1251AE29A898','08B03E2B-D15D-4A55-BFC8-E4855E4BC0E4','Ticket Booth','Ticket Booth');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (148,1060,'Outdoor motorised - ais pantograph','Outdoor motorised - ais pantograph');
+VALUES ('038C3B49-01E5-4158-A89A-404E9ED9CB1A','3000FF91-D600-4D3A-AF8F-52CF5CDA894D','Pump as turbine','Pump as turbine');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (149,1061,'Earth switches','Earth switches');
+VALUES ('FF8C92C5-F7DB-4AE0-8D5A-986AA7A24029','F28E3B07-8821-4551-AE1E-510A95C21D95','Submersible','Submersible');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (150,1062,'Alarm system','Alarm system');
+VALUES ('0C396FB5-3750-4A0E-8391-95A1DCFD8D71','4691B190-6D28-440D-9632-49E29370C6CA','Crank operated (bigger than 15sqm)','Crank operated (bigger than 15sqm)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (151,1062,'Control rooms','Control rooms');
+VALUES ('2626ABED-D594-45FE-815D-198E896D43C2','4691B190-6D28-440D-9632-49E29370C6CA','Motor operated (bigger than 15sqm)','Motor operated (bigger than 15sqm)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (152,1062,'Functional group control','Functional group control');
+VALUES ('C95EF7CB-CB93-4AE2-8D6E-5FB60C0991E0','FA2C2511-AB03-4B2B-8CF9-9AD7530DD7F5','Busbar Indoor','Busbar Indoor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (153,1062,'Measurement, registration, recording','Measurement, registration, recording');
+VALUES ('15FD740F-92D3-4E13-8AF3-B4C5015B2C50','F37E7049-C62F-4C53-B472-2C0BFFF71912','Petrol Pump','Petrol Pump');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (154,1062,'Process computer systems','Process computer systems');
+VALUES ('4901F5DF-CB82-4F78-822A-DF5C88313FD4','06F2D03E-A224-4396-BCE8-28F28257739E','Large','Large');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (155,1062,'Protection interlocking','Protection interlocking');
+VALUES ('CDFEDDC5-615C-454D-A4D1-080F6D15DAE6','06F2D03E-A224-4396-BCE8-28F28257739E','Small','Small');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (156,1062,'Tele-communication equipment','Tele-communication equipment');
+VALUES ('54E8054A-ED32-4D07-86CC-677E64C8CB30','A7A33493-A709-49BD-BAAE-8B93A70ABA32','Heated Bitumen Storage','Heated Bitumen Storage');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (157,1062,'Unit co-ordinator level','Unit co-ordinator level');
+VALUES ('75EDE50B-7EAC-4AA5-8BA6-C261528B9BB2','E02ABB47-D163-499F-8C97-352FD0CBD056','Hopper','Hopper');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (158,1063,'Credit lpu (large power users) meter','Credit lpu (large power users) meter');
+VALUES ('31B79311-0344-4705-AC3C-672E0CAA1929','09EB580D-B5A6-4677-B242-E7D828696E92','Jaw crusher','Jaw crusher');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (159,1063,'Credit lpu 3 - 0 hv including metering unit','Credit lpu 3 - 0 hv including metering unit');
+VALUES ('23443055-0812-4C27-B294-2E3109063FB2','09EB580D-B5A6-4677-B242-E7D828696E92','Stone crusher','Stone crusher');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (160,1064,'Radio infrastructure','Radio infrastructure');
+VALUES ('BDE71F9C-82BB-4FE4-ABA5-28A749BFC62A','68E32F6D-60BC-4525-90E8-6B59E7A83E08','Conveyor belt system','Conveyor belt system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (161,1065,'Co-axial cable','Co-axial cable');
+VALUES ('417A9C0D-4B53-4FC4-BDB3-FC30153CF870','371FDDCF-DA7E-44D5-BCB1-19CFF1C8CF6C','Dust removal','Dust removal');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (162,1066,'Multi mode','Multi mode');
+VALUES ('4D5305B8-58B1-4B5C-B71E-556B729DB52B','67FA9EFD-D005-4DF4-9E37-7C9580A5F57E','Asphault Stone Mixer','Asphault Stone Mixer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (163,1066,'Single mode','Single mode');
+VALUES ('6F9116F3-8E13-4332-88DF-4B46928A7473','345B0C9E-CF12-425C-949C-EF781C62D846','Stone Screen','Stone Screen');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (164,1070,'DISTRIBUTION','DISTRIBUTION');
+VALUES ('612C3F28-7527-49DD-A3C1-C1AA776B44F4','17CC023C-C96D-4689-BEED-26ADE8A48D45','Wet Scrubber','Wet Scrubber');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (165,1070,'EDGE','EDGE');
+VALUES ('97B76B67-C642-4ADD-9CBC-1E0F680BEE73','CEC0AED0-4B82-412E-A252-70F2A358A000','Steel (Bitumen)','Steel (Bitumen)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (166,1070,'Network switch (data & poe)','Network switch (data & poe)');
+VALUES ('6514B86B-ECA9-4192-81C8-D979BAC7D31D','CC0E56F1-9148-449B-9B22-CDDB8F837D1F','Bus Bay Asphalt','Bus Bay Asphalt');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (167,1070,'Network switch (data & poe+)','Network switch (data & poe+)');
+VALUES ('12529C4C-13E6-4EBE-B3DD-49B7C817CED3','CC0E56F1-9148-449B-9B22-CDDB8F837D1F','Bus Bay Block','Bus Bay Block');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (168,1070,'Network switch (data only)','Network switch (data only)');
+VALUES ('643EFE6D-A0A8-4A1B-B4E9-B78112674D4F','CC0E56F1-9148-449B-9B22-CDDB8F837D1F','Bus Bay Concrete','Bus Bay Concrete');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (169,1070,'Optical line terminal Fixed port','Optical line terminal Fixed port');
+VALUES ('B3CD1D68-45A5-46D0-AD63-200A01C4D473','CC0E56F1-9148-449B-9B22-CDDB8F837D1F','Bus Bay Gravel','Bus Bay Gravel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (170,1070,'Optical line terminal Modular port','Optical line terminal Modular port');
+VALUES ('DE92D00D-95CC-4EE8-813F-A531112AE511','298AA614-DE18-448D-99BC-1F50A7418FEC','Sidewalk asphalt','Sidewalk asphalt');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (171,1071,'Fibre channel switch','Fibre channel switch');
+VALUES ('C0DDA98A-CD1D-42C9-ADC5-D1A776354F50','298AA614-DE18-448D-99BC-1F50A7418FEC','Sidewalk Block','Sidewalk Block');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (172,1071,'Isci disk array','Isci disk array');
+VALUES ('C3000E20-13FD-476C-91D9-646DB1E6FE14','298AA614-DE18-448D-99BC-1F50A7418FEC','Sidewalk Concrete','Sidewalk Concrete');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (173,1071,'Network attached storage bay','Network attached storage bay');
+VALUES ('84397F76-D160-47D6-9D16-1637A83A0F0A','298AA614-DE18-448D-99BC-1F50A7418FEC','Sidewalk Gravel/Shingle','Sidewalk Gravel/Shingle');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (174,1071,'Storage controller','Storage controller');
+VALUES ('6BFD5645-DBCD-4981-9585-159F96FAEB98','3AFD687A-6CB9-44E5-9E32-D378C001AAD0','Drinking water supply','Drinking water supply');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (175,1072,'Traditional PABX','Traditional PABX');
+VALUES ('466F5E8D-B73E-4BA1-8FC6-E028001BAC36','3AFD687A-6CB9-44E5-9E32-D378C001AAD0','Fire fighting water system','Fire fighting water system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (176,1073,'Analogue Multiplexer','Analogue Multiplexer');
+VALUES ('944A5344-C902-4780-A75B-FD5C9C69FDF0','25324713-369D-4BAD-8B36-2A9EBC2D43D7','Coal distribution & intermediate storage','Coal distribution & intermediate storage');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (177,1073,'DIGITAL MODULE/CARD','DIGITAL MODULE/CARD');
+VALUES ('0B780DC2-5395-451A-9DF4-1A41888CD56C','25324713-369D-4BAD-8B36-2A9EBC2D43D7','Coal stockyard conveyor system','Coal stockyard conveyor system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (178,1073,'Digital Multiplexer','Digital Multiplexer');
+VALUES ('5B680B4B-5368-4A49-BA30-DE437A0BF2FD','25324713-369D-4BAD-8B36-2A9EBC2D43D7','Storage area (coal stockpile)','Storage area (coal stockpile)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (179,1073,'PROTOCOL MODULE','PROTOCOL MODULE');
+VALUES ('16DED3D0-F7A2-48F4-8FEB-7704FA054EE2','135D9939-5906-40F4-A375-125D6173D0D4','Compressed air supply','Compressed air supply');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (180,1074,'Core Router','Core Router');
+VALUES ('104B2469-319D-4C62-A7F6-0B5DECE6DD16','135D9939-5906-40F4-A375-125D6173D0D4','General control air supply','General control air supply');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (181,1074,'Wireless core router','Wireless core router');
+VALUES ('E6EC0874-1645-4451-B920-F2564CA3D5EC','9245508F-9709-4A8C-BEB8-82BE9F2A6667','Fuel oil pumping system','Fuel oil pumping system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (182,1075,'Server','Server');
+VALUES ('F203E46F-E8A5-47A3-A3E4-BB65E2F67C31','9245508F-9709-4A8C-BEB8-82BE9F2A6667','Fuel oil tanks','Fuel oil tanks');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (183,1076,'Transformer','Transformer');
+VALUES ('AF093F5D-2B93-49E2-A478-BBEAB5F4AE01','D0399E82-7C4E-40D5-8F10-C73405EFBD7D','Raw water supply system','Raw water supply system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (184,1077,'Hv Al oil cooled cable','Hv Al oil cooled cable');
+VALUES ('17044289-15BC-44AE-A541-8D013EB29C94','D0399E82-7C4E-40D5-8F10-C73405EFBD7D','Treatment (demineralisation)','Treatment (demineralisation)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (185,1077,'HV Al pilc three core','HV Al pilc three core');
+VALUES ('C71ACAD8-819D-4685-8B33-EEA0706B015E','F404D64A-4401-4F99-8055-42EA0F838943','Pole mounted ganglink','Pole mounted ganglink');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (186,1077,'Hv Al single core xlpe cable','Hv Al single core xlpe cable');
+VALUES ('AB96C1A2-BC8C-4BF1-A6D6-D33F482FD4C3','72DC960F-A741-449E-BAC1-DC8894E82562','Inductive Loop Detector','Inductive Loop Detector');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (187,1077,'HV Al xlpe single core','HV Al xlpe single core');
+VALUES ('7A3312B2-F05C-48A6-A7B5-C20D88AF33DA','F93534FF-F67D-43FB-938E-B4993E519497','Business and retail','Business and retail');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (188,1077,'Hv Cu oil cooled single core cable','Hv Cu oil cooled single core cable');
+VALUES ('A1ADB89C-6689-4A95-AF58-60F277D85161','F93534FF-F67D-43FB-938E-B4993E519497','Farms (commercial)','Farms (commercial)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (189,1077,'HV Cu pilc three core','HV Cu pilc three core');
+VALUES ('06759857-7799-4659-86F8-34BBC9645E12','F93534FF-F67D-43FB-938E-B4993E519497','Farms (vacant)','Farms (vacant)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (190,1077,'Hv Cu single core xlpe cable','Hv Cu single core xlpe cable');
+VALUES ('5B4CE4EB-2095-4D35-A946-078B9877CC0E','F93534FF-F67D-43FB-938E-B4993E519497','Formal residential (high income)','Formal residential (high income)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (191,1077,'HV Cu xlpe single core','HV Cu xlpe single core');
+VALUES ('D2526446-B2C8-47B3-81BA-E64EB9CFA9BE','F93534FF-F67D-43FB-938E-B4993E519497','Formal residential (low income)','Formal residential (low income)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (192,1077,'HV Cu xlpe three core','HV Cu xlpe three core');
+VALUES ('0591571A-5C6F-481F-8535-95490CA44395','F93534FF-F67D-43FB-938E-B4993E519497','Formal residential (medium income)','Formal residential (medium income)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (193,1078,'Concrete pole','Concrete pole');
+VALUES ('2AA59364-9550-4CD3-A23A-9E567A225B09','F93534FF-F67D-43FB-938E-B4993E519497','Formal residential (undevelopable land)','Formal residential (undevelopable land)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (194,1078,'Monopole pole','Monopole pole');
+VALUES ('D6CDCFCB-FEA2-4471-801B-94DABE541281','F93534FF-F67D-43FB-938E-B4993E519497','Government institutions','Government institutions');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (195,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT 60 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT 60 BEND');
+VALUES ('0EA3B345-8FA5-4C92-A002-B2226E70DBC9','F93534FF-F67D-43FB-938E-B4993E519497','Informal residential','Informal residential');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (196,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER','SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER');
+VALUES ('C3A549FB-7345-435D-8DBF-A348F070876B','F93534FF-F67D-43FB-938E-B4993E519497','Open space (developable land)','Open space (developable land)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (197,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND');
+VALUES ('C7D65A2E-A19C-4D1C-92D0-AA0296CC4273','F93534FF-F67D-43FB-938E-B4993E519497','Open space (un-developable land)','Open space (un-developable land)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (198,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER');
+VALUES ('9C32446A-C58F-4794-B007-76B7E1E16355','F93534FF-F67D-43FB-938E-B4993E519497','PPE Land','PPE Land');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (199,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND');
+VALUES ('4E229798-F0D6-4F35-A4F8-B57398DAB40A','B27CEC55-13A9-4199-B3CA-E55BB87C1B4C','R1 Road Surface','R1 Road Surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (200,1078,'SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND','SINGLE CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND');
+VALUES ('3281102C-497B-4033-A4BD-8E4AFD7777E6','B27CEC55-13A9-4199-B3CA-E55BB87C1B4C','R2 Road Surface','R2 Road Surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (201,1078,'Steel lattice tower','Steel lattice tower');
+VALUES ('A42A88CF-9F3D-4998-A2D4-4D8307626468','B27CEC55-13A9-4199-B3CA-E55BB87C1B4C','R3 Road Surface','R3 Road Surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (202,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT 60 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT 60 BEND');
+VALUES ('A9D55C4E-2139-4074-BF26-E5CF3C0C4608','B27CEC55-13A9-4199-B3CA-E55BB87C1B4C','R4 Road Surface','R4 Road Surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (203,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER','TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER');
+VALUES ('DE3CD0F5-8C33-4E84-AB4F-6EA8B5EC180B','B27CEC55-13A9-4199-B3CA-E55BB87C1B4C','R5 Road Surface','R5 Road Surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (204,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT TERMINAL TOWER 90 BEND');
+VALUES ('09079F29-70CD-4874-BDD7-0314BA187D20','B27CEC55-13A9-4199-B3CA-E55BB87C1B4C','U1 Road Surface','U1 Road Surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (205,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT TOWER','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER');
+VALUES ('89DD85AF-C74A-46F7-BF7D-8F9578E3BB8C','B27CEC55-13A9-4199-B3CA-E55BB87C1B4C','U2 Road Surface','U2 Road Surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (206,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 30 BEND');
+VALUES ('DC9C5307-E4D5-4EF8-9D79-5C2B09E3A5C0','B27CEC55-13A9-4199-B3CA-E55BB87C1B4C','U3 Road Surface','U3 Road Surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (207,1078,'TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND','TWIN CONDUCTOR DOUBLE CIRCUIT TOWER 90 BEND');
+VALUES ('1C03EFC2-3C0E-4D29-82C8-11A56E59E070','B27CEC55-13A9-4199-B3CA-E55BB87C1B4C','U4 Road Surface','U4 Road Surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (208,1078,'Wooden pole','Wooden pole');
+VALUES ('7958B523-8A69-45C3-A5B2-273AECCD46E3','B27CEC55-13A9-4199-B3CA-E55BB87C1B4C','U5 Road Surface','U5 Road Surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (209,1079,'Bear','Bear');
+VALUES ('75F8B25A-4037-4BA1-8BD7-4218CAB75A37','16879ED4-7B6F-43AD-A368-1608DA2F2347','R1 Road Structure','R1 Road Structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (210,1079,'Bull','Bull');
+VALUES ('F4BB6E9F-5015-4040-8184-7198D48A2F53','16879ED4-7B6F-43AD-A368-1608DA2F2347','R2 Road Structure','R2 Road Structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (211,1079,'Fox','Fox');
+VALUES ('E0D34B27-A7E3-46F0-A1FB-0D62F27D91A1','16879ED4-7B6F-43AD-A368-1608DA2F2347','R3 Road Structure','R3 Road Structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (212,1079,'Hare','Hare');
+VALUES ('94649E42-C8F1-468B-8037-5C2914F7E4DE','16879ED4-7B6F-43AD-A368-1608DA2F2347','R4 Road Structure','R4 Road Structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (213,1079,'Pelican','Pelican');
+VALUES ('1BAAFDDD-8711-4B01-A443-14812FAA2CA3','16879ED4-7B6F-43AD-A368-1608DA2F2347','R5 Road Structure','R5 Road Structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (214,1079,'Quad Bear','Quad Bear');
+VALUES ('162AC35F-F314-489C-AC57-D191AE61354F','16879ED4-7B6F-43AD-A368-1608DA2F2347','U1 Road Structure','U1 Road Structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (215,1079,'Rabbit','Rabbit');
+VALUES ('7446EFCB-AF7C-4E09-913D-7303DAA461F7','16879ED4-7B6F-43AD-A368-1608DA2F2347','U2 Road Structure','U2 Road Structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (216,1079,'Twin Bear','Twin Bear');
+VALUES ('0296C452-9AC9-4ED2-99B2-127B39BBFCC4','16879ED4-7B6F-43AD-A368-1608DA2F2347','U3 Road Structure','U3 Road Structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (217,1079,'Twin Bull','Twin Bull');
+VALUES ('B5DE7FEC-528C-45CF-A5DF-0BAD6723E58E','16879ED4-7B6F-43AD-A368-1608DA2F2347','U4 Road Structure','U4 Road Structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (218,1079,'Twin Fox','Twin Fox');
+VALUES ('4CBEC740-F27A-4D9C-ACCD-213B7CB6BB6C','16879ED4-7B6F-43AD-A368-1608DA2F2347','U5 Road Structure','U5 Road Structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (219,1079,'Twin Hare','Twin Hare');
+VALUES ('95623BE1-5152-4917-9127-E2F275914EBF','4AF7319E-0E0F-4E9B-9A38-D0830C44D82B','Flat terrain','Flat terrain');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (220,1079,'Twin Pelican','Twin Pelican');
+VALUES ('CDFA6471-B631-4DAC-B07B-8AE27035EEA7','4AF7319E-0E0F-4E9B-9A38-D0830C44D82B','Mountainous terrain','Mountainous terrain');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (221,1079,'Twin Rabbit','Twin Rabbit');
+VALUES ('872072E2-5B44-4649-A34C-AF0B42CA6DBF','4AF7319E-0E0F-4E9B-9A38-D0830C44D82B','Rolling terrain','Rolling terrain');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (222,1079,'Twin Wolf','Twin Wolf');
+VALUES ('631DFC89-1875-4087-A821-B6B0ABAD4D9E','4575DFE3-C992-4A48-A93E-D296CFA435EA','Flat terrain','Flat terrain');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (223,1079,'Wolf','Wolf');
+VALUES ('C0829131-6F6B-4118-BE29-CCC760CC0DBE','4575DFE3-C992-4A48-A93E-D296CFA435EA','Mountainous terrain','Mountainous terrain');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (224,1080,'Sectionaliser','Sectionaliser');
+VALUES ('A7475ECE-9020-44F9-8B44-F0D2416276D0','4575DFE3-C992-4A48-A93E-D296CFA435EA','Rolling terrain','Rolling terrain');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (225,1081,'Streetlight shared with LV network','Streetlight shared with LV network');
+VALUES ('76535292-3DA0-4652-952E-9BEE91360A70','EC5AC76F-CE1B-4DD9-81F8-4122876B335D','Road bridge abutment','Road bridge abutment');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (226,1081,'Streetlight with its own network','Streetlight with its own network');
+VALUES ('EF147047-85AE-44AF-A49C-F59105EF76C8','F615669A-E5EA-4A07-9EFE-7C1299E5085E','Road bridge side barrier','Road bridge side barrier');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (227,1082,'High mast','High mast');
+VALUES ('4A185E71-7419-4F40-81A1-166CEA625028','F87447A1-F314-42A5-B9F1-A56FC5B7F66A','Road bridge substructure','Road bridge substructure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (228,1082,'Solar powered High mast','Solar powered High mast');
+VALUES ('172639CF-8280-4F62-BE00-83BE2104C189','3B3B0943-5930-4EDB-87C9-4E5E7D2CE9C6','Road bridge superstructure','Road bridge superstructure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (229,1083,'Vending Station','Vending Station');
+VALUES ('31AEBEE4-B8DB-416E-B14D-BC7A02677417','D757EB48-CA5B-4E72-AAEF-07BC437592BC','Pedestrian bridge substructure','Pedestrian bridge substructure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (230,1084,'Credit meter','Credit meter');
+VALUES ('A479CA07-BF93-4405-9005-4516BBA7681F','69274044-3C8D-402C-ABFA-CD0C8A8B7487','Pedestrian bridge superstructure','Pedestrian bridge superstructure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (231,1086,'Prepayment meters','Prepayment meters');
+VALUES ('85FC9FB9-9DD4-462C-8420-005597EC0923','0307EC43-F291-45B7-913B-860F3CCF1781','Pedestrian bridge railing','Pedestrian bridge railing');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (232,1087,'Ash and slag handling','Ash and slag handling');
+VALUES ('E8E5D0AB-A71D-4B20-B730-5B7E39D8957E','62C07898-7ABC-443C-B3FA-DBED1243DE13','Brick','Brick');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (233,1087,'Boiler drum system (evaporator)','Boiler drum system (evaporator)');
+VALUES ('F6D3039A-61B6-4CAA-8995-69BC3BE0A4B8','62C07898-7ABC-443C-B3FA-DBED1243DE13','Concrete wall','Concrete wall');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (234,1087,'Bunker, feeder and mill system','Bunker, feeder and mill system');
+VALUES ('6F4923D9-CCFC-4FA7-8F6C-773BEE592582','62C07898-7ABC-443C-B3FA-DBED1243DE13','Retaining blocks','Retaining blocks');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (235,1087,'Cleaning equipment (sootblowing)','Cleaning equipment (sootblowing)');
+VALUES ('127B6F98-EF6A-4964-88F3-F11880FF9ED2','62C07898-7ABC-443C-B3FA-DBED1243DE13','Stone wall','Stone wall');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (236,1087,'Combustion air system','Combustion air system');
+VALUES ('AA5B50C8-5398-4EC5-9E44-FB8AA344F25B','10F489C8-6A48-4EF2-B1F8-FB80C8E62348','Above ground structure','Above ground structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (237,1087,'Economiser system','Economiser system');
+VALUES ('92AEDD63-74AB-42F3-A8B6-E896EDBE8EB5','10F489C8-6A48-4EF2-B1F8-FB80C8E62348','Below ground structure','Below ground structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (238,1087,'Flue gas exhaust','Flue gas exhaust');
+VALUES ('30E3254C-2C52-4FC8-8B3F-AD7F48D05937','10F489C8-6A48-4EF2-B1F8-FB80C8E62348','Manholes','Manholes');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (239,1087,'Main firing system','Main firing system');
+VALUES ('E8218D88-205D-41A2-9DD8-9F8F4B862A40','10F489C8-6A48-4EF2-B1F8-FB80C8E62348','Mass concrete','Mass concrete');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (240,1087,'Structure for conventional heat generation','Structure for conventional heat generation');
+VALUES ('1FA18FB4-F67A-4BF8-92FD-F7F9E6FD8282','10F489C8-6A48-4EF2-B1F8-FB80C8E62348','Shuttered RC eng structure','Shuttered RC eng structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (241,1087,'Superheater system','Superheater system');
+VALUES ('C91EEA69-861B-44C2-B40C-F2930787B13F','10F489C8-6A48-4EF2-B1F8-FB80C8E62348','Shuttered RC eng structure - water retaining','Shuttered RC eng structure - water retaining');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (242,1087,'Supporting structure, skin casing, combustion chamber','Supporting structure, skin casing, combustion chamber');
+VALUES ('417DD531-E747-4CA7-8AC6-E80C5A9D51C8','7A5592D1-2764-4349-9D0D-C03609F77D21','Beams','Beams');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (243,1088,'Economiser','Economiser');
+VALUES ('4B9159EE-A2C8-4FB1-B0ED-135062B3EC7E','7A5592D1-2764-4349-9D0D-C03609F77D21','Cooling tower','Cooling tower');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (244,1089,'Oil Burner','Oil Burner');
+VALUES ('4AB8A96F-5277-4410-B241-C9DEA00C4AAA','7A5592D1-2764-4349-9D0D-C03609F77D21','Galvanised steel','Galvanised steel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (245,1090,'Reheater','Reheater');
+VALUES ('8798B947-2A38-429A-B663-078F8E097600','7A5592D1-2764-4349-9D0D-C03609F77D21','Handrail','Handrail');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (246,1091,'Super Heater','Super Heater');
+VALUES ('A7463975-60EA-48BB-B4DC-8DF135DF8A81','7A5592D1-2764-4349-9D0D-C03609F77D21','MECHANICAL BRIDGE','MECHANICAL BRIDGE');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (247,1093,'Condenser Pump','Condenser Pump');
+VALUES ('73691EF4-3488-4420-8DD2-C414525D5AD7','7A5592D1-2764-4349-9D0D-C03609F77D21','Mild steel','Mild steel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (248,1094,'Air evacuation system','Air evacuation system');
+VALUES ('DF235D3F-F29F-4DEF-9A0B-D815A6A6FAA3','7A5592D1-2764-4349-9D0D-C03609F77D21','Stainless steel','Stainless steel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (249,1094,'Auxiliary steam supply','Auxiliary steam supply');
+VALUES ('F8DE0D69-EAFF-4EB1-ADCE-CC69AFD18344','7A5592D1-2764-4349-9D0D-C03609F77D21','Stairs','Stairs');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (250,1094,'Boiler feedpumps','Boiler feedpumps');
+VALUES ('5A3AA5DB-6E37-4AFB-AB52-E6D2665801C6','7A5592D1-2764-4349-9D0D-C03609F77D21','Tank elevation structure','Tank elevation structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (251,1094,'Condensing system','Condensing system');
+VALUES ('44EACF88-2E57-42D3-BEC0-227A290A7BFE','7A5592D1-2764-4349-9D0D-C03609F77D21','Walkways grid','Walkways grid');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (252,1094,'Cooling towers ­','Cooling towers ­');
+VALUES ('E696F20B-14B3-40C6-81C6-91827647C0CA','7A5592D1-2764-4349-9D0D-C03609F77D21','Walkways including handrail','Walkways including handrail');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (253,1094,'Cooling water piping system ­','Cooling water piping system ­');
+VALUES ('70383E82-7B54-4470-9A5D-12DD942F37EF','71754C4B-3CF5-4BE9-ACD9-C96B7F8500F9','Tunnel bore structure','Tunnel bore structure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (254,1094,'Cooling water pumping system ­','Cooling water pumping system ­');
+VALUES ('2CC4CDAF-6857-4EB3-949A-9992AFAEEFD9','369A68B4-3492-418C-AE71-EBF427F2F051','Concrete commuter shelter','Concrete commuter shelter');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (255,1094,'Extraction pumps','Extraction pumps');
+VALUES ('2DCE1549-D744-4B93-A78F-CA17FCFBFA8B','369A68B4-3492-418C-AE71-EBF427F2F051','Plastic commuter shelter','Plastic commuter shelter');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (256,1094,'Feedwater piping and deaerator tank','Feedwater piping and deaerator tank');
+VALUES ('C34053C7-7704-41BF-A0B9-1BB1FD557229','369A68B4-3492-418C-AE71-EBF427F2F051','Steel commuter shelter','Steel commuter shelter');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (257,1094,'High pressure heater','High pressure heater');
+VALUES ('DF1158AB-BB21-48F3-A000-913D5C9708DE','BCC90DD7-7CA4-40C2-BC11-4C0C7F98D20F','Asphalt','Asphalt');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (258,1094,'High pressure turbine','High pressure turbine');
+VALUES ('65410CCD-AB1B-4C47-A5A9-A70DD8E16790','BCC90DD7-7CA4-40C2-BC11-4C0C7F98D20F','Block paving','Block paving');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (259,1094,'Low pressure heaters','Low pressure heaters');
+VALUES ('C7C549B6-B454-428B-AFA1-A35F8E06A6E3','BCC90DD7-7CA4-40C2-BC11-4C0C7F98D20F','Concrete surface','Concrete surface');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (260,1094,'Low pressure turbine','Low pressure turbine');
+VALUES ('99982D30-295E-41E9-9B70-D0F5C6E46067','BCC90DD7-7CA4-40C2-BC11-4C0C7F98D20F','Gravel','Gravel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (261,1094,'Main condensate piping system','Main condensate piping system');
+VALUES ('02C0DFCE-C7C0-44C8-9288-F7FDA6647CAB','E4FE1373-81E1-4B40-A725-8B6E97C8D611','Armco','Armco');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (262,1094,'Main cooling water treatment','Main cooling water treatment');
+VALUES ('2F2ED54A-5214-4270-9911-50F2511669C7','E4FE1373-81E1-4B40-A725-8B6E97C8D611','Cable','Cable');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (263,1094,'Main steam piping system','Main steam piping system');
+VALUES ('E08FBE45-EA04-46CC-9773-3AAC99DCFFBE','E4FE1373-81E1-4B40-A725-8B6E97C8D611','Handrail','Handrail');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (264,1094,'Structure for main machine set','Structure for main machine set');
+VALUES ('DC366B90-24F3-4425-A393-02D136888CB3','10EF20A1-6B7D-43E1-A33E-65ADE80E90C5','Mini round-about','Mini round-about');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (265,1095,'Exciter','Exciter');
+VALUES ('2759A093-7B1E-4FA5-B4CA-ADDE074E59D2','CE94A935-1589-4B3B-B648-1082DA5E138D','Asphalt speed hump','Asphalt speed hump');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (266,1096,'Copper bar','Copper bar');
+VALUES ('9D3A9105-9DBF-41DF-AC9E-206680F6EBF0','CE94A935-1589-4B3B-B648-1082DA5E138D','Block Paving speed hump','Block Paving speed hump');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (267,1096,'Strung conductor (m)','Strung conductor (m)');
+VALUES ('22678C4F-31D6-4921-8769-B0A09768C3FC','CE94A935-1589-4B3B-B648-1082DA5E138D','Concrete speed hump','Concrete speed hump');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (268,1096,'Tubular conductor','Tubular conductor');
+VALUES ('45D3F679-C14E-48C2-85CF-1DC3DCDB7FA4','CE94A935-1589-4B3B-B648-1082DA5E138D','Metal speed hump','Metal speed hump');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (269,1097,'Precipitator','Precipitator');
+VALUES ('35B1F4ED-D278-45A9-A584-2D970B9D910C','CE94A935-1589-4B3B-B648-1082DA5E138D','RAISED PEDESTRIAN CROSSINGS','RAISED PEDESTRIAN CROSSINGS');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (270,1098,'UNINTERRUPTED POWER SUPPLY - UPS GENERAL','UNINTERRUPTED POWER SUPPLY - UPS GENERAL');
+VALUES ('56D807BF-A89A-438F-93A9-C05140073778','4DA4E3C8-B40C-4A7D-9480-DA8BBBF2C64D','Concrete rubbish bin','Concrete rubbish bin');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (271,1098,'UPS 40 - 80 kVA','UPS 40 - 80 kVA');
+VALUES ('37D670B3-9CAB-485A-AD93-CD650978968C','4DA4E3C8-B40C-4A7D-9480-DA8BBBF2C64D','Metal','Metal');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (272,1099,'Steel (Fuel)','Steel (Fuel)');
+VALUES ('B99738C1-F32E-4299-8211-648D7A89ABD7','4DA4E3C8-B40C-4A7D-9480-DA8BBBF2C64D','Plastic bin','Plastic bin');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (273,1100,'Air release (Steam)','Air release (Steam)');
+VALUES ('730498D9-EC0D-426B-AAFE-F9F6A9D43DCF','708512E9-D13D-4F19-8B1C-3EDFEA80D61A','Traffic island','Traffic island');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (274,1100,'Butterfly (Steam)','Butterfly (Steam)');
+VALUES ('93388C05-A436-49F0-B4C7-B4A1FDEBDFBF','0D112B5A-30A5-4D35-AAA2-17ABE63BCCB7','Overhead gantry cantilever','Overhead gantry cantilever');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (275,1100,'Non-return (Steam)','Non-return (Steam)');
+VALUES ('843DC0DF-282B-4F9A-A7F8-D85239611C12','0D112B5A-30A5-4D35-AAA2-17ABE63BCCB7','Overhead gantry portal','Overhead gantry portal');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (276,1100,'Pressure Reducing (Steam)','Pressure Reducing (Steam)');
+VALUES ('4E40DEF3-02CF-42B6-BEDB-26BB2B6593A8','0D112B5A-30A5-4D35-AAA2-17ABE63BCCB7','Road signs (e.g. Warning, Law, information, street signs, etc)','Road signs (e.g. Warning, Law, information, street signs, etc)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (277,1100,'Resilient seal (Steam)','Resilient seal (Steam)');
+VALUES ('BAC7A98A-BC52-45A1-95FB-13F1043569E9','4B28DC9D-F3FE-4E7C-B432-281D9E52014A','Large sign','Large sign');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (278,1101,'Air release (Fuel)','Air release (Fuel)');
+VALUES ('BCF12FEB-D7FC-467F-AC40-094BA9F0FA52','4B28DC9D-F3FE-4E7C-B432-281D9E52014A','Standard sign','Standard sign');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (279,1101,'Butterfly (Fuel)','Butterfly (Fuel)');
+VALUES ('5D7CAF74-B00F-420E-951D-1F2F1360745D','4B28DC9D-F3FE-4E7C-B432-281D9E52014A','Very large sign','Very large sign');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (280,1101,'Non-return (Fuel)','Non-return (Fuel)');
+VALUES ('042352AD-4282-4C6D-9499-CBCA9037A7D3','5F5235A5-BF82-4BBD-8D80-3542379E0797','Standard sign','Standard sign');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (281,1101,'Pressure Reducing (Fuel)','Pressure Reducing (Fuel)');
+VALUES ('EAE1F6CE-9C84-4C9A-9486-745D4CEE42EF','2B088477-3D78-4426-9F4C-2D1E3BDC3C1B','Double lane-double carriageway','Double lane-double carriageway');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (282,1101,'Resilient seal (Fuel)','Resilient seal (Fuel)');
+VALUES ('362F397E-CA37-4791-BFF7-95E1C6D735C2','2B088477-3D78-4426-9F4C-2D1E3BDC3C1B','Double lane-single carriageway','Double lane-single carriageway');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (283,1102,'Fan','Fan');
+VALUES ('4111921F-2263-49E0-97C3-B6F8C8FDBD7E','2B088477-3D78-4426-9F4C-2D1E3BDC3C1B','Pelican crossing (pedestrian traffic lights)','Pelican crossing (pedestrian traffic lights)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (284,1103,'Conveyor belt','Conveyor belt');
+VALUES ('463A924A-BA98-4D87-8A1F-C3C4A8891689','2B088477-3D78-4426-9F4C-2D1E3BDC3C1B','Single lane-single carriageway','Single lane-single carriageway');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (285,1104,'Pulveriser','Pulveriser');
+VALUES ('BFC7EF67-9904-4971-9BD0-1431484E2217','DDC3B891-33B9-4E57-915E-42499D81DA3B','Brick wall','Brick wall');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (286,1105,'Lv overhead','Lv overhead');
+VALUES ('763D6AEF-1310-4592-A1A7-9C7642C2C3B0','DDC3B891-33B9-4E57-915E-42499D81DA3B','Concrete wall','Concrete wall');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (287,1105,'Lv underground','Lv underground');
+VALUES ('27BFAEAD-7AAE-42D4-8C6B-45C6278066F7','DDC3B891-33B9-4E57-915E-42499D81DA3B','Gabions','Gabions');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (288,1106,'Rail lines','Rail lines');
+VALUES ('88DC0556-F4CE-4DDA-8142-EC0735E2FE16','DDC3B891-33B9-4E57-915E-42499D81DA3B','Rip rap','Rip rap');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (289,1108,'Rail bridge abutments','Rail bridge abutments');
+VALUES ('0A618DC5-86F0-4833-A9EF-621E38C1C84F','DDC3B891-33B9-4E57-915E-42499D81DA3B','Stone Pitching','Stone Pitching');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (290,1109,'Rail bridge side barrier','Rail bridge side barrier');
+VALUES ('05FB9B31-E607-439F-9454-3F3613F8E30F','3616D482-8485-464E-BA99-9DDE55463303','General','General');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (291,1110,'Rail bridge substructure','Rail bridge substructure');
+VALUES ('C8AEF202-0F1E-4682-8D72-127BC0DE1BFB','3616D482-8485-464E-BA99-9DDE55463303','Masonry manholes','Masonry manholes');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (292,1111,'Rail bridge superstructure','Rail bridge superstructure');
+VALUES ('FAA94E71-581A-48B2-8565-DA4369AADAA8','1F81C402-DA0A-4313-A19A-F81BE56909D3','1050 mm diameter pipe','1050 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (293,1112,'Rail signal','Rail signal');
+VALUES ('BAA50928-2873-48DC-8858-768C4F33BFF1','1F81C402-DA0A-4313-A19A-F81BE56909D3','1200 mm diameter pipe','1200 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (294,1113,'Indoor WAP','Indoor WAP');
+VALUES ('D7FB51DB-69DA-410E-BDC0-837F15F76824','1F81C402-DA0A-4313-A19A-F81BE56909D3','1200x1200 box','1200x1200 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (295,1113,'Outdoor WAP','Outdoor WAP');
+VALUES ('70BF04BA-501D-4B09-AB81-5D5EB829E464','1F81C402-DA0A-4313-A19A-F81BE56909D3','1350 mm diameter pipe','1350 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (296,1114,'Lining - landfill','Lining - landfill');
+VALUES ('6B8A6348-9723-4581-A44A-C267A7D4F234','1F81C402-DA0A-4313-A19A-F81BE56909D3','1500 mm diameter pipe','1500 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (297,1116,'Compactor - C5','Compactor - C5');
+VALUES ('EB9B8FAA-9753-4BC8-A1CB-35154C344A8B','1F81C402-DA0A-4313-A19A-F81BE56909D3','1500x1200 box','1500x1200 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (298,1116,'Compactor - C9','Compactor - C9');
+VALUES ('F726EC0B-46F1-49E3-923E-C14F604E86FB','1F81C402-DA0A-4313-A19A-F81BE56909D3','1500x1500 box','1500x1500 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (299,1117,'Weighbridge','Weighbridge');
+VALUES ('F0CA98F1-341A-45AC-84BF-09A24706E3ED','1F81C402-DA0A-4313-A19A-F81BE56909D3','1800 mm diameter pipe','1800 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (300,1118,'Heat Exchanger','Heat Exchanger');
+VALUES ('7CE792A6-BF91-4101-ABC4-E51C569366FF','1F81C402-DA0A-4313-A19A-F81BE56909D3','1800x1500 box','1800x1500 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (301,1119,'Landfill restored area','Landfill restored area');
+VALUES ('01E810C4-B856-4A01-A5CA-00767C6D9C78','1F81C402-DA0A-4313-A19A-F81BE56909D3','1800x1800 box','1800x1800 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (302,1120,'Floodlit','Floodlit');
+VALUES ('11DA1145-5240-44D2-8966-29E806072C43','1F81C402-DA0A-4313-A19A-F81BE56909D3','2160 mm diameter pipe','2160 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (303,1120,'Standard','Standard');
+VALUES ('7930C81E-43B7-4D3D-8EF5-07B5E47539E4','1F81C402-DA0A-4313-A19A-F81BE56909D3','2400 mm diameter pipe','2400 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (304,1123,'Jukskei court','Jukskei court');
+VALUES ('08D30F0A-E942-4614-BA52-D72FEE4B9559','1F81C402-DA0A-4313-A19A-F81BE56909D3','2400x2400 box','2400x2400 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (305,1124,'Cricket','Cricket');
+VALUES ('59727305-EF31-485F-BAEC-61CEB2A5DCE0','1F81C402-DA0A-4313-A19A-F81BE56909D3','2900x2900 box','2900x2900 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (306,1124,'Rugby / soccer','Rugby / soccer');
+VALUES ('8DB19962-A1D6-4432-94BD-8AA1FAF8722C','1F81C402-DA0A-4313-A19A-F81BE56909D3','3000 mm diameter pipe','3000 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (307,1125,'10m x 5m','10m x 5m');
+VALUES ('A4360350-7BB6-4A37-B467-33655E378985','1F81C402-DA0A-4313-A19A-F81BE56909D3','3000x3000 box','3000x3000 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (308,1125,'25m x 20m','25m x 20m');
+VALUES ('53B7A8DE-CDC8-4DBD-8A7F-1B771EBCAB77','1F81C402-DA0A-4313-A19A-F81BE56909D3','3550x3550 box','3550x3550 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (309,1125,'Olympic','Olympic');
+VALUES ('90FF81FF-8518-4D90-83F9-53A178D5F809','1F81C402-DA0A-4313-A19A-F81BE56909D3','450 mm diameter pipe','450 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (310,1126,'Regulation size - indoor','Regulation size - indoor');
+VALUES ('DB0A5E6F-1FC5-4DAA-B9C5-9792058AB3DE','1F81C402-DA0A-4313-A19A-F81BE56909D3','4500 mm diameter pipe','4500 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (311,1127,'Mache','Mache');
+VALUES ('5677E063-1940-493D-B81C-E6465412DF2B','1F81C402-DA0A-4313-A19A-F81BE56909D3','4500x4500 box','4500x4500 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (312,1127,'Municipal','Municipal');
+VALUES ('16CB3638-A7C5-4D0F-BAFD-A09BA0E98FDE','1F81C402-DA0A-4313-A19A-F81BE56909D3','450x450 box','450x450 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (313,1128,'Brick structure with roof and terraces','Brick structure with roof and terraces');
+VALUES ('DDADADE0-EB0A-4FD5-B194-237F12B461AD','1F81C402-DA0A-4313-A19A-F81BE56909D3','4700x2900 box','4700x2900 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (314,1128,'Open structure with stepped terraces','Open structure with stepped terraces');
+VALUES ('CA407FE3-CCBC-4546-9488-0D24E96D4286','1F81C402-DA0A-4313-A19A-F81BE56909D3','525 mm diameter pipe','525 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (315,1128,'Structure with roof and stepped terraces','Structure with roof and stepped terraces');
+VALUES ('83D921FA-F886-4CE6-93A0-BA9B730EC108','1F81C402-DA0A-4313-A19A-F81BE56909D3','600 mm diameter pipe','600 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (316,1129,'Quarry restored area','Quarry restored area');
+VALUES ('CE14A9AD-4C6C-41BA-AA0D-74BF1250BD37','1F81C402-DA0A-4313-A19A-F81BE56909D3','600x600 box','600x600 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (317,1133,'Firewall','Firewall');
+VALUES ('441514CF-9969-4548-B2A5-4B26AD973539','1F81C402-DA0A-4313-A19A-F81BE56909D3','675 mm diameter pipe','675 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (318,1134,'Gps devices','Gps devices');
+VALUES ('3FC439A3-6C00-4B20-B08A-F8271F755FAE','1F81C402-DA0A-4313-A19A-F81BE56909D3','750 mm diameter pipe','750 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (319,1135,'Mast','Mast');
+VALUES ('A3F3A21D-A2B3-4060-A511-E850FA41FF90','1F81C402-DA0A-4313-A19A-F81BE56909D3','825 mm diameter pipe','825 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (320,1136,'Horn antennas','Horn antennas');
+VALUES ('15FCE733-FCDA-43A8-94EB-3E257574F853','1F81C402-DA0A-4313-A19A-F81BE56909D3','900 mm diameter pipe','900 mm diameter pipe');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (321,1136,'Mimo antennas','Mimo antennas');
+VALUES ('4934F553-B268-47A2-9837-603277D7F00B','1F81C402-DA0A-4313-A19A-F81BE56909D3','900x900 box','900x900 box');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (322,1136,'Parabolic antennas','Parabolic antennas');
+VALUES ('03AA0EFB-E657-410D-B0A4-DF809F31081D','B1D73922-8DBB-4531-8C93-47A8C899877A','Barrier kerb','Barrier kerb');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (323,1136,'Patch antennas','Patch antennas');
+VALUES ('363BBE9C-BCFD-447B-A71C-B198B4D27441','B1D73922-8DBB-4531-8C93-47A8C899877A','Mountable kerb','Mountable kerb');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (324,1136,'Plasma antennas','Plasma antennas');
+VALUES ('7783E700-A1D2-4821-B627-8395A4F902D4','3F1B3297-6CE1-4F9E-A2DF-D5E930FC8EB1','Kerb Inlet','Kerb Inlet');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (325,1137,'Multi band combiners','Multi band combiners');
+VALUES ('331A6FA5-E9B5-4FA5-8C66-D1E72CE3C4F2','78D37414-3623-402F-8B65-F696EB7FC3D9','Grid Inlet','Grid Inlet');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (326,1138,'NETWORK CONTROL KIOSK','NETWORK CONTROL KIOSK');
+VALUES ('A1388F4D-D9F4-4051-BE43-B335010ADE5D','DBE8646C-F33E-4B86-A807-93D2AAFD1662','Dewatering sub-soil drain','Dewatering sub-soil drain');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (327,1139,'Controller (HMI)','Controller (HMI)');
+VALUES ('CE5F6151-58AC-4762-A45A-C41659F60927','2C9C3AF2-689F-4640-85CE-03852E689EAD','3 seater concrete bench','3 seater concrete bench');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (328,1140,'Power distribution unit AC voltage','Power distribution unit AC voltage');
+VALUES ('6FB3E3BA-BC07-4271-84C2-BB078B76424B','2C9C3AF2-689F-4640-85CE-03852E689EAD','3 SEATER GALVANISED STEEL BENCH','3 SEATER GALVANISED STEEL BENCH');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (329,1140,'Power distribution unit DC voltage','Power distribution unit DC voltage');
+VALUES ('36AB64B1-6161-479A-90CB-38611E8E2B90','2C9C3AF2-689F-4640-85CE-03852E689EAD','3 seater steel bench','3 seater steel bench');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (330,1140,'UNINTERRUPTED POWER SUPPLY - UPS GENERAL','UNINTERRUPTED POWER SUPPLY - UPS GENERAL');
+VALUES ('7200D18C-B6F0-4588-9AE4-1E01C4C42946','2C9C3AF2-689F-4640-85CE-03852E689EAD','Children`s play equipment (jungle gym)','Children`s play equipment (jungle gym)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (331,1141,'Analogue','Analogue');
+VALUES ('8617D460-D07F-4D05-BC0E-02378339B3AA','2C9C3AF2-689F-4640-85CE-03852E689EAD','Concrete table (rectangular)','Concrete table (rectangular)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (332,1141,'Optic','Optic');
+VALUES ('F7C21AF1-AC72-445A-A486-5829FB70A1D6','2C9C3AF2-689F-4640-85CE-03852E689EAD','Large planter pot (> 1m diameter)','Large planter pot (> 1m diameter)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (333,1141,'Radio','Radio');
+VALUES ('7C905131-9C6C-4D45-8B58-1589511C76FB','2C9C3AF2-689F-4640-85CE-03852E689EAD','Medium planter pot (< 1m diameter)','Medium planter pot (< 1m diameter)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (334,1142,'Same band combiner','Same band combiner');
+VALUES ('EBE44E89-1DAE-4CA3-8B42-A3C79C045699','2C9C3AF2-689F-4640-85CE-03852E689EAD','Playground equipment','Playground equipment');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (335,1143,'Signal amplifiers','Signal amplifiers');
+VALUES ('6C0EF7C3-71E3-4411-BBDA-7D8BDCC0647E','2C9C3AF2-689F-4640-85CE-03852E689EAD','Water feature - park','Water feature - park');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (336,1144,'Signal demodulator','Signal demodulator');
+VALUES ('6D63F086-730D-466A-8903-876CBE06E12E','2C9C3AF2-689F-4640-85CE-03852E689EAD','Water feature (large)','Water feature (large)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (337,1145,'Signal filters','Signal filters');
+VALUES ('7E004CD6-2F18-4481-B624-0F290D0F5562','2C9C3AF2-689F-4640-85CE-03852E689EAD','Water feature (small)','Water feature (small)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (338,1146,'Signal modulator','Signal modulator');
+VALUES ('EAED14AE-8F18-4C1C-8F4D-D59FFF899490','36200512-B063-4E5D-AECD-87B8CD759628','Bollard-type','Bollard-type');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (339,1147,'Conventional','Conventional');
+VALUES ('55CCBF55-94A8-42F0-B04B-533AD06BC9E9','36200512-B063-4E5D-AECD-87B8CD759628','Floodlights','Floodlights');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (340,1147,'Micro duct','Micro duct');
+VALUES ('E2D328FB-8B8C-4210-B95E-5E229E65DD2D','36200512-B063-4E5D-AECD-87B8CD759628','High mast','High mast');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (341,1148,'Transducers','Transducers');
+VALUES ('E897DF6A-D10B-4566-A026-919824C6C80F','36200512-B063-4E5D-AECD-87B8CD759628','Solar powered High mast','Solar powered High mast');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (342,1149,'WIRELESS CONTROLLER','WIRELESS CONTROLLER');
+VALUES ('FBB328EF-1B46-4B90-A364-B49E8E728B99','36200512-B063-4E5D-AECD-87B8CD759628','Streetlight with its network','Streetlight with its network');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (343,1150,'Mini-sub','Mini-sub');
+VALUES ('749033E8-8528-4EA6-B9F7-741CB4DA903D','59F6E296-7321-4EFE-8296-64163E3FD751','Bollard-type','Bollard-type');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (344,1151,'HDPE Manholes','HDPE Manholes');
+VALUES ('DDA62C22-E9A0-4A6F-B0F7-20D16A4BE497','59F6E296-7321-4EFE-8296-64163E3FD751','Floodlights','Floodlights');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (345,1152,'Grid Classifier','Grid Classifier');
+VALUES ('AD72A134-4F42-4807-A2FB-C95DB0DF7CF2','59F6E296-7321-4EFE-8296-64163E3FD751','High mast','High mast');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (346,1152,'Screen Course','Screen Course');
+VALUES ('73ADF265-898E-453B-961F-F4E2165F9BC7','59F6E296-7321-4EFE-8296-64163E3FD751','Paapi lights','Paapi lights');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (347,1152,'Screen fine drum','Screen fine drum');
+VALUES ('F3CF35A1-0C21-4496-94E2-465B1CBD51A8','59F6E296-7321-4EFE-8296-64163E3FD751','Runway approach lights','Runway approach lights');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (348,1152,'Screen/Wash Press','Screen/Wash Press');
+VALUES ('C09B8774-D96C-4FC3-8322-C2B12F2AADB9','59F6E296-7321-4EFE-8296-64163E3FD751','Runway edge lights','Runway edge lights');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (349,1153,'Actuated Air release (Sewer)','Actuated Air release (Sewer)');
+VALUES ('8A3E0FE3-394F-4FD9-BF81-338F21BAC0D9','59F6E296-7321-4EFE-8296-64163E3FD751','Solar powered High mast','Solar powered High mast');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (350,1153,'Actuated Butterfly (Sewer)','Actuated Butterfly (Sewer)');
+VALUES ('5AED5675-5647-42E6-91FC-541E62FBA17B','59F6E296-7321-4EFE-8296-64163E3FD751','Streetlight with its network','Streetlight with its network');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (351,1153,'Actuated Pressure Reducing (Sewer)','Actuated Pressure Reducing (Sewer)');
+VALUES ('4804D947-853F-4E71-A767-4FEF9CA8B770','59F6E296-7321-4EFE-8296-64163E3FD751','Taxiway edge lights ','Taxiway edge lights ');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (352,1153,'Actuated Resilient seal (Sewer)','Actuated Resilient seal (Sewer)');
+VALUES ('00E2E82E-111B-44B5-9957-4AF3C8A4408B','59F6E296-7321-4EFE-8296-64163E3FD751','Taxiway lights','Taxiway lights');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (353,1153,'Air release (Sewer)','Air release (Sewer)');
+VALUES ('2404BB4A-5404-4C98-94F6-314082D37ED7','67AD2E3D-57FF-4051-9D6C-BE63D2777D67','Automatic sprinkler system','Automatic sprinkler system');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (354,1153,'Butterfly (Sewer)','Butterfly (Sewer)');
+VALUES ('227EEB12-49F6-479F-9584-15097086D044','386E4689-EA6C-4D5E-80CE-B3D1B5706FEC','Flower beds, shrubs & trees','Flower beds, shrubs & trees');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (355,1153,'Non-return (Sewer)','Non-return (Sewer)');
+VALUES ('7F678CE2-393E-42AF-ABEA-0D4CB236E2E7','386E4689-EA6C-4D5E-80CE-B3D1B5706FEC','Lawns','Lawns');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (356,1153,'Pressure Reducing (Sewer)','Pressure Reducing (Sewer)');
+VALUES ('39FFE5D8-BECB-4131-99A1-86E598D90FE9','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Brick wall','Brick wall');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (357,1153,'Resilient seal (Sewer)','Resilient seal (Sewer)');
+VALUES ('EFD69370-FDAA-4CB7-A146-6BD11D943ABD','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Clear View fencing','Clear View fencing');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (358,1154,'Muncher','Muncher');
+VALUES ('0F4DCB1F-0C45-4CBC-995A-DB7325CEB559','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Concrete bollard','Concrete bollard');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (359,1155,'Odour Removal System','Odour Removal System');
+VALUES ('5383A8DC-B206-4C2F-9CD9-8150749C6214','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Concrete palisade fencing','Concrete palisade fencing');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (360,1156,'FEEDER POLYELECTROLYTE','FEEDER POLYELECTROLYTE');
+VALUES ('6FA62587-9F8C-41B0-A59E-71F684FB0269','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Diamond mesh','Diamond mesh');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (361,1157,'CENTRIFUGE','CENTRIFUGE');
+VALUES ('A456947E-88D3-4025-8E4A-401DB67527C2','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','GSM Type Fencing','GSM Type Fencing');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (362,1157,'SLUDGE BELT PRESS','SLUDGE BELT PRESS');
+VALUES ('5AAE2D18-55F9-4410-97B3-719609A5C84B','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Precast concrete wall','Precast concrete wall');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (363,1159,'ATTENA','ATTENA');
+VALUES ('67BD3A22-D48B-4F18-A476-B239BF0F6F20','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Razor mesh fence','Razor mesh fence');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (364,1159,'BACKUP BATTERY','BACKUP BATTERY');
+VALUES ('A5D6367F-C522-490A-A1DC-E6314E8C34B8','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Steel bollard','Steel bollard');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (365,1159,'Bts','Bts');
+VALUES ('5C0D47B6-4B2A-4FD7-9BB7-A5BD1834EEC0','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Steel palisade fencing','Steel palisade fencing');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (366,1159,'COMMUNICATION SWITCH','COMMUNICATION SWITCH');
+VALUES ('CDAF2006-C4CE-41E7-B8D2-A1E80C453937','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Vibrocrete fence','Vibrocrete fence');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (367,1159,'EQUIPMENT BOX','EQUIPMENT BOX');
+VALUES ('DF309351-A41C-4DF8-98F1-FD838066836F','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Wooden bollard','Wooden bollard');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (368,1159,'NETWORK ROUTER','NETWORK ROUTER');
+VALUES ('9A55B605-4AB8-4C0B-99BD-C7F2B3C7DF01','37F3E5E3-3FB5-41B3-9C4F-2F8478E84F3E','Wooden fence','Wooden fence');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (369,1159,'PDU','PDU');
+VALUES ('1F8A4F68-54A7-4EA8-9F9F-AD3DC5FB355D','956C8B8C-50EA-4C2D-AA86-391D33DEFC44','Brick, block walls & concrete roof slab','Brick, block walls & concrete roof slab');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (370,1159,'POWERBOX','POWERBOX');
+VALUES ('B6C29E15-6E50-4901-9598-313AFC7C7F01','956C8B8C-50EA-4C2D-AA86-391D33DEFC44','Brick, block walls & other roof','Brick, block walls & other roof');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (371,1159,'SURGE ARRESTOR','SURGE ARRESTOR');
+VALUES ('DC402C0B-D01C-4078-81F1-B90C2B1F7251','956C8B8C-50EA-4C2D-AA86-391D33DEFC44','Steel cage','Steel cage');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (372,1159,'UPS','UPS');
+VALUES ('77AA346A-747D-4D16-B8D7-2EBCB644D5F1','956C8B8C-50EA-4C2D-AA86-391D33DEFC44','Steel shed','Steel shed');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (373,1160,'RADIO UNIT','RADIO UNIT');
+VALUES ('F0CBE574-D800-41B7-9984-37947FFF2F53','956C8B8C-50EA-4C2D-AA86-391D33DEFC44','Wood shed','Wood shed');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (374,1161,'CHASSIS SWITCH','CHASSIS SWITCH');
+VALUES ('2F936ACF-D29C-4278-A9D3-0D9F7C7988E7','E872BBA5-1011-4A47-AD32-1D6838008919','Concrete (Storm Water)','Concrete (Storm Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (375,1161,'COPPER SWITCH','COPPER SWITCH');
+VALUES ('207B59BB-D041-4AA4-B478-2630526E786B','800EBD79-3B09-4FCB-A95F-03DC08F4DC7E','Concrete (Storm Water)','Concrete (Storm Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (376,1161,'FIBER SWITCH','FIBER SWITCH');
+VALUES ('4AC65407-3F17-4005-8519-54717EA3DB95','6B89C8DD-6FF1-4C8F-AE53-B6AD828CB767','PPE Land','PPE Land');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (377,1161,'MPLS SWITCH','MPLS SWITCH');
+VALUES ('49868965-0403-48A1-810C-A2D51CD6C264','58DCDFAB-859E-4765-973C-B3594B626DC8','Timber','Timber');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (378,1162,'BX','BX');
+VALUES ('CCF38E21-81AB-49BB-B2B4-8F80B5F15A48','DFBAF7F2-1BB2-474C-9BE8-44E342440E6C','Aggressive materials','Aggressive materials');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (379,1162,'ER','ER');
+VALUES ('97931EC0-1D14-4311-9ED4-9C368C2F09D7','DFBAF7F2-1BB2-474C-9BE8-44E342440E6C','Bridge drive','Bridge drive');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (380,1162,'LH','LH');
+VALUES ('0527E6E2-30C6-43AB-A795-B628E0693451','DFBAF7F2-1BB2-474C-9BE8-44E342440E6C','Fibreglass','Fibreglass');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (381,1162,'LR','LR');
+VALUES ('B0EC2C7B-2A55-46AD-A66B-EE69FC6A1806','DFBAF7F2-1BB2-474C-9BE8-44E342440E6C','Galvanised steel panel','Galvanised steel panel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (382,1162,'LX','LX');
+VALUES ('09EA7DCD-E61B-42EE-A2E1-DA4DFFB77B2C','DFBAF7F2-1BB2-474C-9BE8-44E342440E6C','Plastic','Plastic');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (383,1162,'SFP General','SFP General');
+VALUES ('EE261920-B96C-48D4-91A3-58D5B7ED77B0','DFBAF7F2-1BB2-474C-9BE8-44E342440E6C','Scraping mechanism','Scraping mechanism');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (384,1162,'SFP-T','SFP-T');
+VALUES ('13E0A736-3E8B-4EB0-8C49-825F9D4D3686','38906F20-2B92-43B6-B9C1-B19D11C5C850','Equipment control panel','Equipment control panel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (385,1162,'SR','SR');
+VALUES ('29B2A5C8-0B6A-4FD2-88B6-3C548901A5A8','38906F20-2B92-43B6-B9C1-B19D11C5C850','Network control panel','Network control panel');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (386,1162,'SX','SX');
+VALUES ('7A044891-FC0E-485E-A121-C6D07B434A8E','BB82C162-78BA-40E8-AE1F-CDD4F6F993D8','Sewer','Sewer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (387,1162,'ZR','ZR');
+VALUES ('387FE0C6-0124-4B3E-93AB-C0D718293ACF','BB82C162-78BA-40E8-AE1F-CDD4F6F993D8','Water','Water');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (388,1162,'ZX','ZX');
+VALUES ('472F1618-07A6-4DD9-868F-E1AD5B10BCEB','6C1FC5F3-35E4-477E-9BE2-9D810EB5F450','Electrical','Electrical');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (389,1163,'NETWORK SECURITY APPLIANCE','NETWORK SECURITY APPLIANCE');
+VALUES ('6656DC4F-C239-4C5C-A5C3-A99CDFE37241','380F9687-8A10-4F04-BB65-39842E65C306','Sewer','Sewer');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (390,1164,'VPN CONCENTRATOR','VPN CONCENTRATOR');
+VALUES ('7D5EE2AD-C7DA-4A5A-B5CE-AC5F40FD18BE','0485F0E8-40F4-45F7-94CB-B941E3C5DA34','Standard Telemetry','Standard Telemetry');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (391,1165,'Glass','Glass');
+VALUES ('BFB98C0E-4172-4302-A49E-F8EE1898388E','C075BE22-234B-4DE7-BE5A-7695C5054B8C','Controller','Controller');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (392,1165,'Plastic','Plastic');
+VALUES ('BD66E44E-E5C5-4C66-B38B-4DB2CF6F6D89','C075BE22-234B-4DE7-BE5A-7695C5054B8C','Modem','Modem');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (393,1165,'Shade netting','Shade netting');
+VALUES ('2ED205A0-E987-4362-9AB2-90C92DDFDA00','C075BE22-234B-4DE7-BE5A-7695C5054B8C','SCADA RTU','SCADA RTU');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (394,1166,'Synthetic surface','Synthetic surface');
+VALUES ('D5914572-78FD-4673-A12F-39848C503A49','7E685661-4117-4226-A7BB-FC2A717C2A85','Lv Al 3 core PVCSWA','Lv Al 3 core PVCSWA');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (395,1168,'Refrigerating plant','Refrigerating plant');
+VALUES ('5AC1E2AA-4B42-4878-83C7-E1B36E483DC7','7E685661-4117-4226-A7BB-FC2A717C2A85','Lv Al 4 core PVC','Lv Al 4 core PVC');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (396,1169,'DOUBLE','DOUBLE');
+VALUES ('C5340E99-809F-4ADC-BC5D-9E8EE20EC44B','7E685661-4117-4226-A7BB-FC2A717C2A85','Lv Al 4 core PVCSWA','Lv Al 4 core PVCSWA');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (397,1169,'SINGLE','SINGLE');
+VALUES ('29B94C9C-313F-41E7-A5BC-98C7BA3F2D6D','7E685661-4117-4226-A7BB-FC2A717C2A85','Lv Al 4 core PVCSWA and ECC','Lv Al 4 core PVCSWA and ECC');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (398,1170,'Rural (120 km/h)','Rural (120 km/h)');
+VALUES ('A0898C6D-08E0-492F-A39B-BD2D0A59DAF9','7E685661-4117-4226-A7BB-FC2A717C2A85','Lv Al single core PVC','Lv Al single core PVC');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (399,1170,'Urban (60km/h)','Urban (60km/h)');
+VALUES ('B78B0B7B-B73E-4514-AD2B-372936DFD3DC','7E685661-4117-4226-A7BB-FC2A717C2A85','Lv Cu 3 core PVCSWA','Lv Cu 3 core PVCSWA');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (400,1171,'Solar Agitator','Solar Agitator');
+VALUES ('F9E209E9-87EB-421C-96C6-DFC0334B6D0F','7E685661-4117-4226-A7BB-FC2A717C2A85','Lv Cu 4 core PVC','Lv Cu 4 core PVC');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (401,1173,'Condenser','Condenser');
+VALUES ('0CE2DFF0-C95B-41AC-9755-A6C19742682D','7E685661-4117-4226-A7BB-FC2A717C2A85','Lv Cu 4 core PVCSWA','Lv Cu 4 core PVCSWA');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (402,1174,'Exciter','Exciter');
+VALUES ('F803FB02-9811-49C6-8ACB-C561668EBD7C','7E685661-4117-4226-A7BB-FC2A717C2A85','Lv Cu 4 core PVCSWA and ECC','Lv Cu 4 core PVCSWA and ECC');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (403,1174,'Generator','Generator');
+VALUES ('0D4A2C45-7CAA-4E19-B4F8-C9D5D4153B29','7E685661-4117-4226-A7BB-FC2A717C2A85','Lv Cu single core PVC','Lv Cu single core PVC');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (404,1174,'Generator power export system','Generator power export system');
+VALUES ('4C531E86-6FAC-4AC6-8716-1F103F691744','7E685661-4117-4226-A7BB-FC2A717C2A85','LV underground service connection (per 30m service)','LV underground service connection (per 30m service)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (405,1175,'DREDGER','DREDGER');
+VALUES ('09E21153-DBED-41D8-99F2-14C7A07C1CFA','2DF5EB32-89FD-47E9-9510-5A8070483A0E','Fibre Optic','Fibre Optic');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (406,1176,'VIRTUAL REALITY HARDWARE','VIRTUAL REALITY HARDWARE');
+VALUES ('43A2C01C-70B4-492F-8E32-92DF939EFDBF','2DF5EB32-89FD-47E9-9510-5A8070483A0E','Pilot cable','Pilot cable');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (407,1178,'MIXED REALITY HARDWARE','MIXED REALITY HARDWARE');
+VALUES ('B497822B-B535-448C-85BD-9743B5D92C29','40EF89DA-0FC2-47EF-AEE8-256FD872C8FA','Low voltage aerial bundle conductor','Low voltage aerial bundle conductor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (408,1179,'Motor control centre','Motor control centre');
+VALUES ('532C7B8E-4FAE-437B-9DD6-E751C636F16A','40EF89DA-0FC2-47EF-AEE8-256FD872C8FA','LV - open wire','LV - open wire');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (409,1180,'Incinerator','Incinerator');
+VALUES ('A47C21B3-2E47-49D9-90AE-76E55354B386','40EF89DA-0FC2-47EF-AEE8-256FD872C8FA','LV overhead service connection (per 30m service)','LV overhead service connection (per 30m service)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (410,1182,'Data Concentrator unit','Data Concentrator unit');
+VALUES ('5D10901B-55F9-49B1-B811-E52AAF991AB0','8B000518-2BC7-4533-963B-214CDCAA414F','Low voltage aerial bundle conductor','Low voltage aerial bundle conductor');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (411,1183,'Ticket Booth','Ticket Booth');
+VALUES ('B13CFF13-A5EE-4E26-A32C-311E60F82DEA','8B000518-2BC7-4533-963B-214CDCAA414F','LV - open wire','LV - open wire');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (412,1184,'Pump as turbine','Pump as turbine');
+VALUES ('0696A0C2-043B-42AD-9F7C-2A9A27DF5A6A','C4824CD0-6083-4B0B-9CF3-D35D35148319','Pump - water','Pump - water');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (413,1185,'Submersible','Submersible');
+VALUES ('FB3C61AB-E425-448A-8636-0361CCD3983D','05CA11C9-96E1-4C3F-81BD-879A326F215E','Pump - submersible','Pump - submersible');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (414,1186,'Crank operated (bigger than 15sqm)','Crank operated (bigger than 15sqm)');
+VALUES ('840AE8CF-660B-4DA0-BEB9-8B2B386ECCF1','DA5E083B-6785-42C4-AD0E-DA4B42EF9E53','Well & lining','Well & lining');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (415,1186,'Motor operated (bigger than 15sqm)','Motor operated (bigger than 15sqm)');
+VALUES ('8FAEC403-A066-4ACC-AE75-9D4725A6AAC3','98148033-106D-473B-B12D-0DD83EC49D7D','Mag-flow','Mag-flow');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (416,1187,'Busbar Indoor','Busbar Indoor');
+VALUES ('645D291F-D51B-4BDD-82E5-FAA2DC777F9E','98148033-106D-473B-B12D-0DD83EC49D7D','Mechanical','Mechanical');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (417,1188,'Petrol Pump','Petrol Pump');
+VALUES ('63FD997A-EF09-4129-9534-7BD7706C55FD','98148033-106D-473B-B12D-0DD83EC49D7D','Pre-pay meters','Pre-pay meters');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (418,1190,'Large','Large');
+VALUES ('19FC5504-3108-48C1-BB68-104E2DBE7446','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','AC (Water)','AC (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (419,1190,'Small','Small');
+VALUES ('FE0F9511-1A88-45D4-8CA0-63A2D3B0F8D6','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','CI (Water)','CI (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (420,1191,'Heated Bitumen Storage','Heated Bitumen Storage');
+VALUES ('B9442468-792D-444B-AB08-4F35CE2FA5FC','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','DI (Water)','DI (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (421,1192,'Hopper','Hopper');
+VALUES ('F930A857-E90C-4397-BB95-0BFC6B66FDAC','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','GAL (Water)','GAL (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (422,1193,'Jaw crusher','Jaw crusher');
+VALUES ('6306C0B5-A0E6-4AD7-92E4-60A74FCFE8AD','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','GRP (Water)','GRP (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (423,1193,'Stone crusher','Stone crusher');
+VALUES ('5A22DCD6-DBDD-4FB0-ABCF-3B23582DC873','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','HDPE (Water)','HDPE (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (424,1194,'Conveyor belt system','Conveyor belt system');
+VALUES ('21014343-15CE-4967-9FF6-362D792B07C3','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','m-PVC (Water)','m-PVC (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (425,1195,'Dust removal','Dust removal');
+VALUES ('951E5BA7-6DD3-4BB3-9FEB-52A0E3526575','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','o-PVC (Water)','o-PVC (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (426,1196,'Asphault Stone Mixer','Asphault Stone Mixer');
+VALUES ('830C05B2-4836-47C2-817C-47DDC47FD6D0','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','Steel (Water)','Steel (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (427,1197,'Stone Screen','Stone Screen');
+VALUES ('5FD75B11-C977-4D58-A505-65F3BC8252F6','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','unknown (assumed HDPE) (Water)','unknown (assumed HDPE) (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (428,1198,'Wet Scrubber','Wet Scrubber');
+VALUES ('34F4CD0F-7B5E-4FD1-979D-84A229C047AE','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','unknown (assumed steel) (Water)','unknown (assumed steel) (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (429,1199,'Steel (Bitumen)','Steel (Bitumen)');
+VALUES ('CFC5EEA9-D14D-4EBA-8444-64328E42F5DD','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','unknown (assumed uPVC) (Water)','unknown (assumed uPVC) (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (430,1200,'Bus Bay Asphalt','Bus Bay Asphalt');
+VALUES ('A076CD9C-FF57-458B-9594-68976B1FDFD2','D86EE3AB-6E06-4B68-9761-2C37F4E740D8','uPVC (Water)','uPVC (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (431,1200,'Bus Bay Block','Bus Bay Block');
+VALUES ('6D7EB3B2-84C4-4E14-92B5-F1900327B900','1D8D23E0-B939-4B9C-9849-E379B5CDEE48','HDPE (Water)','HDPE (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (432,1200,'Bus Bay Concrete','Bus Bay Concrete');
+VALUES ('91370B56-3668-47F9-8D52-C7DFDEE2CF33','1D8D23E0-B939-4B9C-9849-E379B5CDEE48','unknown (assumed uPVC) (Water)','unknown (assumed uPVC) (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (433,1200,'Bus Bay Gravel','Bus Bay Gravel');
+VALUES ('02594B23-9B66-42E3-AEA8-2836376291C5','1D8D23E0-B939-4B9C-9849-E379B5CDEE48','uPVC (Water)','uPVC (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (434,1201,'Sidewalk asphalt','Sidewalk asphalt');
+VALUES ('3724E75A-AC13-4892-B578-1AC93F0E2731','82419F38-4566-47A6-ABBC-6726CA06B10D','Actuated Air release (Water)','Actuated Air release (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (435,1201,'Sidewalk Block','Sidewalk Block');
+VALUES ('530B3CFF-56E0-4F9B-8EE4-0F66CF736C44','82419F38-4566-47A6-ABBC-6726CA06B10D','Actuated Butterfly (Water)','Actuated Butterfly (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (436,1201,'Sidewalk Concrete','Sidewalk Concrete');
+VALUES ('D1D3CEE6-6C61-4ABC-9430-A858C46FEC74','82419F38-4566-47A6-ABBC-6726CA06B10D','Actuated Pressure Reducing (Water)','Actuated Pressure Reducing (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (437,1201,'Sidewalk Gravel/Shingle','Sidewalk Gravel/Shingle');
+VALUES ('C7A6C7A0-35AB-41A4-B4F1-1EE5CBD330D0','82419F38-4566-47A6-ABBC-6726CA06B10D','Actuated Resilient seal (Water)','Actuated Resilient seal (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (438,1203,'Drinking water supply','Drinking water supply');
+VALUES ('49FF73BA-3EAC-47F6-BEA5-6F77BF92BDDF','82419F38-4566-47A6-ABBC-6726CA06B10D','Air release (Water)','Air release (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (439,1203,'Fire fighting water system','Fire fighting water system');
+VALUES ('C14DD53D-E1AC-44D9-866C-A1987B757762','82419F38-4566-47A6-ABBC-6726CA06B10D','Air Valve (Generic)','Air Valve (Generic)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (440,1204,'Coal distribution & intermediate storage','Coal distribution & intermediate storage');
+VALUES ('29AB11A7-1F1A-4A9E-851E-B8506E54B2F7','82419F38-4566-47A6-ABBC-6726CA06B10D','Butterfly (Water)','Butterfly (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (441,1204,'Coal stockyard conveyor system','Coal stockyard conveyor system');
+VALUES ('FBB6A521-0888-43B7-85AF-8750794ECA9B','82419F38-4566-47A6-ABBC-6726CA06B10D','Closed Valve (Generic)','Closed Valve (Generic)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (442,1204,'Storage area (coal stockpile)','Storage area (coal stockpile)');
+VALUES ('DCF2A534-FAD2-4F79-8F6C-81A2D0E47BF1','82419F38-4566-47A6-ABBC-6726CA06B10D','Non-return (Water)','Non-return (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (443,1205,'Compressed air supply','Compressed air supply');
+VALUES ('C33F0E08-AD61-4B6B-A584-DEDDEB5284A7','82419F38-4566-47A6-ABBC-6726CA06B10D','Non-Return Valve (Generic)','Non-Return Valve (Generic)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (444,1205,'General control air supply','General control air supply');
+VALUES ('DD9AB3AF-7EDE-4DC6-937F-E2C3F5F735EE','82419F38-4566-47A6-ABBC-6726CA06B10D','Pressure Reducing (Water)','Pressure Reducing (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (445,1206,'Fuel oil pumping system','Fuel oil pumping system');
+VALUES ('D00174D6-0360-45CB-8DF7-2CEF3FD9252F','82419F38-4566-47A6-ABBC-6726CA06B10D','Resilient seal (Water)','Resilient seal (Water)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (446,1206,'Fuel oil tanks','Fuel oil tanks');
+VALUES ('786D5627-FA24-4D07-B3F4-AD7CA908D9A9','82419F38-4566-47A6-ABBC-6726CA06B10D','Valve (Generic)','Valve (Generic)');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (447,1207,'Raw water supply system','Raw water supply system');
+VALUES ('A8D34AA1-2B3D-4B1F-B435-77DE33602C00','7E500F64-98D2-4EFF-9D49-B79F750644AD','Pipe bridge abutment','Pipe bridge abutment');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (448,1207,'Treatment (demineralisation)','Treatment (demineralisation)');
+VALUES ('8FF320F0-8F54-4A2F-A9F6-40BA60995DE8','CC0878DE-AC27-43BF-B155-A8EE626F5A07','Pipe bridge substructure','Pipe bridge substructure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (449,1208,'Pole mounted ganglink','Pole mounted ganglink');
+VALUES ('47DA07FD-5018-4A68-8972-245683822B4F','034ABBB3-76EE-438C-8699-E4C57E78BC4B','Pipe bridge superstructure','Pipe bridge superstructure');
 INSERT INTO public.TypeLookup(ID,AssetTypeID,Name,Description) 
-VALUES (450,3198,'Inductive Loop Detector','Inductive Loop Detector');
+VALUES ('6047C93D-75F9-48DF-9DAF-E963566ADB31','66F28B2D-68C4-4355-B5C9-CE0A540DDAD0','Pipe bridge railing','Pipe bridge railing');

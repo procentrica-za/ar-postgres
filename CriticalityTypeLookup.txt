@@ -1,0 +1,11 @@
+
+INSERT INTO public.CriticalityTypeLookup(ID,Code,name,description, consequenceOfFailiure) 
+VALUES ('66C178A0-0E9E-4E27-B444-17D493119951',1,'Cursory','Is readily absorbed under normal operating conditions','Insignificant');
+INSERT INTO public.CriticalityTypeLookup(ID,Code,name,description, consequenceOfFailiure) 
+VALUES ('CFEF377A-70C9-4732-AEA3-234EC8A91283',2,'Non-Critical','Can be managed under normal operating conditions','Minor');
+INSERT INTO public.CriticalityTypeLookup(ID,Code,name,description, consequenceOfFailiure) 
+VALUES ('72078ACC-8D84-41E8-8B9E-CEF7AD453A38',3,'Important','Can be managed but requires additional resources and management effort','Moderate');
+INSERT INTO public.CriticalityTypeLookup(ID,Code,name,description, consequenceOfFailiure) 
+VALUES ('C7B2C6EA-BE96-4A9F-B805-6A7961360216',4,'Critical','Will have a prolonged impact and extensive consequences','Major');
+INSERT INTO public.CriticalityTypeLookup(ID,Code,name,description, consequenceOfFailiure) 
+VALUES ('9A1AE6DB-C715-459E-A8D9-7B23FCA30242',5,'Most Critical','Irreversible and extensive impacts, or significantly undermining key business objectives','Catastrophic');
